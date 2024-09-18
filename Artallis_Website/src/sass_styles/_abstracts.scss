@@ -1,0 +1,29 @@
+@import "./screensizes";
+
+@mixin give-flex-row($align-items, $justify-content) {
+  display: flex;
+  align-items: $align-items;
+  justify-content: $justify-content;
+}
+
+@mixin give-flex-column($align-items, $justify-content) {
+  display: flex;
+  flex-direction: column;
+  align-items: $align-items;
+  justify-content: $justify-content;
+}
+
+@media only screen and (max-width: $desktop) {
+  :root {
+  }
+}
+
+@media only screen and (max-width: $tablet) {
+  :root {
+  }
+}
+
+@media only screen and (max-width: $mobile) {
+  :root {
+  }
+}

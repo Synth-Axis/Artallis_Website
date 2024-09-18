@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "barlow_regular";
+  src: url(../assets/fonts/Barlow-Regular.ttf) format(truetype);
+}
+$font-main-regular: "barlow_regular", sans-serif;
+
+@font-face {
+  font-family: "barlow_semibold";
+  src: url(../assets/fonts/Barlow-SemiBold.ttf) format(truetype);
+}
+$font-main-semibold: "barlow_semibold", sans-serif;
+
+@font-face {
+  font-family: "barlow_bold";
+  src: url(../assets/fonts/Barlow-Bold.ttf) format(truetype);
+}
+$font-main-bold: "barlow_bold", sans-serif;
+
+@font-face {
+  font-family: "barlow_extrabold";
+  src: url(../assets/fonts/Barlow-ExtraBold.ttf) format(truetype);
+}
+$font-main-extrabold: "barlow_extrabold", sans-serif;
+
+@font-face {
+  font-family: "monserrat-semibold";
+  src: url(../assets/fonts/Montserrat-SemiBold.ttf) format(truetype);
+}
+$font-monserrat-semibold: "monserrat-semibold", sans-serif;
+
+@font-face {
+  font-family: "lato-heavy";
+  src: url(../assets/fonts/Lato-Heavy.ttf) format(truetype);
+}
+$font-lato-heavy: "lato-heavy", sans-serif;
+
+@mixin hero {
+}
+
+@mixin h1 {
+}
+
+@mixin h2 {
+}
+
+@mixin h3 {
+}
+
+@mixin h4 {
+}
+
+@mixin h5 {
+}
+
+@mixin h6 {
+}
+
+@mixin text-primary {
+}
+
+@mixin text-secondary {
+}
+
+@mixin text-label {
+}
