@@ -1,7 +1,15 @@
-$primary-color: ;
-$primaryaccent: ;
-$secondaryaccent: ;
-$white: ;
-$bglight: ;
-$bgaccent-light: ;
-$button-hover: ;
+$black-primary: #1d1d1b;
+$black-secondary: #00000a;
+$white: #ffffff;
+$yellow: #fccd00;
+$orange: #f2921a;
+$cyan: #79ccf3;
+$blue: #198ece;
+$green: #bbce00;
+$magenta: #cc6699;
+
+$background_gradient: linear-gradient(
+  0% 50% 0deg,
+  rgba(226, 6, 19, 1) 0%,
+  rgba(215, 102, 162, 1) 100%
+);
