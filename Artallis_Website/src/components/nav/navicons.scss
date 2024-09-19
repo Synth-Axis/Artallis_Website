@@ -1,0 +1,9 @@
+@import "../../sass_styles/main";
+
+.nav-icons {
+  @include give-flex-row(center, center);
+  gap: 16px;
+  img {
+    width: 14px;
+  }
+}

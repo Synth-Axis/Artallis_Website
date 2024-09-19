@@ -1,0 +1,19 @@
+@import "../sass_styles/main";
+
+.btn {
+  @include give-flex-row(center, center);
+  background-color: $yellow;
+  @include font-main-semibold;
+  max-width: 500px;
+  text-wrap: wrap;
+  font-size: 15px;
+  line-height: 14px;
+  padding: 16px 36px;
+  border: none;
+  border-radius: 50px;
+}
+
+.h3 {
+  color: $blue;
+  @include h3;
+}

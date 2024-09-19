@@ -1,88 +1,85 @@
-@font-face {
-  font-family: "barlow_regular";
-  src: url(../assets/fonts/Barlow-Regular.ttf) format(truetype);
-}
-$font-main-regular: "barlow_regular", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@font-face {
-  font-family: "barlow_semibold";
-  src: url(../assets/fonts/Barlow-SemiBold.ttf) format(truetype);
+@mixin font-main-regular {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-$font-main-semibold: "barlow_semibold", sans-serif;
 
-@font-face {
-  font-family: "barlow_bold";
-  src: url(../assets/fonts/Barlow-Bold.ttf) format(truetype);
+@mixin font-main-semibold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
-$font-main-bold: "barlow_bold", sans-serif;
 
-@font-face {
-  font-family: "barlow_extrabold";
-  src: url(../assets/fonts/Barlow-ExtraBold.ttf) format(truetype);
+@mixin font-main-bold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 800;
+  font-style: normal;
 }
-$font-main-extrabold: "barlow_extrabold", sans-serif;
 
-@font-face {
-  font-family: "monserrat-semibold";
-  src: url(../assets/fonts/Montserrat-SemiBold.ttf) format(truetype);
+@mixin font-main-extrabold {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
-$font-monserrat-semibold: "monserrat-semibold", sans-serif;
 
-@font-face {
-  font-family: "lato-heavy";
-  src: url(../assets/fonts/Lato-Heavy.ttf) format(truetype);
-}
-$font-lato-heavy: "lato-heavy", sans-serif;
+// @font-face {
+//   font-family: "Monserrat-Semibold";
+//   src: url(../assets/fonts/Montserrat-SemiBold.ttf) format("truetype");
+// }
+// $font-monserrat-semibold: "Monserrat-Semibold";
+
+// @font-face {
+//   font-family: "Latop-Heavy";
+//   src: url(../assets/fonts/Lato-Heavy.ttf) format("truetype");
+// }
+// $font-lato-heavy: "Latop-Heavy";
 
 @mixin hero_xl {
-  font-family: $font-lato-heavy;
+  // font-family: $font-lato-heavy;
   font-size: 122px;
   line-height: 185.33px;
 }
 
 @mixin hero {
-  font-family: $font-lato-heavy;
+  // font-family: $font-lato-heavy;
   font-size: 68px;
   line-height: 75.16px;
 }
 
 @mixin h1 {
-  font-family: $font-main-extrabold;
+  @include font-main-extrabold;
   font-size: 68px;
 }
 
 @mixin h2 {
-  font-family: $font-main-extrabold;
+  @include font-main-extrabold;
   font-size: 55px;
 }
 
 @mixin h3 {
-  font-family: $font-main-semibold;
+  @include font-main-semibold;
   font-size: 30px;
+  line-height: 36px;
 }
 
 @mixin h4 {
-  font-family: $font-main-extrabold;
+  @include font-main-extrabold;
   font-size: 25px;
 }
 
 @mixin h5 {
-  font-family: $font-main-regular;
+  @include font-main-regular;
   font-size: 16px;
 }
 
 @mixin h6 {
-  font-family: $font-main-regular;
+  @include font-main-regular;
   font-size: 14px;
 }
 
 @mixin text-primary {
-  font-family: $font-main-regular;
+  @include font-main-regular;
   font-size: 20px;
-}
-
-@mixin text-secondary {
-}
-
-@mixin text-label {
 }

@@ -1,0 +1,12 @@
+@import "../../sass_styles/main";
+
+.navmenu {
+  color: $black-primary;
+  @include font-main-regular;
+  color: $white;
+  font-size: 15px;
+  line-height: 18px;
+  @include give-flex-row(center, center);
+  gap: 16px;
+  margin-right: 32px;
+}
