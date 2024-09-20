@@ -38,48 +38,46 @@
 
 @mixin hero_xl {
   // font-family: $font-lato-heavy;
-  font-size: 122px;
-  line-height: 185.33px;
+  font-size: 4rem;
 }
 
 @mixin hero {
   // font-family: $font-lato-heavy;
-  font-size: 68px;
-  line-height: 75.16px;
+  font-size: 3rem;
 }
 
 @mixin h1 {
   @include font-main-extrabold;
-  font-size: 68px;
+  font-size: 2.5rem;
 }
 
 @mixin h2 {
   @include font-main-extrabold;
-  font-size: 55px;
+  font-size: 2rem;
 }
 
 @mixin h3 {
   @include font-main-semibold;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 1.75rem;
+  line-height: 2rem;
 }
 
 @mixin h4 {
   @include font-main-extrabold;
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 
 @mixin h5 {
   @include font-main-regular;
-  font-size: 16px;
+  font-size: 1.25rem;
 }
 
 @mixin h6 {
   @include font-main-regular;
-  font-size: 14px;
+  font-size: 1rem;
 }
 
 @mixin text-primary {
   @include font-main-regular;
-  font-size: 20px;
+  font-size: 1rem;
 }

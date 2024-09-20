@@ -36,14 +36,16 @@ a {
   max-width: 1140px;
   margin: 0 auto;
   text-align: center;
+  font-size: 1rem;
 }
 
 .hero-banner {
   background-image: url("../src/assets/media/fotos_aleatorias/converted_webp/Foto-9.webp");
-  background-position: center;
   background-repeat: no-repeat;
-  width: 1140px;
-  height: 1080px;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 26%;
   display: flex;
   flex-direction: column;
 }
@@ -64,15 +66,117 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 15%;
   gap: 32px;
   width: 100%;
   text-align: center;
 }
 .hero-banner .hero-center-text p {
-  font-size: 68px;
-  line-height: 75.16px;
-  width: 82%;
+  font-size: 3rem;
+  width: 60%;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+.descobre {
+  margin-top: 2rem;
+  background-image: url("../src/assets/media/svg/colorballs.svg");
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  background-size: 33%;
+}
+.descobre .descobre-container {
+  width: 100%;
+  padding: 4rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+}
+.descobre .descobre-container .descricao {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+}
+.descobre .descobre-container .descricao h6 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+.descobre .descobre-container .descricao h2 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+  text-align: left;
+}
+.descobre .descobre-container .descricao p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  margin-top: 2rem;
+  text-align: left;
+}
+.descobre .descobre-container .descricao .descricao-lista {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  margin: 2rem 0;
+  gap: 32px;
+}
+.descobre .descobre-container .descricao .descricao-lista div {
+  flex: 1;
+}
+.descobre .descobre-container .descricao .descricao-lista div ul {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 40px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+.descobre .descobre-container .descricao .descricao-lista div ul li::marker {
+  color: #198ece;
+}
+.descobre .descobre-container .descricao .descricao-lista div ul li {
+  color: #1d1d1b;
+  text-align: left;
+}
+.descobre .descobre-container .descobre-foto {
+  flex: 1;
+  padding-right: 128px;
+}
+.descobre .descobre-container .descobre-foto img {
+  border-radius: 16px;
+}
+
+.aprende {
+  padding: 4rem;
+}
+.aprende h6 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+.aprende h2 {
+  margin-top: 1rem;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+}
+.aprende div img {
+  margin-top: 2rem;
+  width: 100%;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 16px;
 }/*# sourceMappingURL=App.css.map */

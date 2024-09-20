@@ -4,14 +4,16 @@
   max-width: 1140px;
   margin: 0 auto;
   text-align: center;
+  font-size: 1rem;
 }
 
 .hero-banner {
   background-image: url("../src/assets/media/fotos_aleatorias/converted_webp/Foto-9.webp");
-  background-position: center;
   background-repeat: no-repeat;
-  width: 1140px;
-  height: 1080px;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 26%;
   display: flex;
   flex-direction: column;
   .nav_container {
@@ -24,15 +26,96 @@
   }
   .hero-center-text {
     @include give-flex-column(center, center);
-    margin-top: 15%;
+
     gap: 32px;
     width: 100%;
     text-align: center;
     p {
       @include hero;
-      width: 82%;
+      width: 60%;
       color: $white;
       text-transform: uppercase;
+    }
+  }
+}
+
+.descobre {
+  margin-top: 2rem;
+  background-image: url("../src/assets/media/svg/colorballs.svg");
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  background-size: 33%;
+
+  .descobre-container {
+    width: 100%;
+    padding: 4rem;
+    @include give-flex-row(flex-start, center);
+    gap: 16px;
+    .descricao {
+      @include give-flex-column(flex-start, center);
+      flex: 1;
+      h6 {
+        @include h6;
+      }
+      h2 {
+        @include h2;
+        text-align: left;
+      }
+      p {
+        @include text-primary;
+        margin-top: 2rem;
+        text-align: left;
+      }
+      .descricao-lista {
+        @include give-flex-row(flex-start, center);
+        width: 100%;
+        margin: 2rem 0;
+        gap: 32px;
+        div {
+          flex: 1;
+          ul {
+            @include text-primary;
+            line-height: 40px;
+            list-style-type: disc;
+            padding-left: 20px;
+            li::marker {
+              color: $blue;
+            }
+            li {
+              color: $black-primary;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+    .descobre-foto {
+      flex: 1;
+      padding-right: 128px;
+      img {
+        border-radius: 16px;
+      }
+    }
+  }
+}
+
+.aprende {
+  padding: 4rem;
+  h6 {
+    @include h6;
+  }
+  h2 {
+    margin-top: 1rem;
+    @include h2;
+  }
+  div {
+    img {
+      margin-top: 2rem;
+      width: 100%;
+      height: 600px;
+      object-fit: cover;
+      border-radius: 16px;
     }
   }
 }

@@ -47,6 +47,7 @@ a {
   padding: 16px 36px;
   border: none;
   border-radius: 50px;
+  cursor: pointer;
 }
 
 .h3 {
@@ -54,6 +55,6 @@ a {
   font-family: "Barlow", sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 1.75rem;
+  line-height: 2rem;
 }/*# sourceMappingURL=button.css.map */
