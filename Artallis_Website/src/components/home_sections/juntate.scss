@@ -1,0 +1,21 @@
+@import "../../sass_styles/main";
+
+.juntate-container {
+  @include give-flex-column(center, center);
+  gap: 64px;
+
+  .title-container {
+    gap: 16px;
+    h6 {
+      @include h6;
+    }
+    h2 {
+      @include h2;
+      text-align: left;
+      margin-top: 16px;
+    }
+  }
+  .juntate {
+    @include give-flex-row(center, center);
+  }
+}

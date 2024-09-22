@@ -5,6 +5,7 @@ import Descobre from "./components/home_sections/descobre";
 import Button from "./components/button";
 import Aprendeligate from "./components/home_sections/aprendeligate";
 import Counterbanner from "./components/home_sections/counterbanner";
+import Juntate from "./components/home_sections/juntate";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 
@@ -37,6 +38,9 @@ function App() {
         ></Aprendeligate>
       </section>
       <Button type="button" text="Descobre Mais"></Button>
+      <section>
+        <Juntate></Juntate>
+      </section>
     </div>
   );
 }
