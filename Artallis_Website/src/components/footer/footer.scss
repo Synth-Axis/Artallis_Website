@@ -1,0 +1,75 @@
+@import "../../sass_styles/main";
+
+.footer-container {
+  @include give-flex-row(center, space-between);
+  background: $blue;
+  gap: 64px;
+  padding: 16px 80px;
+  color: $white;
+
+  .pallet-icon {
+    width: 80px;
+  }
+
+  .footer-wrapper {
+    width: 100%;
+    .pallet-icon {
+      height: 60px;
+    }
+
+    .footer-info {
+      @include give-flex-column(flex-start, center);
+      padding: 32px 0px;
+      border-bottom: 1px solid $white;
+      width: 100%;
+      gap: 32px;
+
+      .footer-contacts-wrapper {
+        flex: 25%;
+        @include give-flex-row(flex-start, space-between);
+        font-size: 0.75rem;
+        gap: 64px;
+        .contacts-left-container {
+          @include give-flex-row(flex-start, space-between);
+          gap: 8px;
+        }
+        .contacts-right-container {
+          @include give-flex-row(flex-start, space-between);
+          gap: 32px;
+          div {
+            @include give-flex-row(flex-start, center);
+            gap: 8px;
+          }
+        }
+        div {
+          img {
+            height: 16px;
+          }
+          span {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+
+    .copyrights-wrapper {
+      @include give-flex-row(center, space-between);
+      .copyrights {
+        @include give-flex-column(flex-start, center);
+        padding: 32px 0;
+        gap: 8px;
+        p {
+          font-size: 0.8rem;
+          text-align: left;
+        }
+      }
+      .social-icons {
+        @include give-flex-row(center, center);
+        gap: 32px;
+        img {
+          height: 18px;
+        }
+      }
+    }
+  }
+}
