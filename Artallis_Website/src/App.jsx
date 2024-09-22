@@ -1,93 +1,43 @@
-import Logo from "./components/nav/logo";
-import NavMenu from "./components/nav/navmenu";
-import Navicons from "./components/nav/navicons";
+import aprende_img from "../src/assets/media/links/converted_webp/434196044_18285344686160456_6364832042184754881_n.webp";
+import ligate_img from "../src/assets/media/links/converted_webp/440802564_18288732175160456_3830667704349125285_n.webp";
+import Hero from "./components/home_sections/hero";
+import Descobre from "./components/home_sections/descobre";
 import Button from "./components/button";
+import Aprendeligate from "./components/home_sections/aprendeligate";
+import Counterbanner from "./components/home_sections/counterbanner";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <section className="hero-banner">
-        <div className="nav_container">
-          <Logo></Logo>
-          <div>
-            <NavMenu></NavMenu>
-            <Navicons></Navicons>
-            <Button type="button" text="Portal Alunos"></Button>
-          </div>
-        </div>
-        <div>
-          <Routes>
-            <Route path="/descobre" element={""} />
-            <Route path="/aprende" element={""} />
-            <Route path="/vivencia" element={""} />
-            <Route path="/juntate" element={""} />
-            <Route path="/ligate" element={""} />
-          </Routes>
-        </div>
-
-        <div className="hero-center-text">
-          <p>
-            Com o poder da arte criamos felicidade transformamos vidas e mudamos
-            o mundo
-          </p>
-          <Button
-            class="h3"
-            type="button"
-            text="Aprender novas competências. FACILMENTE"
-          ></Button>
-        </div>
+    <div className="app-container">
+      <section>
+        <Hero></Hero>
       </section>
-      <section className="descobre">
-        <div className="descobre-container">
-          <div className="descricao">
-            <h6>DESCOBRE</h6>
-            <h2>Conservatório Artallis</h2>
-            <p>
-              Bem-vindos ao Conservatório Artallis! Estamos entusiasmados por
-              partilhar convosco uma escola de artes dedicada à formação e
-              apreciação artística, proporcionando uma infinidade de
-              experiências artísticas para o desenvolvimento humano e social,
-              num ambiente repleto de afetividade, transformação e diversão.
-            </p>
-            <div className="descricao-lista">
-              <div>
-                <ul>
-                  <li>Aulas de música, teatro, dança, artes plásticas</li>
-                  <li>Professores que se importam</li>
-                  <li>Liberdade para experimentar coisas novas</li>
-                </ul>
-              </div>
-              <div>
-                <ul>
-                  <li>Planos de aula personalizados</li>
-                  <li>Todos os níveis de habilidade</li>
-                  <li>Preços competitivos</li>
-                </ul>
-              </div>
-            </div>
-            <Button class="h5" type="button" text="DESCOBRE MAIS"></Button>
-          </div>
-          <div className="descobre-foto">
-            <img
-              src="../src/assets/media/links/converted_webp/440824938_18288737692160456_7272667673525328288_n.webp"
-              alt="foto alunos"
-            />
-          </div>
-        </div>
+      <section>
+        <Descobre></Descobre>
       </section>
-      <section className="aprende">
-        <h6>APRENDE</h6>
-        <h2>Aulas mais populares</h2>
-        <div>
-          <img
-            src="../src/assets/media/links/converted_webp/434196044_18285344686160456_6364832042184754881_n.webp"
-            alt="aprende banner"
-          />
-        </div>
+      <section>
+        <Aprendeligate
+          title="APRENDE"
+          subtitle="Aulas mais populares"
+          imgsrc={aprende_img}
+          imgalt="aprende foto"
+        ></Aprendeligate>
       </section>
-    </>
+      <section>
+        <Counterbanner></Counterbanner>
+      </section>
+      <section>
+        <Aprendeligate
+          title="LIGA-TE"
+          subtitle="Veja o que nossos alunos podem fazer"
+          imgsrc={ligate_img}
+          imgalt="ligate foto"
+        ></Aprendeligate>
+      </section>
+      <Button type="button" text="Descobre Mais"></Button>
+    </div>
   );
 }
 

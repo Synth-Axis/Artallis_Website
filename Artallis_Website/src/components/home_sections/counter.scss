@@ -1,0 +1,12 @@
+@import "../../sass_styles/main";
+
+.counter {
+  @include h1;
+  color: $white;
+  @include give-flex-column(center, center);
+  width: 100%;
+}
+
+div {
+  @include h5;
+}
