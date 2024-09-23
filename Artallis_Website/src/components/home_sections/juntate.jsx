@@ -8,7 +8,7 @@ import Professorframe from "./professorframe";
 const Juntate = () => {
   return (
     <>
-      <div className="juntate-container">
+      <div id="juntate" className="juntate-container">
         <div className="title-container">
           <h6>JUNTA-TE</h6>
           <h2>Conheça os Nossos Professores/Voluntários</h2>

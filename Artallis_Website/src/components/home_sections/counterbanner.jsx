@@ -3,7 +3,7 @@ import Counter from "./counter";
 
 const Counterbanner = () => {
   return (
-    <div className="counter-container">
+    <div id="vivencia" className="counter-container">
       <Counter text="Professores Profissionais" value="15"></Counter>
       <Counter text="Turmas" value="22"></Counter>
       <Counter text="Alunos" value="500"></Counter>

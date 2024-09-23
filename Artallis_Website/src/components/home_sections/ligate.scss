@@ -1,0 +1,49 @@
+@import "../../sass_styles/main";
+
+.aprendeligate {
+  width: 100%;
+  h6 {
+    @include h6;
+  }
+  h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    @include h2;
+  }
+  .scroll-container {
+    position: relative;
+    width: 100%;
+    height: 620px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      z-index: -1;
+      border-radius: 16px;
+    }
+    .scrolling-text {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      white-space: nowrap;
+      @include hero_xl;
+      color: $blue;
+      position: absolute;
+      right: 32px;
+      top: 0;
+      animation: scroll-vertical 10s linear infinite;
+    }
+  }
+}
+
+@keyframes scroll-vertical {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}

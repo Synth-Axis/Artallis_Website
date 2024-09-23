@@ -3,7 +3,7 @@ import Button from "../button";
 
 const Descobre = () => {
   return (
-    <div className="descobre">
+    <div id="descobre" className="descobre">
       <div className="descobre-container">
         <div className="descricao">
           <h6>DESCOBRE</h6>

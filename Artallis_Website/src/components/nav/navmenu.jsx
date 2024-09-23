@@ -1,24 +1,24 @@
 import "./navmenu.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const NavMenu = () => {
   return (
     <div>
       <ul className="navmenu">
         <li>
-          <Link to="/descobre">Descobre</Link>
+          <a href="#descobre">Descobre</a>
         </li>
         <li>
-          <Link to="/aprende">Aprende</Link>
+          <a href="#aprende">Aprende</a>
         </li>
         <li>
-          <Link to="/vivencia">Vivencia</Link>
+          <a href="#vivencia">Vivencia</a>
         </li>
         <li>
-          <Link to="/juntate">Junta-Te</Link>
+          <a href="#ligate">Liga-Te</a>
         </li>
         <li>
-          <Link to="/ligate">Liga-Te</Link>
+          <a href="#juntate">Junta-Te</a>
         </li>
       </ul>
     </div>
