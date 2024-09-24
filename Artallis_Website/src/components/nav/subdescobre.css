@@ -30,4 +30,16 @@ ol {
 a {
   all: unset;
   cursor: pointer;
-}/*# sourceMappingURL=App.css.map */
+}
+
+.submenu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+}
+.submenu li {
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 4px;
+}/*# sourceMappingURL=subdescobre.css.map */

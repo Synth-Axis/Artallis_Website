@@ -1,10 +1,1 @@
 @import "./sass_styles/main";
-
-.app-container {
-  @include give-flex-column(center, center);
-  gap: 64px;
-  width: 100%;
-  section {
-    width: 100%;
-  }
-}

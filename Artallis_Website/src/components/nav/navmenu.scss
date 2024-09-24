@@ -9,4 +9,8 @@
   @include give-flex-row(center, center);
   gap: 16px;
   margin-right: 32px;
+
+  .submenu-wrapper {
+    @include give-flex-column(center, center);
+  }
 }

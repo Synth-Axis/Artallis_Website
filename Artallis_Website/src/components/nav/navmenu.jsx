@@ -1,12 +1,17 @@
 import "./navmenu.css";
-import { Link, NavLink } from "react-router-dom";
+import Subdescobre from "./subdescobre";
 
 const NavMenu = () => {
   return (
     <div>
       <ul className="navmenu">
         <li>
-          <a href="#descobre">Descobre</a>
+          <div className="submenu-wrapper">
+            <a href="#descobre">Descobre</a>
+            <div className="submenu">
+              <Subdescobre></Subdescobre>
+            </div>
+          </div>
         </li>
         <li>
           <a href="#aprende">Aprende</a>

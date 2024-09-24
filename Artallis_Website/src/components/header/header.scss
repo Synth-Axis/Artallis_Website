@@ -2,7 +2,8 @@
 
 .nav-container {
   @include give-flex-row(center, space-between);
-  padding: 64px;
+  margin-top: 64px;
+  width: 100%;
 
   div {
     @include give-flex-row(center, center);

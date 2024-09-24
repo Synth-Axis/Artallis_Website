@@ -32,28 +32,13 @@ a {
   cursor: pointer;
 }
 
-.hero-banner {
-  background-image: url("../../assets/media/fotos_aleatorias/converted_webp/Foto-9.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 600px;
-  display: flex;
-  flex-direction: column;
-}
-.hero-banner .hero-center-text {
+.home-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 32px;
-  width: 100%;
-  text-align: center;
+  gap: 64px;
 }
-.hero-banner .hero-center-text p {
-  font-size: 3rem;
-  margin-top: 48px;
-  width: 60%;
-  color: #ffffff;
-  text-transform: uppercase;
-}/*# sourceMappingURL=hero.css.map */
+.home-container section {
+  width: 100%;
+}/*# sourceMappingURL=home.css.map */

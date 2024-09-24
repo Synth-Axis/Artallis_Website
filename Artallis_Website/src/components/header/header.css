@@ -36,7 +36,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 64px;
+  margin-top: 64px;
+  width: 100%;
 }
 .nav-container div {
   display: flex;
