@@ -32,21 +32,15 @@ a {
   cursor: pointer;
 }
 
-.card-item {
-  padding: 20px;
-  height: 200px;
-  color: white;
-  font-family: "Barlow", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.25rem;
-  border-radius: 10px;
+.nav-container {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: space-between;
+  padding: 64px;
 }
-
-.Oboe {
-  background-color: #f2921a;
-  margin-top: 100px;
-}/*# sourceMappingURL=instrumentoscard.css.map */
+.nav-container div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}/*# sourceMappingURL=header.css.map */

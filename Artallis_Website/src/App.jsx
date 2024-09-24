@@ -1,16 +1,18 @@
 import aprende_img from "../src/assets/media/links/converted_webp/434196044_18285344686160456_6364832042184754881_n.webp";
 import ligate_img from "../src/assets/media/links/converted_webp/440802564_18288732175160456_3830667704349125285_n.webp";
-import Hero from "./components/home_sections/hero";
-import Descobre from "./components/home_sections/descobre";
+import Hero from "./components/home/hero";
+import Descobre from "./components/home/descobre";
 import Button from "./components/button";
-import Ligate from "./components/home_sections/ligate";
-import Aprende from "./components/home_sections/aprende";
-import Counterbanner from "./components/home_sections/counterbanner";
-import Juntate from "./components/home_sections/juntate";
+import Ligate from "./components/home/ligate";
+import Aprende from "./components/home/aprende";
+import Counterbanner from "./components/home/counterbanner";
+import Juntate from "./components/home/juntate";
 import Footer from "./components/footer/footer";
 import CalEmPalco from "./components/calempalco/calempalco";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
+
+import Protocolosparcerias from "./components/protocolosparcerias/protocolosparcerias";
 
 function App() {
   return (
@@ -50,7 +52,7 @@ function App() {
       <section>
         <Footer></Footer>
       </section>
-      <CalEmPalco></CalEmPalco>
+      <Protocolosparcerias></Protocolosparcerias>
     </div>
   );
 }

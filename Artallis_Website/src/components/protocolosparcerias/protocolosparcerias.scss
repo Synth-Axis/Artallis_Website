@@ -1,0 +1,36 @@
+@import "../../sass_styles/main";
+
+.protocolosparcerias-container {
+  @include give-flex-column(center, center);
+  width: 100%;
+  gap: 64px;
+
+  .protocolosparcerias {
+    @include give-flex-column(center, center);
+    width: 100%;
+    gap: 16px;
+
+    .pp-subtitle {
+      @include h3;
+      color: $blue;
+      margin-bottom: 64px;
+    }
+    .pp-title {
+      @include text-primary;
+      color: $blue;
+    }
+
+    .circles-wrapper-4 {
+      @include give-flex-row(center, space-between);
+      width: 100%;
+    }
+
+    .circles-wrapper-3 {
+      @include give-flex-row(center, space-between);
+      gap: 96px;
+    }
+    .hidden {
+      display: none;
+    }
+  }
+}

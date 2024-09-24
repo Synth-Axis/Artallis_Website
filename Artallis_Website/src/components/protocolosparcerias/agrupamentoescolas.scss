@@ -1,0 +1,37 @@
+@import "../../sass_styles/main";
+
+.circle {
+  @include give-flex-row(center, center);
+  border-radius: 50%;
+  border: 2px solid $blue;
+  @include text-primary;
+  padding: 32px;
+}
+.small {
+  width: 8rem;
+  height: 8rem;
+}
+
+.medium {
+  @include h4;
+  font-weight: 300;
+  background-color: $light-blue;
+  color: $white;
+  border: none;
+  width: 10rem;
+  height: 10rem;
+}
+
+.large {
+  @include h4;
+  font-weight: 300;
+  background-color: $blue;
+  color: $white;
+  border: none;
+  width: 12rem;
+  height: 12rem;
+}
+
+.bg-cyan {
+  background-color: #79ccf3;
+}

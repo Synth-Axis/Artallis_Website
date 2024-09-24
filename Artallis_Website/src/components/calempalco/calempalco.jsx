@@ -14,8 +14,8 @@ const CalEmPalco = () => {
         </p>
       </header>
       // INSTRUMENTOS CARD
-      <div className="grid-container">
-        <Instrumentoscard name="Oboe"></Instrumentoscard>
+      <div className="instruments-container">
+        <Instrumentoscard name="Oboe" /*backgroundImage={}*/></Instrumentoscard>
         <div className="grid-item oboe">Ensemble Oboé</div>
         <div className="grid-item flautas">Ensemble Flautas</div>
         <div className="grid-item fagotastico">Fagotástico</div>

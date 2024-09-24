@@ -1,0 +1,11 @@
+@import "../../sass_styles/main";
+
+.nav-container {
+  @include give-flex-row(center, space-between);
+  padding: 64px;
+
+  div {
+    @include give-flex-row(center, center);
+    gap: 32px;
+  }
+}

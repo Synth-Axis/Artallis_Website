@@ -1,20 +1,11 @@
 import "./hero.css";
-import NavMenu from "../nav/navmenu";
-import Navicons from "../nav/navicons";
-import Logo from "../nav/logo";
 import Button from "../button";
+import Header from "../header/header";
 
 const Hero = () => {
   return (
     <div className="hero-banner">
-      <div className="nav-container">
-        <Logo></Logo>
-        <div>
-          <NavMenu></NavMenu>
-          <Navicons></Navicons>
-          <Button type="button" text="Portal Alunos"></Button>
-        </div>
-      </div>
+      <Header></Header>
 
       <div className="hero-center-text">
         <p>

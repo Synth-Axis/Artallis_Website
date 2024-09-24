@@ -4,7 +4,12 @@ const Instrumentoscard = (props) => {
   return (
     <div>
       <p>{props.name}</p>
-      <div className="grid-item {props.name}">{props.name}</div>
+      <div
+        className="card-item {props.name}"
+        // style={{ backgroundImage: `url(${backgroundImage})` }}
+      >
+        {props.name}
+      </div>
     </div>
   );
 };
