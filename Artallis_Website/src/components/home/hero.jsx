@@ -5,7 +5,7 @@ import Header from "../header/header";
 const Hero = () => {
   return (
     <div className="hero-banner">
-      <Header></Header>
+      <Header color="white"></Header>
 
       <div className="hero-center-text">
         <p>

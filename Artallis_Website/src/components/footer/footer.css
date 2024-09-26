@@ -36,6 +36,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
   background: #198ece;
   gap: 64px;
   padding: 16px 80px;

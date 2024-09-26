@@ -4,7 +4,10 @@
   @include give-flex-column(flex-start, center);
   gap: 8px;
   li {
-    border-bottom: 1px solid $white;
-    padding-bottom: 4px;
+    border-bottom: 1px solid $yellow;
+    padding-bottom: 2px;
+    a {
+      display: ruby-base-container;
+    }
   }
 }

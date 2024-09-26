@@ -7,6 +7,6 @@
 
   div {
     @include give-flex-row(center, center);
-    gap: 32px;
+    gap: 16px;
   }
 }

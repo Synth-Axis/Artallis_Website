@@ -4,12 +4,12 @@ import NavMenu from "../nav/navmenu";
 import Navicons from "../nav/navicons";
 import Button from "../button";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div className="nav-container">
       <Logo></Logo>
       <div>
-        <NavMenu></NavMenu>
+        <NavMenu color={props.color}></NavMenu>
         <Navicons></Navicons>
         <Button type="button" text="Portal Alunos"></Button>
       </div>

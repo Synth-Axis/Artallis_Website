@@ -34,12 +34,7 @@ a {
 
 .navmenu {
   color: #1d1d1b;
-  font-family: "Barlow", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #ffffff;
-  font-size: 15px;
-  line-height: 18px;
+  text-align: left;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,6 +44,26 @@ a {
 .navmenu .submenu-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  position: relative;
+}
+.navmenu .submenu-wrapper .white {
+  color: #ffffff;
+}
+.navmenu .submenu-wrapper .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+.navmenu .submenu-wrapper:hover .submenu {
+  display: block;
+}
+.navmenu .submenu-wrapper a {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.75rem;
+  line-height: 18px;
 }/*# sourceMappingURL=navmenu.css.map */

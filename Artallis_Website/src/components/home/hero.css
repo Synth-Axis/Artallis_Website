@@ -33,13 +33,14 @@ a {
 }
 
 .hero-banner {
+  display: flex;
+  flex-direction: column;
+  padding: 0 64px;
+  height: 600px;
   background-image: url("../../assets/media/fotos_aleatorias/converted_webp/Foto-9.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 600px;
-  display: flex;
-  flex-direction: column;
 }
 .hero-banner .hero-center-text {
   display: flex;

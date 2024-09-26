@@ -40,6 +40,9 @@ a {
   gap: 8px;
 }
 .submenu li {
-  border-bottom: 1px solid #ffffff;
-  padding-bottom: 4px;
+  border-bottom: 1px solid #fccd00;
+  padding-bottom: 2px;
+}
+.submenu li a {
+  display: ruby-base-container;
 }/*# sourceMappingURL=subdescobre.css.map */

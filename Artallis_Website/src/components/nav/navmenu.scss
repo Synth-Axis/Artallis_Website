@@ -2,15 +2,32 @@
 
 .navmenu {
   color: $black-primary;
-  @include font-main-regular;
-  color: $white;
-  font-size: 15px;
-  line-height: 18px;
+  text-align: left;
   @include give-flex-row(center, center);
   gap: 16px;
   margin-right: 32px;
-
   .submenu-wrapper {
-    @include give-flex-column(center, center);
+    @include give-flex-column(flex-start, center);
+    position: relative;
+
+    .white {
+      color: $white;
+    }
+
+    .submenu {
+      display: none;
+      position: absolute;
+      top: 100%;
+
+      left: 0;
+    }
+    &:hover .submenu {
+      display: block;
+    }
+
+    a {
+      @include text-nav;
+      line-height: 18px;
+    }
   }
 }

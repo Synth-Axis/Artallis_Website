@@ -81,3 +81,8 @@
   @include font-main-regular;
   font-size: 1rem;
 }
+
+@mixin text-nav {
+  @include font-main-regular;
+  font-size: 0.75rem;
+}
