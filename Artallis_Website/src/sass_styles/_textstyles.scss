@@ -83,6 +83,6 @@
 }
 
 @mixin text-nav {
-  @include font-main-regular;
+  @include font-main-semibold;
   font-size: 0.75rem;
 }

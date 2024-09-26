@@ -24,7 +24,7 @@ const Subdescobre = () => {
           <Link to="/protocolosparcerias">Protocolos e Parcerias</Link>
         </li>
         <li>
-          <Link to="/juntate">Junta-Te</Link>
+          <Link to="/calmais">CAL+</Link>
         </li>
       </ul>
     </div>

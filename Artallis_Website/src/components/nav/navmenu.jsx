@@ -21,9 +21,6 @@ const NavMenu = (props) => {
             <a className={`${props.color}`} href="#aprende">
               Aprende
             </a>
-            <div className={`submenu ${props.color}`}>
-              <Subdescobre></Subdescobre>
-            </div>
           </div>
         </li>
         <li>
@@ -31,9 +28,6 @@ const NavMenu = (props) => {
             <a className={`${props.color}`} href="#vivencia">
               Vivencia
             </a>
-            <div className={`submenu ${props.color}`}>
-              <Subdescobre></Subdescobre>
-            </div>
           </div>
         </li>
         <li>
@@ -41,9 +35,6 @@ const NavMenu = (props) => {
             <a className={`${props.color}`} href="#ligate">
               Liga-Te
             </a>
-            <div className={`submenu ${props.color}`}>
-              <Subdescobre></Subdescobre>
-            </div>
           </div>
         </li>
         <li>
@@ -51,9 +42,6 @@ const NavMenu = (props) => {
             <a className={`${props.color}`} href="#juntate">
               Junta-Te
             </a>
-            <div className={`submenu ${props.color}`}>
-              <Subdescobre></Subdescobre>
-            </div>
           </div>
         </li>
       </ul>

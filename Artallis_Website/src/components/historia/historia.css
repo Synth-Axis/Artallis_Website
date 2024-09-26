@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* ::before,
+* ::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  min-height: 100vh;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+.historia-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.historia-container .pp-subtitle {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  color: #198ece;
+  margin-bottom: 64px;
+  margin-top: 12rem;
+  width: 50%;
+}
+.historia-container .conteudo-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 32px;
+  padding: 64px;
+}
+.historia-container .conteudo-grid .historia-conteudo {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.historia-container .conteudo-grid .historia-conteudo h4 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+  width: 40%;
+  text-align: left;
+}
+.historia-container .conteudo-grid .img-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 20px;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.historia-container .conteudo-grid .img-section img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+.historia-container .conteudo-grid .txt-section {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  color: #1d1d1b;
+}
+.historia-container .conteudo-grid .txt-section p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: #1d1d1b;
+  text-align: left;
+}
+.historia-container .conteudo-grid .txt-section p:not(:last-child) {
+  margin-bottom: 0.75rem;
+}
+.historia-container .historia-info > div {
+  margin-bottom: 32px;
+}
+.historia-container .historia-info > div p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+.historia-container .historia-info {
+  width: 50%;
+}
+.historia-container .historia-info h4 {
+  color: #198ece;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.75rem;
+  line-height: 2rem;
+}
+.historia-container .historia-info h3 {
+  color: #198ece;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+  margin-bottom: 64px;
+}/*# sourceMappingURL=historia.css.map */
