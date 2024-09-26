@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <div className="home-container">
       <section>
-        <Hero></Hero>
+        <Hero logocolor="white"></Hero>
       </section>
       <section>
         <Descobre></Descobre>

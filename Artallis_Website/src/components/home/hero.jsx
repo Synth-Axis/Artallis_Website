@@ -2,10 +2,10 @@ import "./hero.css";
 import Button from "../button";
 import Header from "../header/header";
 
-const Hero = () => {
+const Hero = (props) => {
   return (
     <div className="hero-banner">
-      <Header color="white"></Header>
+      <Header logocolor={props.logocolor} color="white"></Header>
 
       <div className="hero-center-text">
         <p>

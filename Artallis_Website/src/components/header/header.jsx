@@ -7,7 +7,8 @@ import Button from "../button";
 const Header = (props) => {
   return (
     <div className="nav-container">
-      <Logo></Logo>
+      <Logo color={props.logocolor}></Logo>
+
       <div>
         <NavMenu color={props.color}></NavMenu>
         <Navicons></Navicons>
