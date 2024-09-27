@@ -15,7 +15,7 @@ const Subdescobre = () => {
           <Link to="/missao">Missão</Link>
         </li>
         <li>
-          <Link to="/estruturaorganizacional">Estrutura Organizacional</Link>
+          <Link to="/estruturaorg">Estrutura Organizacional</Link>
         </li>
         <li>
           <Link to="/equipacal">Equipa CAL</Link>

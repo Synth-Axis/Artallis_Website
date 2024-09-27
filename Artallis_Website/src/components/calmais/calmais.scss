@@ -1,0 +1,62 @@
+@import "../../sass_styles/main";
+
+.calmais-container {
+  @include give-flex-column(center, center);
+  gap: 32px;
+
+  .pp-subtitle {
+    @include h3;
+    color: $blue;
+  }
+  .pp-title {
+    @include text-primary;
+    color: $blue;
+    margin-top: 12rem;
+  }
+
+  .projeto-container {
+    border-radius: 48px;
+    .projecto {
+      @include give-flex-column(center, center);
+      gap: 32px;
+      padding: 64px 256px;
+      color: $white;
+
+      h2 {
+        @include h2;
+      }
+      p {
+        @include text-primary;
+        text-align: justify;
+      }
+    }
+  }
+
+  .yellow {
+    background-color: $yellow;
+  }
+
+  .orange {
+    background-color: $orange;
+  }
+
+  .cyan {
+    background-color: $cyan;
+  }
+
+  .blue {
+    background-color: $blue;
+  }
+
+  .lightblue {
+    background-color: $light-blue;
+  }
+
+  .green {
+    background-color: $green;
+  }
+
+  .magenta {
+    background-color: $magenta;
+  }
+}
