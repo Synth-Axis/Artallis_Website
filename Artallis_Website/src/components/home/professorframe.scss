@@ -2,8 +2,9 @@
 
 .professor-container {
   @include give-flex-column(center, center);
-  width: 100%;
+  width: 25%;
   gap: 8px;
+  cursor: pointer;
 
   .professor-photo {
     width: 50%;
@@ -18,5 +19,21 @@
   .professor-position {
     @include h6;
     text-align: center;
+  }
+
+  .frame-green {
+    border: 2px solid $green;
+  }
+
+  .frame-blue {
+    border: 2px solid $blue;
+  }
+
+  .frame-magenta {
+    border: 2px solid $magenta;
+  }
+
+  .frame-yellow {
+    border: 2px solid $yellow;
   }
 }

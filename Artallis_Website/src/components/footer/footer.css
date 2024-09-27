@@ -39,17 +39,16 @@ a {
   width: 100%;
   background: #198ece;
   gap: 64px;
-  padding: 16px 80px;
+  padding: 16px 0px;
   color: #ffffff;
 }
 .footer-container .pallet-icon {
   width: 80px;
+  margin-right: 64px;
 }
 .footer-container .footer-wrapper {
   width: 100%;
-}
-.footer-container .footer-wrapper .pallet-icon {
-  height: 60px;
+  margin-left: 64px;
 }
 .footer-container .footer-wrapper .footer-info {
   display: flex;

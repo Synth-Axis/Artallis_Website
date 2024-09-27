@@ -32,42 +32,39 @@ a {
   cursor: pointer;
 }
 
-.professor-container {
+.equipacal-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 25%;
-  gap: 8px;
-  cursor: pointer;
+  width: 100%;
+  gap: 64px;
 }
-.professor-container .professor-photo {
-  width: 50%;
-  border-radius: 50%;
-  border: 2px solid #bbce00;
+.equipacal-container .title-container {
+  gap: 16px;
 }
-.professor-container .professor-name {
+.equipacal-container .title-container .pp-subtitle {
   font-family: "Barlow", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  color: #198ece;
 }
-.professor-container .professor-position {
+.equipacal-container .title-container .pp-title {
   font-family: "Barlow", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
-  text-align: center;
+  color: #198ece;
+  margin-top: 8rem;
 }
-.professor-container .frame-green {
-  border: 2px solid #bbce00;
+.equipacal-container .professores-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
-.professor-container .frame-blue {
-  border: 2px solid #198ece;
-}
-.professor-container .frame-magenta {
-  border: 2px solid #cc6699;
-}
-.professor-container .frame-yellow {
-  border: 2px solid #fccd00;
-}/*# sourceMappingURL=professorframe.css.map */
+.equipacal-container .hidden {
+  display: none;
+}/*# sourceMappingURL=equipacal.css.map */

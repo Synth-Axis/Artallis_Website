@@ -15,21 +15,25 @@ const Juntate = () => {
         </div>
         <div className="juntate">
           <Professorframe
+            framecolor="frame-green"
             photo={fotoprof1}
             name="Lorem Ipsum Dolor"
             position="Professor de piano"
           ></Professorframe>
           <Professorframe
+            framecolor="frame-green"
             photo={fotoprof2}
             name="Lorem Ipsum Dolor"
             position="Professor de piano"
           ></Professorframe>
           <Professorframe
+            framecolor="frame-green"
             photo={fotoprof3}
             name="Lorem Ipsum Dolor"
             position="Professor de piano"
           ></Professorframe>
           <Professorframe
+            framecolor="frame-green"
             photo={fotoprof4}
             name="Lorem Ipsum Dolor"
             position="Professor de piano"

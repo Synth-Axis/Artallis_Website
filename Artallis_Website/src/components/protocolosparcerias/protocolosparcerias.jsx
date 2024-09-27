@@ -15,7 +15,7 @@ const Protocolosparcerias = () => {
   return (
     <div className="protocolosparcerias-container">
       <div className="protocolosparcerias">
-        <Header></Header>
+        <Header logocolor="black"></Header>
         <p className="pp-title">JUNTA-TE</p>
         <h3 className="pp-subtitle">PROTOCOLOS E PARCERIAS</h3>
         <div className="circles-wrapper-4">

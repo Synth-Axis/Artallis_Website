@@ -1,0 +1,28 @@
+@import "../../sass_styles/main";
+
+.equipacal-container {
+  @include give-flex-column(center, center);
+  width: 100%;
+  gap: 64px;
+
+  .title-container {
+    gap: 16px;
+    .pp-subtitle {
+      @include h3;
+      color: $blue;
+    }
+    .pp-title {
+      @include text-primary;
+      color: $blue;
+      margin-top: 8rem;
+    }
+  }
+
+  .professores-container {
+    @include give-flex-row(center, center);
+    width: 100%;
+  }
+  .hidden {
+    display: none;
+  }
+}
