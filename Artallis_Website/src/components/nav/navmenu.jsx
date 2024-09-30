@@ -1,5 +1,6 @@
 import "./navmenu.css";
 import Subdescobre from "./subdescobre";
+import { Link } from "react-router-dom";
 
 const NavMenu = (props) => {
   return (
@@ -7,10 +8,10 @@ const NavMenu = (props) => {
       <ul className="navmenu">
         <li>
           <div className="submenu-wrapper">
-            <a className={`${props.color}`} href="#descobre">
+            <a className={`menu${props.color}`} href="#descobre">
               Descobre
             </a>
-            <div className={`submenu ${props.color}`}>
+            <div className={`submenu menu${props.color}`}>
               <Subdescobre></Subdescobre>
             </div>
           </div>
@@ -18,28 +19,28 @@ const NavMenu = (props) => {
 
         <li>
           <div className="submenu-wrapper">
-            <a className={`${props.color}`} href="#aprende">
-              Aprende
-            </a>
+            <Link to="/aprende">
+              <span className={`menu${props.color}`}>Aprende</span>
+            </Link>
           </div>
         </li>
         <li>
           <div className="submenu-wrapper">
-            <a className={`${props.color}`} href="#vivencia">
+            <a className={`menu${props.color}`} href="#vivencia">
               Vivencia
             </a>
           </div>
         </li>
         <li>
           <div className="submenu-wrapper">
-            <a className={`${props.color}`} href="#ligate">
+            <a className={`menu${props.color}`} href="#ligate">
               Liga-Te
             </a>
           </div>
         </li>
         <li>
           <div className="submenu-wrapper">
-            <a className={`${props.color}`} href="#juntate">
+            <a className={`menu${props.color}`} href="#juntate">
               Junta-Te
             </a>
           </div>
