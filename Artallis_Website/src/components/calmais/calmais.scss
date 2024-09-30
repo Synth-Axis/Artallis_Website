@@ -16,6 +16,7 @@
 
   .projeto-container {
     border-radius: 48px;
+    margin: 0 64px;
     .projecto {
       @include give-flex-column(center, center);
       gap: 32px;

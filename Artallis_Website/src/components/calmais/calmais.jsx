@@ -16,7 +16,6 @@ const bgcolors = [
 ];
 
 const Calmais = () => {
-  const [bgColorClass, setBgColorClass] = useState("");
   const [visibleProjects, setVisibleProjects] = useState(6);
 
   const getRandomColorClass = () => {

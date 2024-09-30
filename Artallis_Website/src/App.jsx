@@ -1,6 +1,7 @@
 import "./App.css";
-import Historia from "./components/historia/historia";
 import Home from "./components/home/home";
+import Apresentacao from "./components/Apresentacao/apresentacao";
+import Historia from "./components/historia/historia";
 import Protocolosparcerias from "./components/protocolosparcerias/protocolosparcerias";
 import Equipacal from "./components/equipacal/equipacal";
 import Estruturaorg from "./components/estruturaorganizacional/estruturaorg";
@@ -12,6 +13,7 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/apresentacao" element={<Apresentacao />} />
         <Route path="/historia" element={<Historia />} />
         <Route path="/estruturaorg" element={<Estruturaorg />} />
         <Route path="/equipacal" element={<Equipacal />} />

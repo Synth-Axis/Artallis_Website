@@ -57,6 +57,7 @@ a {
 }
 .calmais-container .projeto-container {
   border-radius: 48px;
+  margin: 0 64px;
 }
 .calmais-container .projeto-container .projecto {
   display: flex;
