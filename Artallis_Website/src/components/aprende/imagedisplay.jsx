@@ -8,9 +8,12 @@ const ImageDisplay = ({ currentImage }) => {
   const images = [artes, musica, teatro, danca];
 
   return (
-    <div className="image-display">
-      <img className="aprende-image" src={images[currentImage]} />
-    </div>
+    <div
+      className="image-display"
+      style={{
+        backgroundImage: `url(${images[currentImage]})`,
+      }}
+    ></div>
   );
 };
 

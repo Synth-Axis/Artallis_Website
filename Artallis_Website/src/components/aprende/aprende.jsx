@@ -55,6 +55,8 @@ const sections = [
     id: 3,
     title: "Teatro",
     description: "A formação dos futuros atores.",
+    extrainfo:
+      "O Conservatório Artallis ministra cursos reconhecidos pela Trinity Guidehall desde 2009/2010 e o Curso Básico de Teatro, oficial, em regime articulado desde 2022.",
   },
   {
     id: 4,
@@ -102,6 +104,27 @@ const Aprende = () => {
         </div>
         <ImageDisplay currentImage={isActive - 1}></ImageDisplay>
       </div>
+      {isActive && (
+        <div className="extra-info">
+          {sections[isActive - 1].extrainfo && (
+            <p>{sections[isActive - 1].extrainfo}</p>
+          )}
+          <div>
+            {sections[isActive - 1].list_title && (
+              <p>{sections[isActive - 1].list_title}</p>
+            )}
+            {sections[isActive - 1].list && (
+              <ul>
+                {sections[isActive - 1].list.map((elem, index) => (
+                  <li className="ciclos-estudo" key={index}>
+                    {elem}
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+        </div>
+      )}
       <Footer />
     </div>
   );

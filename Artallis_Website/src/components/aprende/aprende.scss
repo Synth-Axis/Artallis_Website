@@ -19,6 +19,9 @@
 
   .content-container {
     @include give-flex-row(flex-start, center);
+    width: 100%;
+    height: 28vh;
+
     .content {
       @include give-flex-column(flex-start, center);
       width: 100%;
@@ -48,6 +51,32 @@
           p {
             color: $green;
             font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+  .extra-info {
+    @include give-flex-column(flex-start, center);
+    gap: 32px;
+    p {
+      @include text-primary;
+      text-align: justify;
+    }
+    div {
+      @include text-primary;
+      text-align: left;
+      p {
+        margin-bottom: 8px;
+      }
+      ul {
+        list-style-type: disc;
+        padding-left: 2rem;
+        .ciclos-estudo {
+          color: black;
+          margin-bottom: 4px;
+          &::marker {
+            color: $green;
           }
         }
       }
