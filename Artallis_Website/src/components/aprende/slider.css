@@ -30,4 +30,70 @@ ol {
 a {
   all: unset;
   cursor: pointer;
+}
+
+.slider-container {
+  width: 100%;
+  height: 32rem;
+  margin: 0 auto;
+  position: relative;
+}
+.slider-container h4 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: left;
+  color: #198ece;
+}
+
+.slick-slide {
+  padding: 8px;
+}
+
+.image {
+  width: 100%;
+  width: 100%;
+  height: 360px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 16px;
+}
+
+.slick-dots {
+  top: 380px;
+}
+
+.slick-prev,
+.slick-next {
+  z-index: 1;
+  color: #bbce00;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #bbce00;
+  font-size: 30px;
+}
+
+.slick-prev {
+  left: -40px;
+  top: 200px;
+}
+
+.slick-next {
+  right: -40px;
+  top: 200px;
+}
+
+.slick-dots.custom-dots li button:before {
+  color: #198ece;
+  font-size: 12px;
+  opacity: 0.75;
+}
+
+.slick-dots.custom-dots li.slick-active button:before {
+  color: #bbce00;
+  font-size: 20px;
+  opacity: 1;
 }/*# sourceMappingURL=slider.css.map */

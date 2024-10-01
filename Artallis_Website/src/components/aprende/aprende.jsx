@@ -3,6 +3,7 @@ import Header from "../header/header";
 import Footer from "../footer/footer";
 import ContentSection from "./contentsection";
 import ImageDisplay from "./imagedisplay";
+import ImageSlider from "./slider";
 import { useState } from "react";
 
 const sections = [
@@ -125,6 +126,7 @@ const Aprende = () => {
           </div>
         </div>
       )}
+      <ImageSlider></ImageSlider>
       <Footer />
     </div>
   );

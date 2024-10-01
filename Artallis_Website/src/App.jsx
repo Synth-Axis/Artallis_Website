@@ -1,4 +1,6 @@
 import "./App.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Home from "./components/home/home";
 import Apresentacao from "./components/apresentacao/apresentacao";
 import Historia from "./components/historia/historia";

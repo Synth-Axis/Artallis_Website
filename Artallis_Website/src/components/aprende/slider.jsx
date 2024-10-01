@@ -1,4 +1,6 @@
-import "./slider.scss";
+import "./slider.css";
+import React from "react";
+import Slider from "react-slick";
 import image1 from "../../assets/media/links/converted_webp/13528139_1739996952947086_6770346839845155010_o.webp";
 import image2 from "../../assets/media/links/converted_webp/13559093_1739992546280860_8301818435647816626_o.webp";
 import image3 from "../../assets/media/links/converted_webp/36773157_2122507118029399_2911400739018375168_n.webp";
@@ -11,7 +13,6 @@ import image9 from "../../assets/media/links/converted_webp/436418939_1828742679
 import image10 from "../../assets/media/links/converted_webp/440802564_18288732175160456_3830667704349125285_n.webp";
 import image11 from "../../assets/media/links/converted_webp/440824938_18288737692160456_7272667673525328288_n.webp";
 import image12 from "../../assets/media/links/converted_webp/artallis - foto.webp";
-import React, { useState } from "react";
 
 const images = [
   image1,
@@ -29,42 +30,43 @@ const images = [
 ];
 
 const ImageSlider = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const nextSlide = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === images.length - 1 ? 0 : prevIndex + 1
-    );
-  };
-
-  const prevSlide = () => {
-    setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    );
+  const settings = {
+    dots: true, // Show dots below the slider
+    infinite: true, // Infinite scrolling
+    speed: 500, // Transition speed
+    slidesToShow: 3, // Number of images to show at once
+    slidesToScroll: 1, // Number of images to scroll on drag
+    dotsClass: "slick-dots custom-dots",
+    autoplay: false, // Optionally set to true for autoplay
+    draggable: true, // Allow dragging to scroll
+    responsive: [
+      {
+        breakpoint: 1024, // For tablet and smaller screens
+        settings: {
+          slidesToShow: 2, // Show 2 slides on smaller screens
+          slidesToScroll: 1, // Scroll 1 at a time
+        },
+      },
+      {
+        breakpoint: 600, // For mobile devices
+        settings: {
+          slidesToShow: 1, // Show 1 slide on small screens
+          slidesToScroll: 1, // Scroll 1 at a time
+        },
+      },
+    ],
   };
 
   return (
     <div className="slider-container">
-      <button className="left-arrow" onClick={prevSlide}>
-        &#10094;
-      </button>
-
-      <div className="slider">
+      <h4>Galeria</h4>
+      <Slider {...settings}>
         {images.map((image, index) => (
-          <div
-            key={index}
-            className={`slide ${index === currentIndex ? "active" : ""}`}
-          >
-            {index === currentIndex && (
-              <img src={image} alt={`Slide ${index + 1}`} className="image" />
-            )}
+          <div key={index} className="slide">
+            <img src={image} alt={`Slide ${index + 1}`} className="image" />
           </div>
         ))}
-      </div>
-
-      <button className="right-arrow" onClick={nextSlide}>
-        &#10095;
-      </button>
+      </Slider>
     </div>
   );
 };
