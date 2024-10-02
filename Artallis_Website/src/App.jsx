@@ -9,6 +9,7 @@ import Equipacal from "./components/equipacal/equipacal";
 import Estruturaorg from "./components/estruturaorganizacional/estruturaorg";
 import Calmais from "./components/calmais/calmais";
 import Aprende from "./components/aprende/aprende";
+import Comunidadecal from "./components/comunidadecal/comunidadecal";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/protocolosparcerias" element={<Protocolosparcerias />} />
         <Route path="/calmais" element={<Calmais />} />
         <Route path="/aprende" element={<Aprende />} />
+        <Route path="/comunidadecal" element={<Comunidadecal />} />
       </Routes>
     </div>
   );

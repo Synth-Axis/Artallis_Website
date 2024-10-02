@@ -1,0 +1,62 @@
+@import "../../sass_styles/main";
+
+.sliderimagens {
+  width: 100%;
+
+  height: 32rem;
+  margin: 0 auto;
+  position: relative;
+  h4 {
+    @include h4;
+    font-weight: 300;
+    text-align: left;
+    color: $blue;
+  }
+  .slick-slide {
+    padding: 8px;
+  }
+
+  .image {
+    width: 100%;
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  .slick-dots {
+    top: 380px;
+  }
+
+  .slick-prev,
+  .slick-next {
+    z-index: 1;
+    color: $green;
+    &:before {
+      color: $green;
+      font-size: 30px;
+    }
+  }
+
+  .slick-prev {
+    left: -40px;
+    top: 200px;
+  }
+
+  .slick-next {
+    right: -40px;
+    top: 200px;
+  }
+
+  .slick-dots.custom-dots li button:before {
+    color: $blue;
+    font-size: 12px;
+    opacity: 0.75;
+  }
+
+  .slick-dots.custom-dots li.slick-active button:before {
+    color: $green;
+    font-size: 20px;
+    opacity: 1;
+  }
+}

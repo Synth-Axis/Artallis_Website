@@ -1,4 +1,4 @@
-import "./slider.css";
+import "./imageslider.css";
 import React from "react";
 import Slider from "react-slick";
 import image1 from "../../assets/media/links/converted_webp/13528139_1739996952947086_6770346839845155010_o.webp";
@@ -30,7 +30,7 @@ const images = [
 ];
 
 const ImageSlider = () => {
-  const settings = {
+  const settings_slider_imagens = {
     dots: true, // Show dots below the slider
     infinite: true, // Infinite scrolling
     speed: 500, // Transition speed
@@ -58,9 +58,9 @@ const ImageSlider = () => {
   };
 
   return (
-    <div className="slider-container">
+    <div className="sliderimagens">
       <h4>Galeria</h4>
-      <Slider {...settings}>
+      <Slider {...settings_slider_imagens}>
         {images.map((image, index) => (
           <div key={index} className="slide">
             <img src={image} alt={`Slide ${index + 1}`} className="image" />

@@ -1,5 +1,6 @@
 import "./navmenu.css";
 import Subdescobre from "./subdescobre";
+import Subvivencia from "./subvivencia";
 import { Link } from "react-router-dom";
 
 const NavMenu = (props) => {
@@ -26,9 +27,12 @@ const NavMenu = (props) => {
         </li>
         <li>
           <div className="submenu-wrapper">
-            <a className={`menu${props.color}`} href="#vivencia">
+            <a className={`menu${props.color}`} href="#descobre">
               Vivencia
             </a>
+            <div className={`submenu menu${props.color}`}>
+              <Subvivencia></Subvivencia>
+            </div>
           </div>
         </li>
         <li>

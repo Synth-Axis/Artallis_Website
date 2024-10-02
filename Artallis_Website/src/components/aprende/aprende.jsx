@@ -3,7 +3,7 @@ import Header from "../header/header";
 import Footer from "../footer/footer";
 import ContentSection from "./contentsection";
 import ImageDisplay from "./imagedisplay";
-import ImageSlider from "./slider";
+import ImageSlider from "./imageslider";
 import { useState } from "react";
 
 const sections = [

@@ -32,13 +32,13 @@ a {
   cursor: pointer;
 }
 
-.slider-container {
+.sliderimagens {
   width: 100%;
   height: 32rem;
   margin: 0 auto;
   position: relative;
 }
-.slider-container h4 {
+.sliderimagens h4 {
   font-family: "Barlow", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -47,12 +47,10 @@ a {
   text-align: left;
   color: #198ece;
 }
-
-.slick-slide {
+.sliderimagens .slick-slide {
   padding: 8px;
 }
-
-.image {
+.sliderimagens .image {
   width: 100%;
   width: 100%;
   height: 360px;
@@ -60,40 +58,34 @@ a {
      object-fit: cover;
   border-radius: 16px;
 }
-
-.slick-dots {
+.sliderimagens .slick-dots {
   top: 380px;
 }
-
-.slick-prev,
-.slick-next {
+.sliderimagens .slick-prev,
+.sliderimagens .slick-next {
   z-index: 1;
   color: #bbce00;
 }
-.slick-prev:before,
-.slick-next:before {
+.sliderimagens .slick-prev:before,
+.sliderimagens .slick-next:before {
   color: #bbce00;
   font-size: 30px;
 }
-
-.slick-prev {
+.sliderimagens .slick-prev {
   left: -40px;
   top: 200px;
 }
-
-.slick-next {
+.sliderimagens .slick-next {
   right: -40px;
   top: 200px;
 }
-
-.slick-dots.custom-dots li button:before {
+.sliderimagens .slick-dots.custom-dots li button:before {
   color: #198ece;
   font-size: 12px;
   opacity: 0.75;
 }
-
-.slick-dots.custom-dots li.slick-active button:before {
+.sliderimagens .slick-dots.custom-dots li.slick-active button:before {
   color: #bbce00;
   font-size: 20px;
   opacity: 1;
-}/*# sourceMappingURL=slider.css.map */
+}/*# sourceMappingURL=imageslider.css.map */

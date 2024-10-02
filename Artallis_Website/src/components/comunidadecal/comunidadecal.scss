@@ -1,0 +1,37 @@
+@import "../../sass_styles/main";
+
+.comunidade-container {
+  @include give-flex-column(center, center);
+  gap: 4rem;
+
+  .title-container {
+    .pp-title {
+      @include h5;
+      font-weight: 300;
+      margin-top: 8rem;
+    }
+    .pp-subtitle {
+      @include h1;
+      color: $blue;
+    }
+  }
+  .description-1 {
+    @include give-flex-column(center, center);
+    gap: 4px;
+    @include h5;
+    font-weight: 600;
+    color: $blue;
+  }
+  h4:first-of-type {
+    @include h4;
+    color: $blue;
+  }
+  p {
+    @include text-primary;
+  }
+  h4 {
+    width: 60%;
+    @include h4;
+    color: $blue;
+  }
+}
