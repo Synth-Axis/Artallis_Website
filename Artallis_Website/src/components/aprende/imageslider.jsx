@@ -31,27 +31,27 @@ const images = [
 
 const ImageSlider = () => {
   const settings_slider_imagens = {
-    dots: true, // Show dots below the slider
-    infinite: true, // Infinite scrolling
-    speed: 500, // Transition speed
-    slidesToShow: 3, // Number of images to show at once
-    slidesToScroll: 1, // Number of images to scroll on drag
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
     dotsClass: "slick-dots custom-dots",
-    autoplay: false, // Optionally set to true for autoplay
-    draggable: true, // Allow dragging to scroll
+    autoplay: false,
+    draggable: true,
     responsive: [
       {
-        breakpoint: 1024, // For tablet and smaller screens
+        breakpoint: 1024,
         settings: {
-          slidesToShow: 2, // Show 2 slides on smaller screens
-          slidesToScroll: 1, // Scroll 1 at a time
+          slidesToShow: 2,
+          slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 600, // For mobile devices
+        breakpoint: 600,
         settings: {
-          slidesToShow: 1, // Show 1 slide on small screens
-          slidesToScroll: 1, // Scroll 1 at a time
+          slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
     ],

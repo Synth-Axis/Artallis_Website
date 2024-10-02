@@ -1,0 +1,67 @@
+@import "../../sass_styles/main";
+
+.slidercomunidade {
+  width: 100%;
+  height: 36rem;
+  margin: 0 auto;
+  position: relative;
+
+  .slick-dots {
+    top: 550px;
+  }
+
+  .slick-prev,
+  .slick-next {
+    z-index: 1;
+    color: $green;
+    &:before {
+      color: $green;
+      font-size: 30px;
+    }
+  }
+
+  .slick-prev {
+    left: -40px;
+    top: 200px;
+  }
+
+  .slick-next {
+    right: -40px;
+    top: 200px;
+  }
+
+  .slick-dots.custom-dots li button:before {
+    color: $blue;
+    font-size: 12px;
+    opacity: 0.75;
+  }
+
+  .slick-dots.custom-dots li.slick-active button:before {
+    color: $green;
+    font-size: 20px;
+    opacity: 1;
+  }
+
+  .magenta {
+    background-color: $magenta;
+  }
+
+  .slide {
+    width: 100%;
+    height: 530px;
+    text-align: left;
+    color: $white;
+    .comite-container {
+      padding: 64px;
+      .comite-title {
+        width: 100%;
+        color: $white;
+        margin-bottom: 32px;
+      }
+      .comite-description {
+        @include text-primary;
+        width: 100%;
+      }
+    }
+  }
+}

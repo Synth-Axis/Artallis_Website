@@ -1,5 +1,6 @@
 import Header from "../header/header";
 import Footer from "../footer/footer";
+import Slidercomunidade from "./slidercomunidade";
 import "./comunidadecal.css";
 
 const Comunidadecal = () => {
@@ -26,6 +27,7 @@ const Comunidadecal = () => {
         </p>
         <p> um desempenhando um papel fundamental na comunidade escolar:</p>
       </div>
+      <Slidercomunidade></Slidercomunidade>
       <div className="description-1">
         <h5>
           Cada um destes comités desempenha um papel único e importante na
@@ -39,6 +41,7 @@ const Comunidadecal = () => {
         e apoiar o crescimento e desenvolvimento integral de todos os membros da
         comunidade escolar.
       </h4>
+
       <Footer></Footer>
     </div>
   );
