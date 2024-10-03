@@ -41,7 +41,6 @@ const Comunidadecal = () => {
         e apoiar o crescimento e desenvolvimento integral de todos os membros da
         comunidade escolar.
       </h4>
-
       <Footer></Footer>
     </div>
   );
