@@ -1,0 +1,51 @@
+@import "../../sass_styles/main";
+
+.juntate-container {
+  @include give-flex-column(center, center);
+  gap: 4rem;
+
+  .title-container {
+    .pp-title {
+      @include h5;
+      font-weight: 300;
+      margin-top: 8rem;
+    }
+  }
+  .content-container {
+    @include give-flex-row(flex-start, center);
+    width: 100%;
+    height: 28vh;
+    .content {
+      @include give-flex-column(flex-start, center);
+      width: 100%;
+      .content-section {
+        @include give-flex-row(center, space-between);
+        width: 100%;
+        text-align: left;
+
+        h1 {
+          @include hero_xl;
+          font-weight: 300;
+          margin-bottom: 20px;
+          cursor: pointer;
+        }
+
+        &.selected {
+          h1 {
+            color: $green;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+  .extra-info {
+    @include give-flex-column(center, center);
+    gap: 32px;
+    width: 100%;
+    p {
+      @include text-primary;
+      text-align: justify;
+    }
+  }
+}

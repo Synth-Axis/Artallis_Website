@@ -37,15 +37,15 @@ const NavMenu = (props) => {
         </li>
         <li>
           <div className="submenu-wrapper">
-            <a className={`menu${props.color}`} href="#ligate">
-              Liga-Te
-            </a>
+            <Link to="/juntate">
+              <span className={`menu${props.color}`}>Junta-te</span>
+            </Link>
           </div>
         </li>
         <li>
           <div className="submenu-wrapper">
-            <a className={`menu${props.color}`} href="#juntate">
-              Junta-Te
+            <a className={`menu${props.color}`} href="#ligate">
+              Liga-Te
             </a>
           </div>
         </li>
