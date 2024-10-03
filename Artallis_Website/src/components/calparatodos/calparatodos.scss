@@ -1,0 +1,53 @@
+@import "../../sass_styles/main";
+
+.calparatodos-container {
+  @include give-flex-column(center, center);
+  gap: 4rem;
+  background-image: url("../src/assets/media/svg/colorballs.svg");
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-position: 100% 20%;
+  background-size: 35%;
+
+  .title-container {
+    .pp-title {
+      @include h5;
+      font-weight: 300;
+      margin-top: 8rem;
+    }
+    .pp-subtitle {
+      @include h1;
+      color: $blue;
+    }
+  }
+
+  .content-container {
+    @include give-flex-column(center, center);
+    padding: 0 4rem;
+    .image-container {
+      width: 100%;
+
+      img {
+        width: 100%;
+        height: 620px;
+        object-fit: cover;
+        border-radius: 16px;
+      }
+    }
+    .text-container {
+      @include give-flex-row(flex-start, space-between);
+      width: 100%;
+      gap: 4rem;
+      .text-content {
+        width: 100%;
+        @include give-flex-column(flex-start, center);
+        gap: 1rem;
+        padding: 2rem 0;
+        text-align: left;
+        p {
+          @include text-primary;
+        }
+      }
+    }
+  }
+}
