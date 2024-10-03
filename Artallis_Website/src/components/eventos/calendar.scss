@@ -1,0 +1,87 @@
+@import "../../sass_styles/main";
+
+.calendar {
+  @include give-flex-column(center, center);
+  width: 100%;
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 1rem;
+    h2 {
+      @include h1;
+      font-weight: 900;
+      color: $green;
+    }
+  }
+
+  &__nav {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: $yellow;
+    &:hover {
+      color: $green;
+    }
+  }
+
+  &__weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 100%;
+    max-width: 100%;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    div {
+      @include text-primary;
+      color: $light-blue;
+      text-align: center;
+      padding: 0.5rem 0;
+    }
+  }
+
+  &__days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1rem;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  &__day {
+    @include h4;
+    font-weight: 700;
+    background-color: $cyan;
+    color: $blue;
+    padding: 1.25rem;
+    height: 5rem;
+    border-radius: 0.5rem;
+    text-align: left;
+
+    &.empty {
+      background-color: transparent;
+    }
+
+    &__date {
+      font-weight: 600;
+    }
+  }
+  &__event {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+
+    p:first-child {
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 0.75rem;
+      font-weight: regular;
+      color: $black-primary;
+    }
+  }
+}

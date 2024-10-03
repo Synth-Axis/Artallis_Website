@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* ::before,
+* ::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  min-height: 100vh;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+.calendar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.calendar__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 1rem;
+}
+.calendar__header h2 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #bbce00;
+}
+.calendar__nav {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #fccd00;
+}
+.calendar__nav:hover {
+  color: #bbce00;
+}
+.calendar__weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: 100%;
+  max-width: 100%;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.calendar__weekdays div {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  color: #03abe5;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+.calendar__days {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 1rem;
+  width: 100%;
+  max-width: 100%;
+}
+.calendar__day {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: #79ccf3;
+  color: #198ece;
+  padding: 1.25rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+  text-align: left;
+}
+.calendar__day.empty {
+  background-color: transparent;
+}
+.calendar__day__date {
+  font-weight: 600;
+}
+.calendar__event {
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}
+.calendar__event p:first-child {
+  font-weight: 600;
+}
+.calendar__event p {
+  font-size: 0.75rem;
+  font-weight: regular;
+  color: #1d1d1b;
+}/*# sourceMappingURL=calendar.css.map */
