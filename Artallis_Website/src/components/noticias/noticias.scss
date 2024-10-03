@@ -1,0 +1,24 @@
+@import "../../sass_styles/main";
+
+.noticias-container {
+  @include give-flex-column(center, center);
+  gap: 4rem;
+
+  .title-container {
+    @include give-flex-column(center, center);
+    gap: 16px;
+    .pp-subtitle {
+      @include h1;
+      color: $blue;
+    }
+    .pp-title {
+      @include text-primary;
+      margin-top: 8rem;
+    }
+  }
+  .noticias-card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
+    gap: 1.5rem; /* Adjust the gap between cards as needed */
+  }
+}

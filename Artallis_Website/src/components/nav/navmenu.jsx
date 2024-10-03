@@ -1,6 +1,7 @@
 import "./navmenu.css";
 import Subdescobre from "./subdescobre";
 import Subvivencia from "./subvivencia";
+import Subligate from "./subligate";
 import { Link } from "react-router-dom";
 
 const NavMenu = (props) => {
@@ -27,9 +28,7 @@ const NavMenu = (props) => {
         </li>
         <li>
           <div className="submenu-wrapper">
-            <a className={`menu${props.color}`} href="#descobre">
-              Vivencia
-            </a>
+            <a className={`menu${props.color}`}>Vivencia</a>
             <div className={`submenu menu${props.color}`}>
               <Subvivencia></Subvivencia>
             </div>
@@ -44,9 +43,10 @@ const NavMenu = (props) => {
         </li>
         <li>
           <div className="submenu-wrapper">
-            <a className={`menu${props.color}`} href="#ligate">
-              Liga-Te
-            </a>
+            <a className={`menu${props.color}`}>Liga-te</a>
+            <div className={`submenu menu${props.color}`}>
+              <Subligate></Subligate>
+            </div>
           </div>
         </li>
       </ul>

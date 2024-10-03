@@ -1,0 +1,28 @@
+@import "../../sass_styles/main";
+
+.noticias-card-container {
+  @include give-flex-column(flex-start, flex-end);
+  flex-wrap: wrap;
+  gap: 1rem;
+  height: 12rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 2rem;
+  padding: 2rem;
+  color: $white;
+  text-align: left;
+  .headline {
+    @include give-flex-column(flex-start, center);
+    gap: 0;
+    h6 {
+      @include h6;
+      font-weight: 600;
+    }
+    p {
+      span {
+        @include text-primary;
+      }
+    }
+  }
+}

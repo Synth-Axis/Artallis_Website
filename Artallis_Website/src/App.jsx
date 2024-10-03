@@ -12,6 +12,7 @@ import Aprende from "./components/aprende/aprende";
 import Comunidadecal from "./components/comunidadecal/comunidadecal";
 import Calparatodos from "./components/calparatodos/calparatodos";
 import Juntate from "./components/juntate/juntate";
+import Noticias from "./components/noticias/noticias";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path="/comunidadecal" element={<Comunidadecal />} />
         <Route path="/calparatodos" element={<Calparatodos />} />
         <Route path="/juntate" element={<Juntate />} />
+        <Route path="/noticias" element={<Noticias />} />
       </Routes>
     </div>
   );
