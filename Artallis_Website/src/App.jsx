@@ -16,6 +16,7 @@ import Noticias from "./components/noticias/noticias";
 import Eventos from "./components/eventos/eventos";
 import Agenda from "./components/agenda/agenda";
 import Livestream from "./components/livestream/livestream";
+import Alumni from "./components/alumni/alumni";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
         <Route path="/eventos" element={<Eventos />} />
         <Route path="/agenda" element={<Agenda />} />
         <Route path="/livestream" element={<Livestream />} />
+        <Route path="/alumni" element={<Alumni />} />
       </Routes>
     </div>
   );

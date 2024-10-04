@@ -84,7 +84,7 @@ const Calendardays = () => {
         );
       });
 
-    return eventDays.length > 0 ? eventDays : <p>No events this month</p>;
+    return eventDays.length > 0 ? eventDays : <p>Sem eventos este mês</p>;
   };
 
   return (
