@@ -24,7 +24,8 @@ const Calendar = () => {
   const events = {
     "2024-10-04": { time: "10h30", name: "CONCERTO 1 CLARINETE" },
     "2024-10-12": { time: "9h30", name: "ENCONTRO" },
-    "2024-10-16": { time: "19h00", name: "ESPÉTACULO DE ENCERRAMENTO" },
+    "2024-10-15": { time: "19h00", name: "ESPÉTACULO DE ENCERRAMENTO" },
+    "2024-10-30": { time: "20h30", name: "CONCERTO 2 GUITARRA" },
   };
 
   const handlePrevMonth = () => {

@@ -1,0 +1,79 @@
+@import "../../sass_styles/main";
+
+.calendardays {
+  @include give-flex-column(center, center);
+  width: 100%;
+
+  &__header {
+    @include give-flex-row(center, center);
+    width: 100%;
+    gap: 8rem;
+    margin-bottom: 1rem;
+    h2 {
+      @include h1;
+      font-weight: 900;
+      color: $green;
+    }
+  }
+
+  &__nav {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    color: $yellow;
+    &:hover {
+      color: $green;
+    }
+  }
+
+  &__events-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .event-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0 8rem;
+  }
+
+  .event-header {
+    text-align: center;
+
+    h4 {
+      @include h4;
+      margin: 0;
+      font-weight: 900;
+      color: $blue;
+    }
+
+    span {
+      @include text-primary;
+
+      color: $light-blue;
+    }
+  }
+
+  .event-card {
+    @include give-flex-column(center, center);
+    background-color: $cyan;
+    border-radius: 1rem;
+    padding: 0.15rem;
+
+    .event-details {
+      @include give-flex-row(center, center);
+      color: $white;
+      padding: 0.75rem;
+      border-radius: 0.5rem;
+
+      strong {
+        font-weight: 600;
+        color: $white;
+      }
+    }
+  }
+}
