@@ -15,6 +15,7 @@ import Juntate from "./components/juntate/juntate";
 import Noticias from "./components/noticias/noticias";
 import Eventos from "./components/eventos/eventos";
 import Agenda from "./components/agenda/agenda";
+import Livestream from "./components/livestream/livestream";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Route path="/noticias" element={<Noticias />} />
         <Route path="/eventos" element={<Eventos />} />
         <Route path="/agenda" element={<Agenda />} />
+        <Route path="/livestream" element={<Livestream />} />
       </Routes>
     </div>
   );
