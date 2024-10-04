@@ -30,4 +30,95 @@ ol {
 a {
   all: unset;
   cursor: pointer;
+}
+
+.calempalco-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.calempalco-container .title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.calempalco-container .title-container .pp-subtitle {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.5rem;
+  color: #198ece;
+}
+.calempalco-container .title-container .pp-title {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  margin-top: 8rem;
+}
+.calempalco-container .atuacoes-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  width: 100%;
+  padding: 1rem;
+  justify-items: center;
+}
+.calempalco-container .atuacoes-container .card-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  color: #ffffff;
+  width: 100%;
+  border-radius: 16px;
+  aspect-ratio: 1/1;
+  transition: transform 0.3s ease;
+}
+.calempalco-container .atuacoes-container .card-item .inner-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14rem;
+  padding: 2rem;
+  color: #1d1d1b;
+}
+.calempalco-container .atuacoes-container .card-item .inner-card-container h1 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+.calempalco-container .atuacoes-container .card-item .inner-card-container p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+.calempalco-container .atuacoes-container .card-item:hover {
+  transform: scale(1.05);
+}
+.calempalco-container .atuacoes-container .card-item.orange {
+  background-color: #f2921a;
+}
+.calempalco-container .atuacoes-container .card-item.green {
+  background-color: #bbce00;
+}
+.calempalco-container .atuacoes-container .card-item.blue {
+  background-color: #03abe5;
+}
+.calempalco-container .atuacoes-container .card-item.yellow {
+  background-color: #fccd00;
+}
+.calempalco-container .atuacoes-container .card-item.magenta {
+  background-color: #cc6699;
+}
+.calempalco-container .atuacoes-container .card-item.cyan {
+  background-color: #79ccf3;
 }/*# sourceMappingURL=calempalco.css.map */

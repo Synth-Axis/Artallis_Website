@@ -9,6 +9,7 @@ import Equipacal from "./components/equipacal/equipacal";
 import Estruturaorg from "./components/estruturaorganizacional/estruturaorg";
 import Calmais from "./components/calmais/calmais";
 import Aprende from "./components/aprende/aprende";
+import Calempalco from "./components/calempalco/calempalco";
 import Comunidadecal from "./components/comunidadecal/comunidadecal";
 import Calparatodos from "./components/calparatodos/calparatodos";
 import Juntate from "./components/juntate/juntate";
@@ -31,6 +32,7 @@ function App() {
         <Route path="/protocolosparcerias" element={<Protocolosparcerias />} />
         <Route path="/calmais" element={<Calmais />} />
         <Route path="/aprende" element={<Aprende />} />
+        <Route path="/calempalco" element={<Calempalco />} />
         <Route path="/comunidadecal" element={<Comunidadecal />} />
         <Route path="/calparatodos" element={<Calparatodos />} />
         <Route path="/juntate" element={<Juntate />} />

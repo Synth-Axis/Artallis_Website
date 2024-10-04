@@ -1,1 +1,72 @@
-@import "../sass_styles/main";
+@import "../../sass_styles/main";
+
+.calempalco-container {
+  @include give-flex-column(center, center);
+  gap: 4rem;
+
+  .title-container {
+    @include give-flex-column(center, center);
+    gap: 16px;
+    .pp-subtitle {
+      @include h1;
+      color: $blue;
+    }
+    .pp-title {
+      @include text-primary;
+      margin-top: 8rem;
+    }
+  }
+  .atuacoes-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    width: 100%;
+    padding: 1rem;
+    justify-items: center;
+    .card-item {
+      @include give-flex-column(flex-start, flex-start);
+      text-align: left;
+      color: $white;
+      width: 100%;
+      border-radius: 16px;
+      aspect-ratio: 1 / 1;
+      transition: transform 0.3s ease;
+
+      .inner-card-container {
+        @include give-flex-column(flex-start, space-between);
+        gap: 14rem;
+        padding: 2rem;
+        color: $black-primary;
+        h1 {
+          @include h1;
+        }
+        p {
+          @include text-primary;
+        }
+      }
+
+      &:hover {
+        transform: scale(1.05);
+      }
+      &.orange {
+        background-color: $orange;
+      }
+      &.green {
+        background-color: $green;
+      }
+      &.blue {
+        background-color: $light-blue;
+      }
+
+      &.yellow {
+        background-color: $yellow;
+      }
+      &.magenta {
+        background-color: $magenta;
+      }
+      &.cyan {
+        background-color: $cyan;
+      }
+    }
+  }
+}

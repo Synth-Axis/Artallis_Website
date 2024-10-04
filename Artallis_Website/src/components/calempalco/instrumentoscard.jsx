@@ -1,14 +1,14 @@
 import "./instrumentoscard.css";
 
-const Instrumentoscard = (props) => {
+const Instrumentoscard = ({ atuacao }) => {
   return (
     <div>
-      <p>{props.name}</p>
       <div
-        className="card-item {props.name}"
-        // style={{ backgroundImage: `url(${backgroundImage})` }}
+        className="card-item-content"
+        style={{ backgroundImage: `url(${atuacao.foto})` }}
       >
-        {props.name}
+        <h4>{atuacao.instrumento}</h4>
+        {/* <p>{atuacao.descricao}</p> */}
       </div>
     </div>
   );
