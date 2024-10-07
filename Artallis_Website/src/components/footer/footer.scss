@@ -27,6 +27,7 @@
       .footer-contacts-wrapper {
         flex: 25%;
         @include give-flex-row(flex-start, space-between);
+        flex-wrap: wrap;
         font-size: 0.75rem;
         gap: 64px;
         .contacts-left-container {
@@ -54,22 +55,70 @@
 
     .copyrights-wrapper {
       @include give-flex-row(center, space-between);
+      width: 100%;
       .copyrights {
         @include give-flex-column(flex-start, center);
         padding: 32px 0;
         gap: 8px;
+        width: 100%;
         p {
           font-size: 0.8rem;
           text-align: left;
+          width: 100%;
         }
       }
       .social-icons {
         @include give-flex-row(center, center);
         gap: 32px;
+        width: 100%;
         img {
           height: 18px;
         }
       }
     }
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-contacts-wrapper {
+    @include give-flex-column(flex-start, center);
+    .contacts-right-container {
+      @include give-flex-column(flex-start, center);
+    }
+  }
+  .copyrights-wrapper {
+    @include give-flex-row(center, center);
+  }
+
+  .pallet-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-contacts-wrapper {
+    @include give-flex-column(flex-start, center);
+    .contacts-right-container {
+      @include give-flex-column(flex-start, center);
+    }
+  }
+  .copyrights-wrapper {
+    @include give-flex-row(center, center);
+  }
+
+  .pallet-icon {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .footer-contacts-wrapper {
+    @include give-flex-column(flex-start, center);
+    .contacts-right-container {
+      @include give-flex-column(flex-start, center);
+    }
+  }
+  .copyrights-wrapper {
+    @include give-flex-row(center, center);
   }
 }

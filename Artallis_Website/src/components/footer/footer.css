@@ -65,6 +65,7 @@ a {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  flex-wrap: wrap;
   font-size: 0.75rem;
   gap: 64px;
 }
@@ -96,6 +97,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
 }
 .footer-container .footer-wrapper .copyrights-wrapper .copyrights {
   display: flex;
@@ -104,17 +106,84 @@ a {
   justify-content: center;
   padding: 32px 0;
   gap: 8px;
+  width: 100%;
 }
 .footer-container .footer-wrapper .copyrights-wrapper .copyrights p {
   font-size: 0.8rem;
   text-align: left;
+  width: 100%;
 }
 .footer-container .footer-wrapper .copyrights-wrapper .social-icons {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 32px;
+  width: 100%;
 }
 .footer-container .footer-wrapper .copyrights-wrapper .social-icons img {
   height: 18px;
+}
+
+@media (max-width: 480px) {
+  .footer-contacts-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .footer-contacts-wrapper .contacts-right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .copyrights-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pallet-icon {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .footer-contacts-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .footer-contacts-wrapper .contacts-right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .copyrights-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .pallet-icon {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .footer-contacts-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .footer-contacts-wrapper .contacts-right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .copyrights-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=footer.css.map */

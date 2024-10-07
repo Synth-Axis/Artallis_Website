@@ -39,12 +39,12 @@ a {
   justify-content: center;
   width: 25%;
   gap: 8px;
-  cursor: pointer;
 }
 .professor-container .professor-photo {
   width: 50%;
   border-radius: 50%;
   border: 2px solid #bbce00;
+  cursor: pointer;
 }
 .professor-container .professor-name {
   font-family: "Barlow", sans-serif;

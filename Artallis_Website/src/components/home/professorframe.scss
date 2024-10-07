@@ -4,12 +4,12 @@
   @include give-flex-column(center, center);
   width: 25%;
   gap: 8px;
-  cursor: pointer;
 
   .professor-photo {
     width: 50%;
     border-radius: 50%;
     border: 2px solid $green;
+    cursor: pointer;
   }
 
   .professor-name {

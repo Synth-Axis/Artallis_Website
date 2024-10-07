@@ -9,7 +9,12 @@ const professors = [
     name: "André Marçal",
     foto: fotoprof1,
     position: "Professor de Piano",
-    description: "Sample description for André",
+    description: [
+      "Nascido e criado na bela vila Alentejana de Aljustrel, o nosso André traduz de forma exemplar os seus costumes e mantém um sotaque que lhe é tão característico.",
+      "Iniciou os seus estudos musicais na S.M.I.R.A aos 8 anos, ingressando posteriormente no Conservatório Regional do Baixo Alentejo. Atualmente é Professor de piano mestre em performance e em Ensino da Música, na vertente de Trompete.",
+      "Para além da sua manifesta paixão pelo seu instrumento, especializou-se em várias áreas de estudo, desde o Fundraising à Arte Terapia, e da Inteligência Emocional à Inovação, Administração e Supervisão pedagógica.",
+      "No foro pessoal, o André é fanático pelo mundo Nintendo e não vive sem a sua mascote, o Super Mário. Fora o Trompete e a Música, o desenho, a natureza e a cozinha são os seus hobbies favoritos. Enérgico e brincalhão, orgulha-se de pertencer a esta grande família Artallis! Com o seu traço de comediante e a boa disposição, distribui sorrisos e boas gargalhadas por todo o lado",
+    ],
   },
   {
     id: 2,
