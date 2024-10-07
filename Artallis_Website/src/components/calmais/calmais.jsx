@@ -28,10 +28,10 @@ const Calmais = () => {
 
   return (
     <div className="calmais-container">
-      <Header logocolor="black"></Header>
-      <div>
+      <Header color="black"></Header>
+      <div className="title-container">
         <p className="pp-title">JUNTA-TE A</p>
-        <h3 className="pp-subtitle">MAIS PROJETOS</h3>
+        <h1 className="pp-subtitle">MAIS PROJETOS</h1>
       </div>
       {projetos.slice(0, visibleProjects).map((projeto) => (
         <div

@@ -30,4 +30,31 @@ ol {
 a {
   all: unset;
   cursor: pointer;
+}
+
+.estruturaorg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+.estruturaorg-container .title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 8rem;
+}
+.estruturaorg-container .title-container .pp-subtitle {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.5rem;
+  color: #198ece;
+}
+.estruturaorg-container .orgcircle {
+  width: 70%;
+  transition: transform 0.2s ease-in-out;
 }/*# sourceMappingURL=estruturaorg.css.map */

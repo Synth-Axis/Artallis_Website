@@ -10,14 +10,15 @@
   background-size: 35%;
 
   .title-container {
-    .pp-title {
-      @include h5;
-      font-weight: 300;
-      margin-top: 8rem;
-    }
+    @include give-flex-column(center, center);
+    gap: 16px;
     .pp-subtitle {
       @include h1;
       color: $blue;
+    }
+    .pp-title {
+      @include text-primary;
+      margin-top: 8rem;
     }
   }
 

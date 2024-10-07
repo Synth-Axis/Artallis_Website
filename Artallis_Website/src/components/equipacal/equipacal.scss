@@ -2,19 +2,19 @@
 
 .equipacal-container {
   @include give-flex-column(center, center);
-  width: 100%;
-  gap: 64px;
+  gap: 4rem;
 
   .title-container {
+    @include give-flex-column(center, center);
     gap: 16px;
-    .pp-subtitle {
-      @include h3;
-      color: $blue;
-    }
+
     .pp-title {
       @include text-primary;
-      color: $blue;
       margin-top: 8rem;
+    }
+    .pp-subtitle {
+      @include h1;
+      color: $blue;
     }
   }
 

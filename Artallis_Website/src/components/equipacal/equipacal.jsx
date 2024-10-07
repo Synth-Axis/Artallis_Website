@@ -19,14 +19,11 @@ const Equipacal = () => {
 
   return (
     <div className="equipacal-container">
-      <Header logocolor="black"></Header>
+      <Header color="black"></Header>
       <div className="title-container">
         <p className="pp-title">EQUIPA CAL</p>
-        <h3 className="pp-subtitle">
-          Conheça os Nossos Professores/Voluntários
-        </h3>
+        <h1 className="pp-subtitle">CONHEÇA OS NOSSSOS PROFESSORES</h1>
       </div>
-
       <div className="professores-container">
         <Professorframe
           framecolor="frame-green"

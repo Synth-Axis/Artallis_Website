@@ -6,7 +6,7 @@ import "./comunidadecal.css";
 const Comunidadecal = () => {
   return (
     <div className="comunidade-container">
-      <Header logocolor="black"></Header>
+      <Header color="black"></Header>
       <div className="title-container">
         <p className="pp-title">VIVENCIA</p>
         <h1 className="pp-subtitle">COMUNIDADE CAL</h1>

@@ -81,10 +81,10 @@ const Aprende = () => {
 
   return (
     <div className="aprende-container">
-      <Header />
+      <Header color="black"></Header>
       <div className="title-container">
-        <h5 className="pp-title">APRENDE</h5>
-        <h1 className="pp-subtitle">AULAS MAIS POPULARES</h1>
+        <p className="pp-title">APRENDE</p>
+        <h1 className="pp-subtitle">AULAS MAIS PROPULARES</h1>
       </div>
       <div className="content-container">
         <div className="content">

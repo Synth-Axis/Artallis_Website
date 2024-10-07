@@ -12,7 +12,7 @@ const Agenda = () => {
         <h1 className="pp-subtitle">AGENDA</h1>
       </div>
       <Calendardays></Calendardays>
-      <Footer></Footer>
+      <Footer></Footer>npm
     </div>
   );
 };

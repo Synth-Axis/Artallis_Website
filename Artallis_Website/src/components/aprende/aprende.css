@@ -40,15 +40,11 @@ a {
   gap: 4rem;
 }
 .aprende-container .title-container {
-  width: 45%;
-}
-.aprende-container .title-container .pp-title {
-  font-family: "Barlow", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.25rem;
-  font-weight: 300;
-  margin-top: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
 .aprende-container .title-container .pp-subtitle {
   font-family: "Barlow", sans-serif;
@@ -56,6 +52,13 @@ a {
   font-style: normal;
   font-size: 2.5rem;
   color: #198ece;
+}
+.aprende-container .title-container .pp-title {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  margin-top: 8rem;
 }
 .aprende-container .content-container {
   display: flex;

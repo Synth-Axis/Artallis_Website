@@ -1,1 +1,22 @@
 @import "../../sass_styles/main";
+
+.estruturaorg-container {
+  @include give-flex-column(center, center);
+  gap: 4rem;
+
+  .title-container {
+    @include give-flex-column(center, center);
+    gap: 16px;
+    margin-top: 8rem;
+
+    .pp-subtitle {
+      @include h1;
+      color: $blue;
+    }
+  }
+
+  .orgcircle {
+    width: 70%;
+    transition: transform 0.2s ease-in-out;
+  }
+}
