@@ -24,25 +24,11 @@
   font-style: normal;
 }
 
-// @font-face {
-//   font-family: "Monserrat-Semibold";
-//   src: url(../assets/fonts/Montserrat-SemiBold.ttf) format("truetype");
-// }
-// $font-monserrat-semibold: "Monserrat-Semibold";
-
-// @font-face {
-//   font-family: "Latop-Heavy";
-//   src: url(../assets/fonts/Lato-Heavy.ttf) format("truetype");
-// }
-// $font-lato-heavy: "Latop-Heavy";
-
 @mixin hero_xl {
-  // font-family: $font-lato-heavy;
   font-size: 4rem;
 }
 
 @mixin hero {
-  // font-family: $font-lato-heavy;
   font-size: 3rem;
 }
 
