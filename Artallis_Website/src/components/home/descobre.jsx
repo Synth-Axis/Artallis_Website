@@ -1,4 +1,5 @@
 import "./descobre.css";
+import image1 from "../../assets/media/links/converted_webp/440824938_18288737692160456_7272667673525328288_n.webp";
 import Button from "../button";
 
 const Descobre = () => {
@@ -34,11 +35,7 @@ const Descobre = () => {
           <Button class="h5" type="button" text="DESCOBRE MAIS"></Button>
         </div>
         <div className="descobre-foto">
-          <img
-            className="descobre-img"
-            src="../src/assets/media/links/converted_webp/440824938_18288737692160456_7272667673525328288_n.webp"
-            alt="foto alunos"
-          />
+          <img className="descobre-img" src={image1} alt="foto alunos" />
         </div>
       </div>
     </div>
