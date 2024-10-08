@@ -50,4 +50,13 @@ div {
   font-weight: 400;
   font-style: normal;
   font-size: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .counter {
+    font-size: 95%;
+  }
+  .counter div {
+    font-size: 80%;
+  }
 }/*# sourceMappingURL=counter.css.map */

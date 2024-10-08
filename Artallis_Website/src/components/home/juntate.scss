@@ -5,17 +5,32 @@
   gap: 64px;
 
   .title-container {
-    gap: 16px;
     h6 {
       @include h6;
     }
     h2 {
       @include h2;
-      text-align: left;
+      text-align: center;
       margin-top: 16px;
     }
   }
   .juntate {
     @include give-flex-row(center, center);
   }
+}
+
+@media (max-width: 992px) {
+  .juntate-container {
+    .juntate {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+      align-items: center;
+      gap: 2rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
 }

@@ -10,3 +10,12 @@
 div {
   @include h5;
 }
+
+@media (max-width: 768px) {
+  .counter {
+    font-size: calc(100% * 0.95);
+    div {
+      font-size: calc(100% * 0.8);
+    }
+  }
+}

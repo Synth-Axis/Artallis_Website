@@ -35,6 +35,7 @@ const Descobre = () => {
         </div>
         <div className="descobre-foto">
           <img
+            className="descobre-img"
             src="../src/assets/media/links/converted_webp/440824938_18288737692160456_7272667673525328288_n.webp"
             alt="foto alunos"
           />

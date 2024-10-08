@@ -3,8 +3,10 @@ import "./ligate.css";
 const Ligate = (props) => {
   return (
     <div id={props.id} className="aprendeligate">
-      <h6>{props.title}</h6>
-      <h2>{props.subtitle}</h2>
+      <div>
+        <h6>{props.title}</h6>
+        <h2>{props.subtitle}</h2>
+      </div>
       <div className="scroll-container">
         <img src={props.imgsrc} alt={props.imgalt} />
         <div className="scrolling-text">

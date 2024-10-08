@@ -8,13 +8,14 @@
   background-size: 33%;
 
   .descobre-container {
-    width: 100%;
-    padding: 0 4rem;
+    padding: 4rem 4rem;
     @include give-flex-row(flex-start, center);
-    gap: 16px;
+    gap: 1rem;
+
     .descricao {
       @include give-flex-column(flex-start, center);
       flex: 1;
+
       h6 {
         @include h6;
       }
@@ -32,16 +33,20 @@
         width: 100%;
         margin: 2rem 0;
         gap: 32px;
+
         div {
           flex: 1;
+
           ul {
             @include text-primary;
-            line-height: 40px;
+            line-height: 2rem;
             list-style-type: disc;
             padding-left: 20px;
+
             li::marker {
               color: $blue;
             }
+
             li {
               color: $black-primary;
               text-align: left;
@@ -50,12 +55,50 @@
         }
       }
     }
+
     .descobre-foto {
       flex: 1;
-      padding-right: 128px;
-      img {
+      padding-right: 2rem;
+      .descobre-img {
         border-radius: 16px;
       }
     }
+  }
+}
+
+@media (max-width: 992px) {
+  .descobre {
+    background-size: 65%;
+  }
+
+  .descobre-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+
+    .descricao {
+      padding-top: 16px;
+
+      .descricao-lista {
+        div {
+          ul {
+            line-height: 2rem !important;
+            li {
+              margin-bottom: 0.75rem;
+            }
+          }
+        }
+      }
+    }
+
+    .descobre-foto {
+      order: -1;
+      padding-right: 0;
+      padding-bottom: 16px;
+      width: 50%;
+    }
+  }
+  input {
+    align-self: center;
   }
 }

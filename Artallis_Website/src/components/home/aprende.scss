@@ -1,6 +1,7 @@
 @import "../../sass_styles/main";
 
 .aprende {
+  @include give-flex-column(center, center);
   width: 100%;
   h6 {
     @include h6;

@@ -14,14 +14,10 @@ import React from "react";
 
 const Home = () => {
   return (
-    <div className="home-container">
-      <section>
-        <Hero logocolor="white"></Hero>
-      </section>
-      <section>
+    <>
+      <Hero logocolor="white"></Hero>
+      <div className="home-container">
         <Descobre></Descobre>
-      </section>
-      <section>
         <Aprende
           id="aprende"
           title="APRENDE"
@@ -29,11 +25,7 @@ const Home = () => {
           imgsrc={aprende_img}
           imgalt="aprende foto"
         ></Aprende>
-      </section>
-      <section>
         <Counterbanner></Counterbanner>
-      </section>
-      <section>
         <Ligate
           id="ligate"
           title="LIGA-TE"
@@ -41,16 +33,12 @@ const Home = () => {
           imgsrc={ligate_img}
           imgalt="ligate foto"
         ></Ligate>
-      </section>
-      <Button type="button" text="Descobre Mais"></Button>
-      <section>
+        <Button type="button" text="Descobre Mais"></Button>
         <Juntate></Juntate>
-      </section>
-      <Button type="button" text="VER TODOS"></Button>
-      <section>
-        <Footer></Footer>
-      </section>
-    </div>
+        <Button type="button" text="VER TODOS"></Button>
+      </div>
+      <Footer></Footer>
+    </>
   );
 };
 

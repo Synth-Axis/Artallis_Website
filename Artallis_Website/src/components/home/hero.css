@@ -41,6 +41,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+  margin-bottom: 4rem;
 }
 .hero-banner .hero-center-text {
   display: flex;

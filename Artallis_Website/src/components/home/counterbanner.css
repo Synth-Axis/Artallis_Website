@@ -37,6 +37,8 @@ a {
   align-items: flex-start;
   justify-content: space-between;
   padding: 32px;
+  margin-left: -4rem;
+  width: 100%;
   background: -ms-linear-gradient(0deg, rgb(226, 6, 19) 0%, rgb(215, 102, 162) 100%);
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#E20613', endColorstr='#D766A2' ,GradientType=0)";
   background: linear-gradient(90deg, rgb(226, 6, 19) 0%, rgb(215, 102, 162) 100%);

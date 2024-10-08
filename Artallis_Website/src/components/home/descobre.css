@@ -40,12 +40,11 @@ a {
   background-size: 33%;
 }
 .descobre .descobre-container {
-  width: 100%;
-  padding: 0 4rem;
+  padding: 4rem 4rem;
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  gap: 16px;
+  gap: 1rem;
 }
 .descobre .descobre-container .descricao {
   display: flex;
@@ -91,7 +90,7 @@ a {
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
-  line-height: 40px;
+  line-height: 2rem;
   list-style-type: disc;
   padding-left: 20px;
 }
@@ -104,8 +103,37 @@ a {
 }
 .descobre .descobre-container .descobre-foto {
   flex: 1;
-  padding-right: 128px;
+  padding-right: 2rem;
 }
-.descobre .descobre-container .descobre-foto img {
+.descobre .descobre-container .descobre-foto .descobre-img {
   border-radius: 16px;
+}
+
+@media (max-width: 992px) {
+  .descobre {
+    background-size: 65%;
+  }
+  .descobre-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+  }
+  .descobre-container .descricao {
+    padding-top: 16px;
+  }
+  .descobre-container .descricao .descricao-lista div ul {
+    line-height: 2rem !important;
+  }
+  .descobre-container .descricao .descricao-lista div ul li {
+    margin-bottom: 0.75rem;
+  }
+  .descobre-container .descobre-foto {
+    order: -1;
+    padding-right: 0;
+    padding-bottom: 16px;
+    width: 50%;
+  }
+  input {
+    align-self: center;
+  }
 }/*# sourceMappingURL=descobre.css.map */

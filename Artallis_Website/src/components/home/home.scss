@@ -2,7 +2,8 @@
 
 .home-container {
   @include give-flex-column(center, center);
-  gap: 64px;
+  gap: 4rem;
+  padding: 0 4rem;
   section {
     width: 100%;
   }

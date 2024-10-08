@@ -39,9 +39,6 @@ a {
   justify-content: center;
   gap: 64px;
 }
-.juntate-container .title-container {
-  gap: 16px;
-}
 .juntate-container .title-container h6 {
   font-family: "Barlow", sans-serif;
   font-weight: 400;
@@ -53,11 +50,22 @@ a {
   font-weight: 700;
   font-style: normal;
   font-size: 2rem;
-  text-align: left;
+  text-align: center;
   margin-top: 16px;
 }
 .juntate-container .juntate {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .juntate-container .juntate {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 2rem;
+  }
 }/*# sourceMappingURL=juntate.css.map */
