@@ -3,6 +3,7 @@
 .calmais-container {
   @include give-flex-column(center, center);
   gap: 4rem;
+  padding: 0 4rem;
 
   .title-container {
     @include give-flex-column(center, center);
@@ -19,11 +20,11 @@
 
   .projeto-container {
     border-radius: 48px;
-    margin: 0 64px;
+    margin: 0 4rem;
     .projecto {
       @include give-flex-column(center, center);
       gap: 32px;
-      padding: 64px 256px;
+      padding: 4rem 8rem;
       color: $white;
 
       h2 {

@@ -2,18 +2,19 @@
 
 .historia-container {
   @include give-flex-column(center, center);
+  gap: 4rem;
+  padding: 0 4rem;
   .pp-subtitle {
     @include h3;
     color: $blue;
-    margin-bottom: 64px;
-    margin-top: 12rem;
+
+    margin-top: 8rem;
     width: 50%;
   }
   .conteudo-grid {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1.2fr;
     gap: 32px;
-    padding: 64px;
 
     .historia-conteudo {
       grid-column: 2 / 3;
@@ -62,7 +63,7 @@
     }
   }
   .historia-info {
-    width: 50%;
+    width: 100%;
     h4 {
       color: $blue;
       @include h3;
@@ -70,7 +71,6 @@
     h3 {
       color: $blue;
       @include h2;
-      margin-bottom: 64px;
     }
   }
 }

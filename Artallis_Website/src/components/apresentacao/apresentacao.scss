@@ -3,9 +3,10 @@
 .apresentacao-container {
   @include give-flex-column(center, center);
   gap: 4rem;
+  padding: 0 4rem;
 
   .title-container {
-    width: 45%;
+    width: 60%;
     .pp-title {
       @include h1;
       color: $blue;
@@ -27,5 +28,5 @@
 .sections {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
+  gap: 2rem;
 }

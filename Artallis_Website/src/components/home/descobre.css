@@ -40,7 +40,7 @@ a {
   background-size: 33%;
 }
 .descobre .descobre-container {
-  padding: 4rem 4rem;
+  padding: 4rem 4rem 4rem 0rem;
   display: flex;
   align-items: flex-start;
   justify-content: center;

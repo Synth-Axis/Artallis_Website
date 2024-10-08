@@ -8,7 +8,7 @@
   background-size: 33%;
 
   .descobre-container {
-    padding: 4rem 4rem;
+    padding: 4rem 4rem 4rem 0rem;
     @include give-flex-row(flex-start, center);
     gap: 1rem;
 

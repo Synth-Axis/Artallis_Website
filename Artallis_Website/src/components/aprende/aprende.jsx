@@ -80,55 +80,57 @@ const Aprende = () => {
   };
 
   return (
-    <div className="aprende-container">
-      <Header color="black"></Header>
-      <div className="title-container">
-        <p className="pp-title">APRENDE</p>
-        <h1 className="pp-subtitle">AULAS MAIS PROPULARES</h1>
-      </div>
-      <div className="content-container">
-        <div className="content">
-          {sections.map((section) => (
-            <div
-              key={section.id}
-              className={`content-section ${
-                isActive === section.id ? "selected" : ""
-              }`}
-              onClick={() => handleClickSelection(section.id)}
-            >
-              <ContentSection
-                title={section.title}
-                description={section.description}
-              />
-            </div>
-          ))}
+    <>
+      <div className="aprende-container">
+        <Header color="black"></Header>
+        <div className="title-container">
+          <p className="pp-title">APRENDE</p>
+          <h1 className="pp-subtitle">AULAS MAIS PROPULARES</h1>
         </div>
-        <ImageDisplay currentImage={isActive - 1}></ImageDisplay>
-      </div>
-      {isActive && (
-        <div className="extra-info">
-          {sections[isActive - 1].extrainfo && (
-            <p>{sections[isActive - 1].extrainfo}</p>
-          )}
-          <div>
-            {sections[isActive - 1].list_title && (
-              <p>{sections[isActive - 1].list_title}</p>
-            )}
-            {sections[isActive - 1].list && (
-              <ul>
-                {sections[isActive - 1].list.map((elem, index) => (
-                  <li className="ciclos-estudo" key={index}>
-                    {elem}
-                  </li>
-                ))}
-              </ul>
-            )}
+        <div className="content-container">
+          <div className="content">
+            {sections.map((section) => (
+              <div
+                key={section.id}
+                className={`content-section ${
+                  isActive === section.id ? "selected" : ""
+                }`}
+                onClick={() => handleClickSelection(section.id)}
+              >
+                <ContentSection
+                  title={section.title}
+                  description={section.description}
+                />
+              </div>
+            ))}
           </div>
+          <ImageDisplay currentImage={isActive - 1}></ImageDisplay>
         </div>
-      )}
-      <ImageSlider></ImageSlider>
+        {isActive && (
+          <div className="extra-info">
+            {sections[isActive - 1].extrainfo && (
+              <p>{sections[isActive - 1].extrainfo}</p>
+            )}
+            <div>
+              {sections[isActive - 1].list_title && (
+                <p>{sections[isActive - 1].list_title}</p>
+              )}
+              {sections[isActive - 1].list && (
+                <ul>
+                  {sections[isActive - 1].list.map((elem, index) => (
+                    <li className="ciclos-estudo" key={index}>
+                      {elem}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          </div>
+        )}
+        <ImageSlider></ImageSlider>
+      </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

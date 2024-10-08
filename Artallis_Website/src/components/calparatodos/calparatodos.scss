@@ -3,10 +3,11 @@
 .calparatodos-container {
   @include give-flex-column(center, center);
   gap: 4rem;
+  padding: 0 4rem;
   background-image: url("../src/assets/media/svg/colorballs.svg");
   background-origin: border-box;
   background-repeat: no-repeat;
-  background-position: 100% 20%;
+  background-position: 90% 20%;
   background-size: 35%;
 
   .title-container {

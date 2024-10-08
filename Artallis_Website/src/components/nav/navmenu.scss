@@ -30,3 +30,17 @@
     }
   }
 }
+
+.navmenu-mobile {
+  @include give-flex-column(flex-end, center);
+  background-color: $black-primary;
+  gap: 1rem;
+  opacity: 0.9;
+  color: $white;
+  padding: 2rem;
+  .submenu-wrapper-mobile {
+    @include give-flex-column(flex-end, flex-start);
+    position: relative;
+    font-weight: 700;
+  }
+}

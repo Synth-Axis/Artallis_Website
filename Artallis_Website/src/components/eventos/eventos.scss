@@ -3,6 +3,7 @@
 .eventos-container {
   @include give-flex-column(center, center);
   gap: 4rem;
+  padding: 0 4rem;
 
   .title-container {
     @include give-flex-column(center, center);

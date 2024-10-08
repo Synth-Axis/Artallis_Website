@@ -66,4 +66,24 @@ a {
   font-weight: 600;
   font-style: normal;
   font-size: 0.75rem;
+}
+
+.navmenu-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: #1d1d1b;
+  gap: 1rem;
+  opacity: 0.9;
+  color: #ffffff;
+  padding: 2rem;
+}
+.navmenu-mobile .submenu-wrapper-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: relative;
+  font-weight: 700;
 }/*# sourceMappingURL=navmenu.css.map */

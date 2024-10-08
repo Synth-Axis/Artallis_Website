@@ -38,6 +38,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 4rem;
+  padding: 0 4rem;
 }
 .agenda-container .title-container {
   display: flex;

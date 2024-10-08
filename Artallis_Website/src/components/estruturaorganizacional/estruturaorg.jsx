@@ -20,25 +20,24 @@ const Estruturaorg = () => {
   };
 
   return (
-    <div className="estruturaorg-container">
-      <Header color="black" />
-
-      <div className="title-container">
-        <h1 className="pp-subtitle">ESTRUTURA ORGANIZACIONAL</h1>
+    <>
+      <div className="estruturaorg-container">
+        <Header color="black"></Header>
+        <div className="title-container">
+          <h1 className="pp-subtitle">ESTRUTURA ORGANIZACIONAL</h1>
+        </div>
+        <img
+          className="orgcircle"
+          src={image1}
+          alt="Estrutura Organizacional"
+          style={{ transform: `rotate(${rotation}deg)` }}
+          onWheel={handleWheel}
+          onMouseEnter={disableScroll}
+          onMouseLeave={enableScroll}
+        />
       </div>
-
-      <img
-        className="orgcircle"
-        src={image1}
-        alt="Estrutura Organizacional"
-        style={{ transform: `rotate(${rotation}deg)` }}
-        onWheel={handleWheel}
-        onMouseEnter={disableScroll}
-        onMouseLeave={enableScroll}
-      />
-
       <Footer />
-    </div>
+    </>
   );
 };
 

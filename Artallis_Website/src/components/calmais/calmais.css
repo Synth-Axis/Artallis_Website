@@ -38,6 +38,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 4rem;
+  padding: 0 4rem;
 }
 .calmais-container .title-container {
   display: flex;
@@ -62,7 +63,7 @@ a {
 }
 .calmais-container .projeto-container {
   border-radius: 48px;
-  margin: 0 64px;
+  margin: 0 4rem;
 }
 .calmais-container .projeto-container .projecto {
   display: flex;
@@ -70,7 +71,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 32px;
-  padding: 64px 256px;
+  padding: 4rem 8rem;
   color: #ffffff;
 }
 .calmais-container .projeto-container .projecto h2 {

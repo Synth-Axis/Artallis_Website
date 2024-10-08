@@ -18,105 +18,13 @@ const Equipacal = () => {
   };
 
   return (
-    <div className="equipacal-container">
-      <Header color="black"></Header>
-      <div className="title-container">
-        <p className="pp-title">EQUIPA CAL</p>
-        <h1 className="pp-subtitle">CONHEÇA OS NOSSSOS PROFESSORES</h1>
-      </div>
-      <div className="professores-container">
-        <Professorframe
-          framecolor="frame-green"
-          photo={fotoprof1}
-          name="Lorem Ipsum Dolor"
-          position="Professor de piano"
-        ></Professorframe>
-        <Professorframe
-          framecolor="frame-magenta"
-          photo={fotoprof2}
-          name="Lorem Ipsum Dolor"
-          position="Professor de piano"
-        ></Professorframe>
-        <Professorframe
-          framecolor="frame-blue"
-          photo={fotoprof3}
-          name="Lorem Ipsum Dolor"
-          position="Professor de piano"
-        ></Professorframe>
-        <Professorframe
-          framecolor="frame-yellow"
-          photo={fotoprof4}
-          name="Lorem Ipsum Dolor"
-          position="Professor de piano"
-        ></Professorframe>
-      </div>
-      <div className="professores-container">
-        <Professorframe
-          framecolor="frame-green"
-          photo={fotoprof1}
-          name="Lorem Ipsum Dolor"
-          position="Professor de piano"
-        ></Professorframe>
-        <Professorframe
-          framecolor="frame-magenta"
-          photo={fotoprof2}
-          name="Lorem Ipsum Dolor"
-          position="Professor de piano"
-        ></Professorframe>
-        <Professorframe
-          framecolor="frame-blue"
-          photo={fotoprof3}
-          name="Lorem Ipsum Dolor"
-          position="Professor de piano"
-        ></Professorframe>
-      </div>
-      <div className="professores-container">
-        <Professorframe
-          framecolor="frame-green"
-          photo={fotoprof1}
-          name="Lorem Ipsum Dolor"
-          position="Professor de piano"
-        ></Professorframe>
-        <Professorframe
-          framecolor="frame-magenta"
-          photo={fotoprof2}
-          name="Lorem Ipsum Dolor"
-          position="Professor de piano"
-        ></Professorframe>
-        <Professorframe
-          framecolor="frame-blue"
-          photo={fotoprof3}
-          name="Lorem Ipsum Dolor"
-          position="Professor de piano"
-        ></Professorframe>
-        <Professorframe
-          framecolor="frame-yellow"
-          photo={fotoprof4}
-          name="Lorem Ipsum Dolor"
-          position="Professor de piano"
-        ></Professorframe>
-      </div>
-      <div className="professores-container">
-        <Professorframe
-          framecolor="frame-green"
-          photo={fotoprof1}
-          name="Lorem Ipsum Dolor"
-          position="Professor de piano"
-        ></Professorframe>
-        <Professorframe
-          framecolor="frame-magenta"
-          photo={fotoprof2}
-          name="Lorem Ipsum Dolor"
-          position="Professor de piano"
-        ></Professorframe>
-        <Professorframe
-          framecolor="frame-blue"
-          photo={fotoprof3}
-          name="Lorem Ipsum Dolor"
-          position="Professor de piano"
-        ></Professorframe>
-      </div>
-      <div className={`circles-wrapper-3 ${isHidden ? "hidden" : ""}`}>
+    <>
+      <div className="equipacal-container">
+        <Header color="black"></Header>
+        <div className="title-container">
+          <p className="pp-title">EQUIPA CAL</p>
+          <h1 className="pp-subtitle">CONHEÇA OS NOSSSOS PROFESSORES</h1>
+        </div>
         <div className="professores-container">
           <Professorframe
             framecolor="frame-green"
@@ -163,10 +71,104 @@ const Equipacal = () => {
             position="Professor de piano"
           ></Professorframe>
         </div>
+        <div className="professores-container">
+          <Professorframe
+            framecolor="frame-green"
+            photo={fotoprof1}
+            name="Lorem Ipsum Dolor"
+            position="Professor de piano"
+          ></Professorframe>
+          <Professorframe
+            framecolor="frame-magenta"
+            photo={fotoprof2}
+            name="Lorem Ipsum Dolor"
+            position="Professor de piano"
+          ></Professorframe>
+          <Professorframe
+            framecolor="frame-blue"
+            photo={fotoprof3}
+            name="Lorem Ipsum Dolor"
+            position="Professor de piano"
+          ></Professorframe>
+          <Professorframe
+            framecolor="frame-yellow"
+            photo={fotoprof4}
+            name="Lorem Ipsum Dolor"
+            position="Professor de piano"
+          ></Professorframe>
+        </div>
+        <div className="professores-container">
+          <Professorframe
+            framecolor="frame-green"
+            photo={fotoprof1}
+            name="Lorem Ipsum Dolor"
+            position="Professor de piano"
+          ></Professorframe>
+          <Professorframe
+            framecolor="frame-magenta"
+            photo={fotoprof2}
+            name="Lorem Ipsum Dolor"
+            position="Professor de piano"
+          ></Professorframe>
+          <Professorframe
+            framecolor="frame-blue"
+            photo={fotoprof3}
+            name="Lorem Ipsum Dolor"
+            position="Professor de piano"
+          ></Professorframe>
+        </div>
+        <div className={`circles-wrapper-3 ${isHidden ? "hidden" : ""}`}>
+          <div className="professores-container">
+            <Professorframe
+              framecolor="frame-green"
+              photo={fotoprof1}
+              name="Lorem Ipsum Dolor"
+              position="Professor de piano"
+            ></Professorframe>
+            <Professorframe
+              framecolor="frame-magenta"
+              photo={fotoprof2}
+              name="Lorem Ipsum Dolor"
+              position="Professor de piano"
+            ></Professorframe>
+            <Professorframe
+              framecolor="frame-blue"
+              photo={fotoprof3}
+              name="Lorem Ipsum Dolor"
+              position="Professor de piano"
+            ></Professorframe>
+            <Professorframe
+              framecolor="frame-yellow"
+              photo={fotoprof4}
+              name="Lorem Ipsum Dolor"
+              position="Professor de piano"
+            ></Professorframe>
+          </div>
+          <div className="professores-container">
+            <Professorframe
+              framecolor="frame-green"
+              photo={fotoprof1}
+              name="Lorem Ipsum Dolor"
+              position="Professor de piano"
+            ></Professorframe>
+            <Professorframe
+              framecolor="frame-magenta"
+              photo={fotoprof2}
+              name="Lorem Ipsum Dolor"
+              position="Professor de piano"
+            ></Professorframe>
+            <Professorframe
+              framecolor="frame-blue"
+              photo={fotoprof3}
+              name="Lorem Ipsum Dolor"
+              position="Professor de piano"
+            ></Professorframe>
+          </div>
+        </div>
+        <Button type="button" text="VER MAIS" onClick={handleToggle}></Button>
       </div>
-      <Button type="button" text="VER MAIS" onClick={handleToggle}></Button>
       <Footer></Footer>
-    </div>
+    </>
   );
 };
 

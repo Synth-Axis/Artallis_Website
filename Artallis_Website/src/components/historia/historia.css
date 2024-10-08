@@ -37,6 +37,8 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 4rem;
+  padding: 0 4rem;
 }
 .historia-container .pp-subtitle {
   font-family: "Barlow", sans-serif;
@@ -45,15 +47,13 @@ a {
   font-size: 1.75rem;
   line-height: 2rem;
   color: #198ece;
-  margin-bottom: 64px;
-  margin-top: 12rem;
+  margin-top: 8rem;
   width: 50%;
 }
 .historia-container .conteudo-grid {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1.2fr;
   gap: 32px;
-  padding: 64px;
 }
 .historia-container .conteudo-grid .historia-conteudo {
   grid-column: 2/3;
@@ -109,7 +109,7 @@ a {
   font-size: 1rem;
 }
 .historia-container .historia-info {
-  width: 50%;
+  width: 100%;
 }
 .historia-container .historia-info h4 {
   color: #198ece;
@@ -125,5 +125,4 @@ a {
   font-weight: 700;
   font-style: normal;
   font-size: 2rem;
-  margin-bottom: 64px;
 }/*# sourceMappingURL=historia.css.map */
