@@ -2,108 +2,120 @@ import "./navmenu.css";
 import Subdescobre from "./subdescobre";
 import Subvivencia from "./subvivencia";
 import Subligate from "./subligate";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
 
-const NavMenu = (props) => {
+const NavMenu = ({ color }) => {
   const [menuMobile, setMenuMobile] = useState(false);
+  const location = useLocation();
 
   const toggleMode = () => {
     setMenuMobile(!menuMobile);
   };
 
+  const isHomePage = location.pathname === "/";
+
   return (
-    <div>
-      {!menuMobile && (
-        <ul className="navmenu">
-          <li>
-            <div className="submenu-wrapper">
-              <a className={`menu${props.color}`} href="#descobre">
-                Descobre
-              </a>
-              <div className={`submenu menu${props.color}`}>
-                <Subdescobre></Subdescobre>
-              </div>
+    <div className="menu-inner-wrapper">
+      <ul className="navmenu">
+        <li>
+          <div className="submenu-wrapper">
+            <a className={`menu${color}`} href="#descobre">
+              Descobre
+            </a>
+            <div className={`submenu menu${color}`}>
+              <Subdescobre></Subdescobre>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li>
-            <div className="submenu-wrapper">
-              <Link to="/aprende">
-                <span className={`menu${props.color}`}>Aprende</span>
-              </Link>
+        <li>
+          <div className="submenu-wrapper">
+            <Link to="/aprende">
+              <span className={`menu${color}`}>Aprende</span>
+            </Link>
+          </div>
+        </li>
+        <li>
+          <div className="submenu-wrapper">
+            <a className={`menu${color}`}>Vivencia</a>
+            <div className={`submenu menu${color}`}>
+              <Subvivencia></Subvivencia>
             </div>
-          </li>
-          <li>
-            <div className="submenu-wrapper">
-              <a className={`menu${props.color}`}>Vivencia</a>
-              <div className={`submenu menu${props.color}`}>
-                <Subvivencia></Subvivencia>
-              </div>
+          </div>
+        </li>
+        <li>
+          <div className="submenu-wrapper">
+            <Link to="/juntate">
+              <span className={`menu${color}`}>Junta-te</span>
+            </Link>
+          </div>
+        </li>
+        <li>
+          <div className="submenu-wrapper">
+            <a className={`menu${color}`}>Liga-te</a>
+            <div className={`submenu menu${color}`}>
+              <Subligate></Subligate>
             </div>
-          </li>
-          <li>
-            <div className="submenu-wrapper">
-              <Link to="/juntate">
-                <span className={`menu${props.color}`}>Junta-te</span>
-              </Link>
-            </div>
-          </li>
-          <li>
-            <div className="submenu-wrapper">
-              <a className={`menu${props.color}`}>Liga-te</a>
-              <div className={`submenu menu${props.color}`}>
-                <Subligate></Subligate>
-              </div>
-            </div>
-          </li>
-        </ul>
-      )}
-      {menuMobile && (
-        <ul className="navmenu-mobile">
-          <li>
-            <div className="submenu-wrapper-mobile">
-              <a className={`menu${props.color}`} href="#descobre">
-                Descobre
-              </a>
-              <div className={`submenu-mobile menu${props.color}`}>
-                <Subdescobre></Subdescobre>
-              </div>
-            </div>
-          </li>
+          </div>
+        </li>
+      </ul>
 
-          <li>
-            <div className="submenu-wrapper-mobile">
-              <Link to="/aprende">
-                <span className={`menu${props.color}`}>Aprende</span>
-              </Link>
-            </div>
-          </li>
-          <li>
-            <div className="submenu-wrapper-mobile">
-              <a className={`menu${props.color}`}>Vivencia</a>
-              <div className={`submenu-mobile menu${props.color}`}>
-                <Subvivencia></Subvivencia>
+      <div className={`mobile-nav-wrapper ${menuMobile ? "active" : ""}`}>
+        <div className="mobile-menu-icon" onClick={toggleMode}>
+          {menuMobile ? (
+            <FaTimes size={40} className={isHomePage ? "" : "black-icon"} />
+          ) : (
+            <FaBars size={40} className={isHomePage ? "" : "black-icon"} />
+          )}
+        </div>
+        {menuMobile && (
+          <ul className="navmenu-mobile">
+            <li>
+              <div className="submenu-wrapper-mobile">
+                <a className={`menu${color}`} href="#descobre">
+                  Descobre
+                </a>
+                <div className={`submenu-mobile menu${color}`}>
+                  <Subdescobre mobile={menuMobile}></Subdescobre>
+                </div>
               </div>
-            </div>
-          </li>
-          <li>
-            <div className="submenu-wrapper-mobile">
-              <Link to="/juntate">
-                <span className={`menu${props.color}`}>Junta-te</span>
-              </Link>
-            </div>
-          </li>
-          <li>
-            <div className="submenu-wrapper-mobile">
-              <a className={`menu${props.color}`}>Liga-te</a>
-              <div className={`submenu-mobile menu${props.color}`}>
-                <Subligate></Subligate>
+            </li>
+
+            <li>
+              <div className="submenu-wrapper-mobile">
+                <Link to="/aprende">
+                  <span className={`menu${color}`}>Aprende</span>
+                </Link>
               </div>
-            </div>
-          </li>
-        </ul>
-      )}
+            </li>
+            <li>
+              <div className="submenu-wrapper-mobile">
+                <a className={`menu${color}`}>Vivencia</a>
+                <div className={`submenu-mobile menu${color}`}>
+                  <Subvivencia mobile={menuMobile}></Subvivencia>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="submenu-wrapper-mobile">
+                <Link to="/juntate">
+                  <span className={`menu${color}`}>Junta-te</span>
+                </Link>
+              </div>
+            </li>
+            <li>
+              <div className="submenu-wrapper-mobile">
+                <a className={`menu${color}`}>Liga-te</a>
+                <div className={`submenu-mobile menu${color}`}>
+                  <Subligate mobile={menuMobile}></Subligate>
+                </div>
+              </div>
+            </li>
+          </ul>
+        )}
+      </div>
     </div>
   );
 };

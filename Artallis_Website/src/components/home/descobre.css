@@ -44,7 +44,7 @@ a {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 .descobre .descobre-container .descricao {
   display: flex;
@@ -103,7 +103,6 @@ a {
 }
 .descobre .descobre-container .descobre-foto {
   flex: 1;
-  padding-right: 2rem;
 }
 .descobre .descobre-container .descobre-foto .descobre-img {
   border-radius: 16px;
@@ -131,7 +130,7 @@ a {
     order: -1;
     padding-right: 0;
     padding-bottom: 16px;
-    width: 50%;
+    width: 100%;
   }
   input {
     align-self: center;

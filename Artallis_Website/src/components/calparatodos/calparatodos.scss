@@ -53,3 +53,22 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .calparatodos-container {
+    .content-container {
+      .image-container {
+        img {
+          height: 310px;
+        }
+      }
+      .text-container {
+        margin-top: 1rem;
+        display: block;
+        .text-content {
+          padding: 0;
+        }
+      }
+    }
+  }
+}

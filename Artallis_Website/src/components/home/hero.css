@@ -54,8 +54,29 @@ a {
 }
 .hero-banner .hero-center-text p {
   font-size: 3rem;
-  margin-top: 48px;
+  margin-top: 3rem;
   width: 60%;
   color: #ffffff;
   text-transform: uppercase;
+}
+
+@media (max-width: 992px) {
+  .hero-banner .hero-center-text p {
+    width: 80%;
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+    font-weight: 300;
+  }
+}
+@media (max-width: 768px) {
+  .hero-banner .hero-center-text p {
+    width: 80%;
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    font-weight: 300;
+  }
 }/*# sourceMappingURL=hero.css.map */

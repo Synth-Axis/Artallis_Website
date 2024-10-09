@@ -89,4 +89,14 @@ a {
   100% {
     transform: translateY(-100%);
   }
+}
+@media (max-width: 768px) {
+  .aprendeligate .scroll-container img {
+    width: 100%;
+  }
+  .aprendeligate .scroll-container .scrolling-text {
+    font-size: 3rem;
+    gap: 6rem;
+    right: 1rem;
+  }
 }/*# sourceMappingURL=ligate.css.map */

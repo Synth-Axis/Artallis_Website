@@ -33,4 +33,9 @@
 }
 
 @media (max-width: 768px) {
+  .juntate-container {
+    .juntate {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
 }

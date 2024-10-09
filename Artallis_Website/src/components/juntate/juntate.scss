@@ -15,7 +15,7 @@
   .content-container {
     @include give-flex-row(flex-start, center);
     width: 100%;
-    height: 28vh;
+
     .content {
       @include give-flex-column(flex-start, center);
       width: 100%;
@@ -47,6 +47,37 @@
     p {
       @include text-primary;
       text-align: justify;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .juntate-container {
+    .content-container {
+      .content {
+        .content-section {
+          h1 {
+            @include hero;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .juntate-container {
+    .content-container {
+      @include give-flex-column(flex-start, center);
+      .content {
+        .content-section {
+          h1 {
+            @include h1;
+            font-weight: 300;
+          }
+        }
+      }
     }
   }
 }

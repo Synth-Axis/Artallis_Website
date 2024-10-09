@@ -1,46 +1,97 @@
 @import "../../sass_styles/main";
 
-.navmenu {
-  color: $black-primary;
-  text-align: left;
-  @include give-flex-row(center, center);
-  gap: 16px;
-  margin-right: 32px;
-  .submenu-wrapper {
-    @include give-flex-column(flex-start, center);
+.menu-inner-wrapper {
+  .navmenu {
+    color: $black-primary;
+    text-align: left;
+    @include give-flex-row(center, center);
+    gap: 1rem;
+
+    .submenu-wrapper {
+      @include give-flex-column(flex-start, center);
+      position: relative;
+
+      .menuwhite {
+        color: $white;
+      }
+
+      .submenu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 185%;
+      }
+      &:hover .submenu {
+        display: block;
+      }
+
+      a {
+        @include text-nav;
+      }
+    }
+  }
+
+  .mobile-nav-wrapper {
+    display: none;
     position: relative;
+    width: 100%;
 
-    .menuwhite {
+    .navmenu-mobile {
+      @include give-flex-column(flex-end, center);
+      background-color: $black-primary;
+      gap: 2rem;
+      opacity: 0.98;
       color: $white;
-    }
-
-    .submenu {
-      display: none;
+      padding: 2rem;
       position: absolute;
-      top: 100%;
-      left: 0;
-      width: 185%;
-    }
-    &:hover .submenu {
-      display: block;
+      top: 3rem;
+      left: -4rem;
+      width: 100%;
+      z-index: 9999;
+      display: none;
+      .submenu-wrapper-mobile {
+        @include give-flex-column(flex-end, flex-start);
+        position: relative;
+        font-weight: 700;
+      }
     }
 
-    a {
-      @include text-nav;
+    &.active .navmenu-mobile {
+      display: flex;
     }
+  }
+
+  .mobile-menu-icon {
+    display: none;
+    cursor: pointer;
   }
 }
 
-.navmenu-mobile {
-  @include give-flex-column(flex-end, center);
-  background-color: $black-primary;
-  gap: 1rem;
-  opacity: 0.9;
-  color: $white;
-  padding: 2rem;
-  .submenu-wrapper-mobile {
-    @include give-flex-column(flex-end, flex-start);
-    position: relative;
-    font-weight: 700;
+@media (max-width: 992px) {
+  .menu-inner-wrapper {
+    width: 100%;
+
+    .navmenu {
+      display: none;
+    }
+
+    .mobile-nav-wrapper {
+      @include give-flex-column(flex-end, center);
+
+      &.active {
+        .navmenu-mobile {
+          display: flex;
+        }
+      }
+    }
+
+    .mobile-menu-icon {
+      display: block;
+      color: $white;
+    }
+    .black-icon {
+      color: black;
+    }
   }
 }

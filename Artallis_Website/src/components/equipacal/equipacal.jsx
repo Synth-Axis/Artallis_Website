@@ -117,7 +117,7 @@ const Equipacal = () => {
             position="Professor de piano"
           ></Professorframe>
         </div>
-        <div className={`circles-wrapper-3 ${isHidden ? "hidden" : ""}`}>
+        <div className={`${isHidden ? "hidden" : ""}`}>
           <div className="professores-container">
             <Professorframe
               framecolor="frame-green"

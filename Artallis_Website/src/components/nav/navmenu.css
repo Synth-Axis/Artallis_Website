@@ -32,58 +32,99 @@ a {
   cursor: pointer;
 }
 
-.navmenu {
+.menu-inner-wrapper .navmenu {
   color: #1d1d1b;
   text-align: left;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
-  margin-right: 32px;
+  gap: 1rem;
 }
-.navmenu .submenu-wrapper {
+.menu-inner-wrapper .navmenu .submenu-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
   position: relative;
 }
-.navmenu .submenu-wrapper .menuwhite {
+.menu-inner-wrapper .navmenu .submenu-wrapper .menuwhite {
   color: #ffffff;
 }
-.navmenu .submenu-wrapper .submenu {
+.menu-inner-wrapper .navmenu .submenu-wrapper .submenu {
   display: none;
   position: absolute;
   top: 100%;
   left: 0;
   width: 185%;
 }
-.navmenu .submenu-wrapper:hover .submenu {
+.menu-inner-wrapper .navmenu .submenu-wrapper:hover .submenu {
   display: block;
 }
-.navmenu .submenu-wrapper a {
+.menu-inner-wrapper .navmenu .submenu-wrapper a {
   font-family: "Barlow", sans-serif;
   font-weight: 600;
   font-style: normal;
   font-size: 0.75rem;
 }
-
-.navmenu-mobile {
+.menu-inner-wrapper .mobile-nav-wrapper {
+  display: none;
+  position: relative;
+  width: 100%;
+}
+.menu-inner-wrapper .mobile-nav-wrapper .navmenu-mobile {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
   background-color: #1d1d1b;
-  gap: 1rem;
-  opacity: 0.9;
+  gap: 2rem;
+  opacity: 0.98;
   color: #ffffff;
   padding: 2rem;
+  position: absolute;
+  top: 3rem;
+  left: -4rem;
+  width: 100%;
+  z-index: 9999;
+  display: none;
 }
-.navmenu-mobile .submenu-wrapper-mobile {
+.menu-inner-wrapper .mobile-nav-wrapper .navmenu-mobile .submenu-wrapper-mobile {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: flex-start;
   position: relative;
   font-weight: 700;
+}
+.menu-inner-wrapper .mobile-nav-wrapper.active .navmenu-mobile {
+  display: flex;
+}
+.menu-inner-wrapper .mobile-menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .menu-inner-wrapper {
+    width: 100%;
+  }
+  .menu-inner-wrapper .navmenu {
+    display: none;
+  }
+  .menu-inner-wrapper .mobile-nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .menu-inner-wrapper .mobile-nav-wrapper.active .navmenu-mobile {
+    display: flex;
+  }
+  .menu-inner-wrapper .mobile-menu-icon {
+    display: block;
+    color: #ffffff;
+  }
+  .menu-inner-wrapper .black-icon {
+    color: black;
+  }
 }/*# sourceMappingURL=navmenu.css.map */

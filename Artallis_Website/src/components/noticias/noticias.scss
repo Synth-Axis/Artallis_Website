@@ -19,7 +19,23 @@
   }
   .noticias-card-wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three equal-width columns */
-    gap: 1.5rem; /* Adjust the gap between cards as needed */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .noticias-container {
+    .noticias-card-wrapper {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .noticias-container {
+    .noticias-card-wrapper {
+      grid-template-columns: repeat(1, 1fr);
+    }
   }
 }

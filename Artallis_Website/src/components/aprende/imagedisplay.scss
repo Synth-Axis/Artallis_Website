@@ -2,14 +2,15 @@
 
 .image-display {
   width: 100%;
-  height: 400px; /* Set a fixed height for testing */
+  height: 400px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 16px;
 }
 
-// .aprende-image {
-//   width: 100%;
-//   object-fit: cover;
-// }
+@media (max-width: 768px) {
+  .image-display {
+    height: 300px;
+  }
+}

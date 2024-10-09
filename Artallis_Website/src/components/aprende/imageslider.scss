@@ -18,7 +18,6 @@
 
   .image {
     width: 100%;
-    width: 100%;
     height: 360px;
     object-fit: cover;
     border-radius: 16px;
@@ -58,5 +57,34 @@
     color: $green;
     font-size: 20px;
     opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .sliderimagens {
+    height: 18rem;
+
+    .image {
+      height: 180px;
+    }
+
+    .slick-dots {
+      top: 190px;
+    }
+
+    .slick-prev {
+      top: 100px;
+    }
+
+    .slick-next {
+      top: 100px;
+    }
+    .slick-dots.custom-dots li button:before {
+      font-size: 8px;
+    }
+
+    .slick-dots.custom-dots li.slick-active button:before {
+      font-size: 12px;
+    }
   }
 }

@@ -18,10 +18,34 @@
     text-align: center;
     p {
       @include hero;
-      margin-top: 48px;
+      margin-top: 3rem;
       width: 60%;
       color: $white;
       text-transform: uppercase;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-banner {
+    .hero-center-text {
+      p {
+        width: 80%;
+        @include h1;
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-banner {
+    .hero-center-text {
+      p {
+        width: 80%;
+        @include h2;
+        font-weight: 300;
+      }
     }
   }
 }

@@ -1,1 +1,31 @@
 @import "../../sass_styles/main";
+
+@media (max-width: 992px) {
+  .aprende-container {
+    .content-container {
+      .content {
+        .content-section {
+          h1 {
+            @include hero;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .aprende-container {
+    .content-container {
+      .content {
+        .content-section {
+          h1 {
+            @include h1;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
+}

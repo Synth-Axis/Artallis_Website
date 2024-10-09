@@ -77,4 +77,21 @@ a {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
+}
+
+@media (max-width: 992px) {
+  .apresentacao-container .sections .content {
+    padding: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .apresentacao-container .title-container {
+    width: 100%;
+  }
+  .apresentacao-container .sections {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .apresentacao-container .sections .content {
+    padding: 2rem;
+  }
 }/*# sourceMappingURL=apresentacao.css.map */

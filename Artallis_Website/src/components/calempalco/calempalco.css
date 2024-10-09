@@ -70,15 +70,13 @@ a {
   justify-items: center;
 }
 .calempalco-container .atuacoes-container .card-item {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   text-align: left;
   color: #ffffff;
   width: 100%;
-  border-radius: 16px;
-  aspect-ratio: 1/1;
+  border-radius: 1rem;
   transition: transform 0.3s ease;
 }
 .calempalco-container .atuacoes-container .card-item .inner-card-container {
@@ -122,4 +120,19 @@ a {
 }
 .calempalco-container .atuacoes-container .card-item.cyan {
   background-color: #79ccf3;
+}
+
+@media (max-width: 992px) {
+  .calempalco-container .atuacoes-container .card-item .inner-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 4rem;
+  }
+}
+@media (max-width: 768px) {
+  .calempalco-container .atuacoes-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }/*# sourceMappingURL=calempalco.css.map */

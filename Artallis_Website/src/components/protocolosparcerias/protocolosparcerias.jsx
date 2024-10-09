@@ -18,9 +18,7 @@ const Protocolosparcerias = () => {
         <Header color="black"></Header>
         <div className="title-container">
           <p className="pp-title">JUNTA-TE</p>
-          <h1 className="pp-subtitle">
-            Conheça os Nossos Professores / Voluntários
-          </h1>
+          <h1 className="pp-subtitle">PROTOCOLOS E PARCERIAS</h1>
         </div>
         <div className="circles-wrapper-4">
           <Agrupamentoescolas

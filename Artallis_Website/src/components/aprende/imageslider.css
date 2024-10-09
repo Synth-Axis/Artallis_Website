@@ -52,7 +52,6 @@ a {
 }
 .sliderimagens .image {
   width: 100%;
-  width: 100%;
   height: 360px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -88,4 +87,28 @@ a {
   color: #bbce00;
   font-size: 20px;
   opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .sliderimagens {
+    height: 18rem;
+  }
+  .sliderimagens .image {
+    height: 180px;
+  }
+  .sliderimagens .slick-dots {
+    top: 190px;
+  }
+  .sliderimagens .slick-prev {
+    top: 100px;
+  }
+  .sliderimagens .slick-next {
+    top: 100px;
+  }
+  .sliderimagens .slick-dots.custom-dots li button:before {
+    font-size: 8px;
+  }
+  .sliderimagens .slick-dots.custom-dots li.slick-active button:before {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=imageslider.css.map */

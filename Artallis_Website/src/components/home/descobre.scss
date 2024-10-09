@@ -10,7 +10,7 @@
   .descobre-container {
     padding: 4rem 4rem 4rem 0rem;
     @include give-flex-row(flex-start, center);
-    gap: 1rem;
+    gap: 2rem;
 
     .descricao {
       @include give-flex-column(flex-start, center);
@@ -58,7 +58,7 @@
 
     .descobre-foto {
       flex: 1;
-      padding-right: 2rem;
+
       .descobre-img {
         border-radius: 16px;
       }
@@ -95,7 +95,7 @@
       order: -1;
       padding-right: 0;
       padding-bottom: 16px;
-      width: 50%;
+      width: 100%;
     }
   }
   input {

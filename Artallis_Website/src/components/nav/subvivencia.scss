@@ -23,3 +23,17 @@
     }
   }
 }
+
+.submenu-mobile {
+  @include give-flex-column(flex-end, center);
+  gap: 0.5rem;
+  padding-top: 0.25rem;
+  li {
+    border-bottom: 1px solid $yellow;
+    padding-bottom: 2px;
+    a {
+      display: ruby-base-container;
+      @include text-nav;
+    }
+  }
+}

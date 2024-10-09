@@ -37,7 +37,7 @@ a {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 8px;
+  gap: 0.5rem;
 }
 .submenu li {
   border-bottom: 1px solid #fccd00;
@@ -45,4 +45,24 @@ a {
 }
 .submenu li a {
   display: ruby-base-container;
+}
+
+.submenu-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 0.5rem;
+  padding-top: 0.25rem;
+}
+.submenu-mobile li {
+  border-bottom: 1px solid #fccd00;
+  padding-bottom: 2px;
+}
+.submenu-mobile li a {
+  display: ruby-base-container;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 0.75rem;
 }/*# sourceMappingURL=subdescobre.css.map */

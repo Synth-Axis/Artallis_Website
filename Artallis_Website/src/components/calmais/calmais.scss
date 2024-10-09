@@ -21,10 +21,11 @@
   .projeto-container {
     border-radius: 48px;
     margin: 0 4rem;
+    padding: 4rem 8rem;
     .projecto {
       @include give-flex-column(center, center);
       gap: 32px;
-      padding: 4rem 8rem;
+
       color: $white;
 
       h2 {
@@ -63,5 +64,13 @@
 
   .magenta {
     background-color: $magenta;
+  }
+}
+
+@media (max-width: 992px) {
+  .calmais-container {
+    .projeto-container {
+      padding: 4rem;
+    }
   }
 }

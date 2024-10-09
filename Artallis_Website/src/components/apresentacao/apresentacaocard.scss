@@ -15,7 +15,7 @@
   .content {
     @include give-flex-column(flex-start, center);
     gap: 4rem;
-    padding: 4rem 4rem 10rem 4rem;
+    padding: 4rem 4rem 4rem 4rem;
   }
 
   img {

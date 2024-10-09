@@ -64,6 +64,7 @@ a {
 .calmais-container .projeto-container {
   border-radius: 48px;
   margin: 0 4rem;
+  padding: 4rem 8rem;
 }
 .calmais-container .projeto-container .projecto {
   display: flex;
@@ -71,7 +72,6 @@ a {
   align-items: center;
   justify-content: center;
   gap: 32px;
-  padding: 4rem 8rem;
   color: #ffffff;
 }
 .calmais-container .projeto-container .projecto h2 {
@@ -107,4 +107,10 @@ a {
 }
 .calmais-container .magenta {
   background-color: #cc6699;
+}
+
+@media (max-width: 992px) {
+  .calmais-container .projeto-container {
+    padding: 4rem;
+  }
 }/*# sourceMappingURL=calmais.css.map */
