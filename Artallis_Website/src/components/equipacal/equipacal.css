@@ -63,10 +63,28 @@ a {
 }
 .equipacal-container .professores-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 5rem;
   width: 100%;
+}
+.equipacal-container .professores-container div {
+  display: flex;
+  justify-content: center;
 }
 .equipacal-container .hidden {
   display: none;
+}
+
+@media (max-width: 992px) {
+  .equipacal-container .professores-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .equipacal-container .professores-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }/*# sourceMappingURL=equipacal.css.map */

@@ -18,15 +18,19 @@
     }
   }
 
-  .circles-wrapper-4 {
-    @include give-flex-row(center, space-between);
+  .circles-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 5rem;
     width: 100%;
+
+    div {
+      display: flex;
+      justify-content: center;
+    }
   }
 
-  .circles-wrapper-3 {
-    @include give-flex-row(center, space-between);
-    gap: 96px;
-  }
   .hidden {
     display: none;
   }

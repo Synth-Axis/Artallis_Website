@@ -40,10 +40,13 @@ a {
   gap: 8px;
 }
 .professor-container .professor-photo {
-  width: 50%;
   border-radius: 50%;
   border: 2px solid #bbce00;
   cursor: pointer;
+  width: 150px;
+  height: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .professor-container .professor-name {
   font-family: "Barlow", sans-serif;

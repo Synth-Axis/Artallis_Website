@@ -1,9 +1,9 @@
 import "./agrupamentoescolas.css";
 
-const Agrupamentoescolas = (props) => {
+const Agrupamentoescolas = ({ size, text }) => {
   return (
-    <div className={`circle ${props.size}`}>
-      <p className="inner-text">{props.text}</p>
+    <div className={`circle ${size}`}>
+      <p className="inner-text">{text}</p>
     </div>
   );
 };

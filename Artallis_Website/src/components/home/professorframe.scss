@@ -3,11 +3,14 @@
 .professor-container {
   @include give-flex-column(center, center);
   gap: 8px;
+
   .professor-photo {
-    width: 50%;
     border-radius: 50%;
     border: 2px solid $green;
     cursor: pointer;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
   }
 
   .professor-name {

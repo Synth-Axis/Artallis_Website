@@ -61,17 +61,16 @@ a {
   font-size: 1rem;
   margin-top: 8rem;
 }
-.protocoloseparcerias-container .circles-wrapper-4 {
+.protocoloseparcerias-container .circles-wrapper {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 5rem;
   width: 100%;
 }
-.protocoloseparcerias-container .circles-wrapper-3 {
+.protocoloseparcerias-container .circles-wrapper div {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 96px;
+  justify-content: center;
 }
 .protocoloseparcerias-container .hidden {
   display: none;

@@ -20,10 +20,42 @@
   }
 
   .professores-container {
-    @include give-flex-row(center, center);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 5rem;
     width: 100%;
+
+    div {
+      display: flex;
+      justify-content: center;
+    }
+
+    // div:nth-child(7n + 5),
+    // div:nth-child(7n + 6),
+    // div:nth-child(7n + 7) {
+    //   width: calc(33.33% - 4rem);
+    // }
   }
   .hidden {
     display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .equipacal-container {
+    .professores-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .equipacal-container {
+    .professores-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 }
