@@ -1,11 +1,16 @@
 import "./subdescobre.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Subdescobre = ({ mobile }) => {
+  const location = useLocation();
   return (
     <div>
       {!mobile && (
-        <ul className="submenu">
+        <ul
+          className={
+            location.pathname === "/" ? "submenu submenu-background" : "submenu"
+          }
+        >
           <li>
             <Link to="/apresentacao">Apresentação</Link>
           </li>

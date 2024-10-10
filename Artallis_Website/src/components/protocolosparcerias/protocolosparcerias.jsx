@@ -7,10 +7,10 @@ import Footer from "../footer/footer";
 import React, { useState } from "react";
 
 const Protocolosparcerias = () => {
-  const [isHidden, setIsHidden] = useState(true);
+  const [visibleCount, setVisibleCount] = useState(7);
 
   const handleToggle = () => {
-    setIsHidden(!isHidden);
+    setVisibleCount((prevCount) => prevCount + 7);
   };
 
   return (
@@ -22,7 +22,7 @@ const Protocolosparcerias = () => {
           <h1 className="pp-subtitle">PROTOCOLOS E PARCERIAS</h1>
         </div>
         <div className="circles-wrapper">
-          {protocolos.map((prot, index) => (
+          {protocolos.slice(0, visibleCount).map((prot, index) => (
             <div key={index}>
               <Agrupamentoescolas
                 text={prot.text}
@@ -31,7 +31,9 @@ const Protocolosparcerias = () => {
             </div>
           ))}
         </div>
-        <Button type="button" text="VER MAIS" onClick={handleToggle}></Button>
+        {visibleCount < protocolos.length && (
+          <Button type="button" text="VER MAIS" onClick={handleToggle}></Button>
+        )}
       </div>
       <Footer></Footer>
     </>

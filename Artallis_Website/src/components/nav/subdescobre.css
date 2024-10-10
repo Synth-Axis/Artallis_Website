@@ -47,6 +47,11 @@ a {
   display: ruby-base-container;
 }
 
+.submenu-background {
+  background-color: black;
+  opacity: 0.9;
+}
+
 .submenu-mobile {
   display: flex;
   flex-direction: column;

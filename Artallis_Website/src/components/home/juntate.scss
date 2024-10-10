@@ -16,6 +16,7 @@
   }
   .juntate {
     @include give-flex-row(center, center);
+    gap: 4rem;
   }
 }
 
