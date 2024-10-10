@@ -32,34 +32,24 @@ a {
   cursor: pointer;
 }
 
-.person-carousel-container {
-  display: flex;
-  width: 100%;
-  height: 100%;
-}
-
 .person-carousel {
   display: flex;
-  width: 100%;
-  gap: 4rem;
+  gap: 2rem;
 }
 .person-carousel .person-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  gap: 4rem;
+  gap: 2rem;
   background-color: #03abe5;
-  padding: 4rem;
+  padding: 2rem 4rem;
   border-radius: 16px;
-  width: 100%;
-  height: 32rem;
   text-align: center;
   position: relative;
-  flex: 1;
 }
 .person-carousel .person-card__image {
-  width: 50%;
+  width: 100%;
 }
 .person-carousel .person-card__image img {
   border-radius: 50%;
@@ -98,9 +88,7 @@ a {
 .person-carousel .document-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
-  flex: 1;
-  height: 100%;
+  grid-gap: 1rem;
 }
 .person-carousel .document-section .document-tile {
   display: flex;
@@ -108,12 +96,10 @@ a {
   align-items: center;
   justify-content: space-evenly;
   background-color: #198ece;
-  height: 100%;
+  padding: 2rem;
   color: #ffffff;
   text-align: center;
   border-radius: 16px;
-  font-size: 1rem;
-  font-weight: 600;
   position: relative;
 }
 .person-carousel .document-section .document-tile p {
@@ -128,4 +114,24 @@ a {
   font-size: 3rem;
   color: #79ccf3;
   cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .person-carousel {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+  }
+  .person-carousel .person-card__image {
+    width: 50%;
+  }
+  .person-carousel .person-card__image img {
+    border-radius: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .person-carousel .document-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }/*# sourceMappingURL=alumnicardcarousel.css.map */
