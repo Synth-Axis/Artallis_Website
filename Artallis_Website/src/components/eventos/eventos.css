@@ -45,7 +45,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 16px;
+  gap: 1rem;
 }
 .eventos-container .title-container .pp-subtitle {
   font-family: "Barlow", sans-serif;

@@ -55,7 +55,7 @@ a {
   height: 360px;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 16px;
+  border-radius: 1rem;
 }
 .sliderimagens .slick-dots {
   top: 380px;
@@ -68,7 +68,7 @@ a {
 .sliderimagens .slick-prev:before,
 .sliderimagens .slick-next:before {
   color: #bbce00;
-  font-size: 30px;
+  font-size: 2rem;
 }
 .sliderimagens .slick-prev {
   left: -40px;
@@ -80,12 +80,12 @@ a {
 }
 .sliderimagens .slick-dots.custom-dots li button:before {
   color: #198ece;
-  font-size: 12px;
+  font-size: 1.25rem;
   opacity: 0.75;
 }
 .sliderimagens .slick-dots.custom-dots li.slick-active button:before {
   color: #bbce00;
-  font-size: 20px;
+  font-size: 1.25rem;
   opacity: 1;
 }
 
@@ -109,6 +109,6 @@ a {
     font-size: 8px;
   }
   .sliderimagens .slick-dots.custom-dots li.slick-active button:before {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 }/*# sourceMappingURL=imageslider.css.map */

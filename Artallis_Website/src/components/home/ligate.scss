@@ -3,7 +3,7 @@
 .aprendeligate {
   @include give-flex-column(center, center);
   width: 100%;
-  gap: 1rem;
+  gap: 2rem;
   h6 {
     @include h6;
   }
@@ -34,7 +34,7 @@
       @include hero_xl;
       color: $blue;
       position: absolute;
-      right: 32px;
+      right: 2rem;
       top: 0;
       animation: scroll-vertical 10s linear infinite;
     }

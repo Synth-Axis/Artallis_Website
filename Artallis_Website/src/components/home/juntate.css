@@ -37,7 +37,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 64px;
+  gap: 4rem;
 }
 .juntate-container .title-container h6 {
   font-family: "Barlow", sans-serif;
@@ -51,7 +51,7 @@ a {
   font-style: normal;
   font-size: 2rem;
   text-align: center;
-  margin-top: 16px;
+  margin-top: 1rem;
 }
 .juntate-container .juntate {
   display: flex;

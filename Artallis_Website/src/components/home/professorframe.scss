@@ -2,7 +2,7 @@
 
 .professor-container {
   @include give-flex-column(center, center);
-  gap: 8px;
+  gap: 0.5rem;
 
   .professor-photo {
     border-radius: 50%;

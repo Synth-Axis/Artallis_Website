@@ -32,7 +32,7 @@
         @include give-flex-row(flex-start, center);
         width: 100%;
         margin: 2rem 0;
-        gap: 32px;
+        gap: 2rem;
 
         div {
           flex: 1;
@@ -41,7 +41,7 @@
             @include text-primary;
             line-height: 2rem;
             list-style-type: disc;
-            padding-left: 20px;
+            padding-left: 1.25rem;
 
             li::marker {
               color: $blue;
@@ -60,7 +60,7 @@
       flex: 1;
 
       .descobre-img {
-        border-radius: 16px;
+        border-radius: 1rem;
       }
     }
   }
@@ -77,7 +77,7 @@
     padding: 0 2rem;
 
     .descricao {
-      padding-top: 16px;
+      padding-top: 1rem;
 
       .descricao-lista {
         div {
@@ -94,7 +94,7 @@
     .descobre-foto {
       order: -1;
       padding-right: 0;
-      padding-bottom: 16px;
+      padding-bottom: 1rem;
       width: 100%;
     }
   }

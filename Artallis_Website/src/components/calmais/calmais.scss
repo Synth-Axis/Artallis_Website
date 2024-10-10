@@ -7,7 +7,7 @@
 
   .title-container {
     @include give-flex-column(center, center);
-    gap: 16px;
+    gap: 1rem;
     .pp-subtitle {
       @include h1;
       color: $blue;
@@ -19,12 +19,12 @@
   }
 
   .projeto-container {
-    border-radius: 48px;
+    border-radius: 3rem;
     margin: 0 4rem;
     padding: 4rem 8rem;
     .projecto {
       @include give-flex-column(center, center);
-      gap: 32px;
+      gap: 2rem;
 
       color: $white;
 

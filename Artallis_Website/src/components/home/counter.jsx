@@ -1,11 +1,11 @@
 import "./counter.css";
 import CountUp from "react-countup";
 
-const Counter = (props) => {
+const Counter = ({ text, value }) => {
   return (
     <div className="counter">
-      <CountUp end={props.value} />
-      <div>{props.text}</div>
+      <CountUp end={value} />
+      <div>{text}</div>
     </div>
   );
 };

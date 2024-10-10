@@ -1,11 +1,11 @@
 import "./aprende.css";
 
-const Aprende = (props) => {
+const Aprende = ({ id, title, subtitle, imgsrc, imgalt }) => {
   return (
-    <div id={props.id} className="aprende">
-      <h6>{props.title}</h6>
-      <h2>{props.subtitle}</h2>
-      <img src={props.imgsrc} alt={props.imgalt} />
+    <div id={id} className="aprende">
+      <h6>{title}</h6>
+      <h2>{subtitle}</h2>
+      <img src={imgsrc} alt={imgalt} />
     </div>
   );
 };

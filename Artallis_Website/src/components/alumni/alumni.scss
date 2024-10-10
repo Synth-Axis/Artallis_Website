@@ -7,7 +7,7 @@
 
   .title-container {
     @include give-flex-column(center, center);
-    gap: 16px;
+    gap: 1rem;
     .pp-subtitle {
       @include h1;
       color: $blue;

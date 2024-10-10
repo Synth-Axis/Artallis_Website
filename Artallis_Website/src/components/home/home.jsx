@@ -8,8 +8,6 @@ import Counterbanner from "./counterbanner";
 import Ligate from "./ligate";
 import Juntate from "./juntate";
 import Footer from "../footer/footer";
-import Button from "../button";
-
 import React from "react";
 
 const Home = () => {
@@ -33,9 +31,7 @@ const Home = () => {
           imgsrc={ligate_img}
           imgalt="ligate foto"
         ></Ligate>
-        <Button type="button" text="Descobre Mais"></Button>
         <Juntate></Juntate>
-        <Button type="button" text="VER TODOS"></Button>
       </div>
       <Footer></Footer>
     </>

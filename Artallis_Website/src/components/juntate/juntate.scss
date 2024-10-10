@@ -42,7 +42,7 @@
   }
   .extra-info {
     @include give-flex-column(center, center);
-    gap: 32px;
+    gap: 2rem;
     width: 100%;
     p {
       @include text-primary;

@@ -4,48 +4,48 @@
   @include give-flex-row(center, space-between);
   width: 100%;
   background: $blue;
-  gap: 64px;
-  padding: 16px 0px;
+  gap: 4rem;
+  padding: 1rem 0;
   margin-top: 4rem;
   color: $white;
 
   .pallet-icon {
-    width: 80px;
-    margin-right: 64px;
+    width: 5rem;
+    margin-right: 4rem;
   }
 
   .footer-wrapper {
     width: 100%;
-    margin-left: 64px;
+    margin-left: 4rem;
 
     .footer-info {
       @include give-flex-column(flex-start, center);
-      padding: 32px 0px;
+      padding: 2rem 0;
       border-bottom: 1px solid $white;
       width: 100%;
-      gap: 32px;
+      gap: 2rem;
 
       .footer-contacts-wrapper {
         flex: 25%;
         @include give-flex-row(flex-start, space-between);
         flex-wrap: wrap;
         font-size: 0.75rem;
-        gap: 64px;
+        gap: 4rem;
         .contacts-left-container {
           @include give-flex-row(flex-start, space-between);
-          gap: 8px;
+          gap: 0.5rem;
         }
         .contacts-right-container {
           @include give-flex-row(flex-start, space-between);
-          gap: 32px;
+          gap: 2rem;
           div {
             @include give-flex-row(flex-start, center);
-            gap: 8px;
+            gap: 0.5rem;
           }
         }
         div {
           img {
-            height: 16px;
+            height: 1rem;
           }
           span {
             font-size: 0.8rem;
@@ -59,8 +59,8 @@
       width: 100%;
       .copyrights {
         @include give-flex-column(flex-start, center);
-        padding: 32px 0;
-        gap: 8px;
+        padding: 2rem 0;
+        gap: 0.5rem;
         width: 100%;
         p {
           font-size: 0.8rem;
@@ -70,7 +70,7 @@
       }
       .social-icons {
         @include give-flex-row(center, center);
-        gap: 32px;
+        gap: 2rem;
         width: 100%;
         img {
           height: 18px;

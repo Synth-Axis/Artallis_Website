@@ -32,13 +32,13 @@
 
   .slick-dots.custom-dots li button:before {
     color: $blue;
-    font-size: 12px;
+    font-size: 0.75rem;
     opacity: 0.75;
   }
 
   .slick-dots.custom-dots li.slick-active button:before {
     color: $green;
-    font-size: 20px;
+    font-size: 1.25rem;
     opacity: 1;
   }
 
@@ -54,12 +54,12 @@
     .comite-container {
       @include give-flex-column(flex-start, space-between);
       height: 80%;
-      padding: 64px;
+      padding: 4rem;
       div {
         .comite-title {
           width: 100%;
           color: $white;
-          margin-bottom: 32px;
+          margin-bottom: 2rem;
         }
         .comite-description {
           @include text-primary;

@@ -2,7 +2,7 @@
 
 .nav-container {
   @include give-flex-row(flex-start, space-between);
-  margin-top: 64px;
+  margin-top: 4rem;
   width: 100%;
 
   .menu-wrapper {

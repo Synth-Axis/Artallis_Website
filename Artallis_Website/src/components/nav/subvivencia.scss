@@ -2,7 +2,7 @@
 
 .submenu {
   @include give-flex-column(flex-start, center);
-  gap: 8px;
+  gap: 0.5rem;
 
   li:first-child {
     margin-top: 4px;

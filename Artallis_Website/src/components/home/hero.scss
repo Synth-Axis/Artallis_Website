@@ -3,7 +3,7 @@
 .hero-banner {
   display: flex;
   flex-direction: column;
-  padding: 0 64px;
+  padding: 0 4rem;
   height: 600px;
   background-image: url("../../assets/media/fotos_aleatorias/converted_webp/Foto-9.webp");
   background-repeat: no-repeat;
@@ -13,7 +13,7 @@
 
   .hero-center-text {
     @include give-flex-column(center, center);
-    gap: 32px;
+    gap: 2rem;
     width: 100%;
     text-align: center;
     p {

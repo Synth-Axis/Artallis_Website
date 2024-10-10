@@ -61,12 +61,12 @@ a {
 }
 .slidercomunidade .slick-dots.custom-dots li button:before {
   color: #198ece;
-  font-size: 12px;
+  font-size: 0.75rem;
   opacity: 0.75;
 }
 .slidercomunidade .slick-dots.custom-dots li.slick-active button:before {
   color: #bbce00;
-  font-size: 20px;
+  font-size: 1.25rem;
   opacity: 1;
 }
 .slidercomunidade .magenta {
@@ -84,12 +84,12 @@ a {
   align-items: flex-start;
   justify-content: space-between;
   height: 80%;
-  padding: 64px;
+  padding: 4rem;
 }
 .slidercomunidade .slide .comite-container div .comite-title {
   width: 100%;
   color: #ffffff;
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 .slidercomunidade .slide .comite-container div .comite-description {
   font-family: "Barlow", sans-serif;

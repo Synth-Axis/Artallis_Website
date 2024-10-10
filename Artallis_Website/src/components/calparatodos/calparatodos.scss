@@ -12,7 +12,7 @@
 
   .title-container {
     @include give-flex-column(center, center);
-    gap: 16px;
+    gap: 1rem;
     .pp-subtitle {
       @include h1;
       color: $blue;
@@ -33,7 +33,7 @@
         width: 100%;
         height: 620px;
         object-fit: cover;
-        border-radius: 16px;
+        border-radius: 1rem;
       }
     }
     .text-container {

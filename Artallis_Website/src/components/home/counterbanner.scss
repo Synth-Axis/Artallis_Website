@@ -2,7 +2,7 @@
 
 .counter-container {
   @include give-flex-row(flex-start, space-between);
-  padding: 32px;
+  padding: 2rem;
   margin-left: -4rem;
   width: 100%;
   background: -moz-linear-gradient(

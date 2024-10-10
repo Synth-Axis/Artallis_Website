@@ -1,4 +1,5 @@
 import "./ligate.css";
+import Button from "../button";
 
 const Ligate = (props) => {
   return (
@@ -17,6 +18,7 @@ const Ligate = (props) => {
           <span>Artes Plásticas</span>
         </div>
       </div>
+      <Button type="button" text="Descobre Mais"></Button>
     </div>
   );
 };

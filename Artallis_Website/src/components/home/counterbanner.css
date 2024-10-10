@@ -36,7 +36,7 @@ a {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 32px;
+  padding: 2rem;
   margin-left: -4rem;
   width: 100%;
   background: -ms-linear-gradient(0deg, rgb(226, 6, 19) 0%, rgb(215, 102, 162) 100%);

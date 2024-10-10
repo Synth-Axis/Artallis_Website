@@ -38,7 +38,7 @@ a {
   align-items: center;
   justify-content: center;
   width: 100%;
-  gap: 1rem;
+  gap: 2rem;
 }
 .aprendeligate h6 {
   font-family: "Barlow", sans-serif;
@@ -77,7 +77,7 @@ a {
   font-size: 4rem;
   color: #198ece;
   position: absolute;
-  right: 32px;
+  right: 2rem;
   top: 0;
   animation: scroll-vertical 10s linear infinite;
 }

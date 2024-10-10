@@ -80,7 +80,7 @@ a {
   justify-content: center;
   width: 100%;
   margin: 2rem 0;
-  gap: 32px;
+  gap: 2rem;
 }
 .descobre .descobre-container .descricao .descricao-lista div {
   flex: 1;
@@ -92,7 +92,7 @@ a {
   font-size: 1rem;
   line-height: 2rem;
   list-style-type: disc;
-  padding-left: 20px;
+  padding-left: 1.25rem;
 }
 .descobre .descobre-container .descricao .descricao-lista div ul li::marker {
   color: #198ece;
@@ -105,7 +105,7 @@ a {
   flex: 1;
 }
 .descobre .descobre-container .descobre-foto .descobre-img {
-  border-radius: 16px;
+  border-radius: 1rem;
 }
 
 @media (max-width: 992px) {
@@ -118,7 +118,7 @@ a {
     padding: 0 2rem;
   }
   .descobre-container .descricao {
-    padding-top: 16px;
+    padding-top: 1rem;
   }
   .descobre-container .descricao .descricao-lista div ul {
     line-height: 2rem !important;
@@ -129,7 +129,7 @@ a {
   .descobre-container .descobre-foto {
     order: -1;
     padding-right: 0;
-    padding-bottom: 16px;
+    padding-bottom: 1rem;
     width: 100%;
   }
   input {

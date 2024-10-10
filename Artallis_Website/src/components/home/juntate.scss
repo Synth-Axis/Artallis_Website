@@ -2,7 +2,7 @@
 
 .juntate-container {
   @include give-flex-column(center, center);
-  gap: 64px;
+  gap: 4rem;
 
   .title-container {
     h6 {
@@ -11,7 +11,7 @@
     h2 {
       @include h2;
       text-align: center;
-      margin-top: 16px;
+      margin-top: 1rem;
     }
   }
   .juntate {
