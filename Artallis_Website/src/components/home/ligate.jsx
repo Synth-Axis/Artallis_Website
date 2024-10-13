@@ -1,15 +1,15 @@
 import "./ligate.css";
 import Button from "../button";
 
-const Ligate = (props) => {
+const Ligate = ({ title, subtitle, imgsrc, imgalt }) => {
   return (
-    <div id={props.id} className="aprendeligate">
+    <div className="aprendeligate">
       <div>
-        <h6>{props.title}</h6>
-        <h2>{props.subtitle}</h2>
+        <h6>{title}</h6>
+        <h2>{subtitle}</h2>
       </div>
       <div className="scroll-container">
-        <img src={props.imgsrc} alt={props.imgalt} />
+        <img src={imgsrc} alt={imgalt} />
         <div className="scrolling-text">
           <span>Artes Plásticas</span>
           <span>Música</span>

@@ -4,7 +4,7 @@ import Button from "../button";
 
 const Descobre = () => {
   return (
-    <div id="descobre" className="descobre">
+    <div className="descobre">
       <div className="descobre-container">
         <div className="descricao">
           <h6>DESCOBRE</h6>

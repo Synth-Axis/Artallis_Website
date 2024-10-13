@@ -14,14 +14,22 @@ const Historia = () => {
         </h3>
 
         <div className="conteudo-grid">
-          <div className="historia-conteudo">
-            <h4>Um Refúgio para a Expressão Artística</h4>
-          </div>
           <div className="img-section">
-            <img src={atuacao} alt="Conservatorio Atuacao" />
-            <img src={estudantes} alt="Conservatorio Estudantes" />
+            <img
+              className="historia-image"
+              src={atuacao}
+              alt="Conservatorio Atuacao"
+            />
+            <img
+              className="historia-image"
+              src={estudantes}
+              alt="Conservatorio Estudantes"
+            />
           </div>
           <div className="txt-section">
+            <div className="historia-conteudo">
+              <h4>Um Refúgio para a Expressão Artística</h4>
+            </div>
             <p>
               Bem-vindos ao Conservatório Artallis! Hoje, vamos embarcar numa
               viagem pela história desta notável instituição, fundada em 21 de

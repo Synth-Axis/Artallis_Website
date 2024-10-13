@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Juntate = () => {
   return (
-    <div id="juntate" className="juntate-container">
+    <div className="juntate-container">
       <div className="title-container">
         <h6>JUNTA-TE</h6>
         <h2>Conheça os Nossos Professores/Voluntários</h2>

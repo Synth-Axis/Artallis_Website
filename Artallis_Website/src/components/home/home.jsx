@@ -17,7 +17,6 @@ const Home = () => {
       <div className="home-container">
         <Descobre></Descobre>
         <Aprende
-          id="aprende"
           title="APRENDE"
           subtitle="Aulas mais populares"
           imgsrc={aprende_img}

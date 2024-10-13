@@ -21,9 +21,7 @@ const NavMenu = ({ color }) => {
       <ul className="navmenu">
         <li>
           <div className="submenu-wrapper">
-            <a className={`menu${color}`} href="#descobre">
-              Descobre
-            </a>
+            <a className={`menu${color}`}>Descobre</a>
             <div className={`submenu menu${color}`}>
               <Subdescobre></Subdescobre>
             </div>
@@ -74,9 +72,7 @@ const NavMenu = ({ color }) => {
           <ul className="navmenu-mobile">
             <li>
               <div className="submenu-wrapper-mobile">
-                <a className={`menu${color}`} href="#descobre">
-                  Descobre
-                </a>
+                <a className={`menu${color}`}>Descobre</a>
                 <div className={`submenu-mobile menu${color}`}>
                   <Subdescobre mobile={menuMobile}></Subdescobre>
                 </div>

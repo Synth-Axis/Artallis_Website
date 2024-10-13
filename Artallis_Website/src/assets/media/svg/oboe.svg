@@ -7,7 +7,7 @@
       }
 
       .cls-2 {
-        fill: #1a1a1a;
+        fill: #f1f1f190;
       }
 
       .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14 {
@@ -15,24 +15,24 @@
       }
 
       .cls-3 {
-        fill: #454542;
+        fill: #f1f1f190;
       }
 
       .cls-4 {
-        fill: #929090;
+        fill: #f1f1f190;
       }
 
       .cls-5 {
-        fill: none;
+        fill: #f1f1f190;
       }
 
       .cls-6 {
-        fill: #595959;
+        fill: #f1f1f190;
         mix-blend-mode: multiply;
       }
 
       .cls-7 {
-        fill: #616361;
+        fill: #f1f1f190;
       }
 
       .cls-8 {
@@ -41,15 +41,15 @@
       }
 
       .cls-8, .cls-9 {
-        fill: #fff;
+        fill: #f1f1f190;
       }
 
       .cls-10 {
-        fill: #636362;
+        fill: #f1f1f190;
       }
 
       .cls-11 {
-        fill: #939191;
+        fill: #f1f1f190;
       }
 
       .cls-15 {
@@ -61,15 +61,15 @@
       }
 
       .cls-12 {
-        fill: #363634;
+        fill: #f1f1f190;
       }
 
       .cls-13 {
-        fill: #484947;
+        fill: #f1f1f190;
       }
 
       .cls-14 {
-        fill: #a4a4a4;
+        fill: #f1f1f190;
       }
     </style>
     <clipPath id="clippath">
