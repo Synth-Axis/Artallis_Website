@@ -7,7 +7,7 @@
   &__header {
     @include give-flex-row(center, center);
     width: 100%;
-    gap: 8rem;
+    gap: 4rem;
     margin-bottom: 1rem;
     h2 {
       @include h1;

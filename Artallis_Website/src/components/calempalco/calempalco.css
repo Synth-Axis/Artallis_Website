@@ -67,7 +67,7 @@ a {
   grid-gap: 2rem;
   width: 100%;
   padding: 1rem;
-  justify-items: center;
+  justify-content: center;
 }
 .calempalco-container .atuacoes-container .card-item {
   background-repeat: no-repeat;
@@ -84,7 +84,7 @@ a {
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 14rem;
+  gap: 4rem;
   padding: 2rem;
   color: #1d1d1b;
 }
@@ -123,6 +123,12 @@ a {
 }
 
 @media (max-width: 992px) {
+  .calempalco-container {
+    padding: 0 2rem;
+  }
+  .calempalco-container .title-container .pp-title {
+    margin-top: 0;
+  }
   .calempalco-container .atuacoes-container .card-item .inner-card-container {
     display: flex;
     flex-direction: column;

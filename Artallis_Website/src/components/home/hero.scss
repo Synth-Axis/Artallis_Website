@@ -30,7 +30,7 @@
   .hero-banner {
     .hero-center-text {
       p {
-        width: 80%;
+        width: 100%;
         @include h1;
         font-weight: 300;
       }
@@ -42,9 +42,19 @@
   .hero-banner {
     .hero-center-text {
       p {
-        width: 80%;
+        width: 100%;
         @include h2;
         font-weight: 300;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-banner {
+    .hero-center-text {
+      input {
+        display: none;
       }
     }
   }

@@ -26,6 +26,12 @@
 
 @media (max-width: 992px) {
   .noticias-container {
+    padding: 0 2rem;
+    .title-container {
+      .pp-title {
+        margin-top: 0;
+      }
+    }
     .noticias-card-wrapper {
       grid-template-columns: repeat(2, 1fr);
     }

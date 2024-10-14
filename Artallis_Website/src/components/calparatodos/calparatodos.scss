@@ -7,7 +7,7 @@
   background-image: url("../src/assets/media/svg/colorballs.svg");
   background-origin: border-box;
   background-repeat: no-repeat;
-  background-position: 90% 20%;
+  background-position: 90% 30%;
   background-size: 35%;
 
   .title-container {
@@ -54,9 +54,24 @@
   }
 }
 
+@media (max-width: 992px) {
+  .calparatodos-container {
+    background-position: 90% 20%;
+    padding: 0 2rem;
+    .title-container {
+      .pp-title {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .calparatodos-container {
+    background-position: 90% 25%;
+    background-size: 50%;
     .content-container {
+      padding: 0;
       .image-container {
         img {
           height: 310px;
@@ -70,5 +85,12 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 480px) {
+  .calparatodos-container {
+    background-position: 90% 20%;
+    background-size: 50%;
   }
 }

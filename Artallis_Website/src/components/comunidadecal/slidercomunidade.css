@@ -105,4 +105,10 @@ a {
 }
 .slidercomunidade .slide .comite-container .chevron-container svg:nth-child(2) {
   margin-left: -2rem;
+}
+
+@media (max-width: 768px) {
+  .slidercomunidade .slide .comite-container {
+    padding: 2rem;
+  }
 }/*# sourceMappingURL=slidercomunidade.css.map */

@@ -62,7 +62,7 @@ a {
 
 @media (max-width: 992px) {
   .hero-banner .hero-center-text p {
-    width: 80%;
+    width: 100%;
     font-family: "Barlow", sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -72,11 +72,16 @@ a {
 }
 @media (max-width: 768px) {
   .hero-banner .hero-center-text p {
-    width: 80%;
+    width: 100%;
     font-family: "Barlow", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 2rem;
     font-weight: 300;
+  }
+}
+@media (max-width: 480px) {
+  .hero-banner .hero-center-text input {
+    display: none;
   }
 }/*# sourceMappingURL=hero.css.map */

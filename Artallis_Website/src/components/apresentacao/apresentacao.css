@@ -42,6 +42,7 @@ a {
 }
 .apresentacao-container .title-container {
   width: 60%;
+  margin-top: 8rem;
 }
 .apresentacao-container .title-container .pp-title {
   font-family: "Barlow", sans-serif;
@@ -49,7 +50,6 @@ a {
   font-style: normal;
   font-size: 2.5rem;
   color: #198ece;
-  margin-top: 8rem;
 }
 .apresentacao-container .title-container .pp-subtitle {
   font-family: "Barlow", sans-serif;
@@ -80,7 +80,10 @@ a {
 }
 
 @media (max-width: 992px) {
-  .apresentacao-container .sections .content {
+  .apresentacao-container .title-container {
+    margin-top: 0;
+  }
+  .apresentacao-container .title-container .sections .content {
     padding: 2rem;
   }
 }
@@ -88,10 +91,17 @@ a {
   .apresentacao-container .title-container {
     width: 100%;
   }
-  .apresentacao-container .sections {
+  .apresentacao-container .title-container .pp-title {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2rem;
+    color: #198ece;
+  }
+  .sections {
     grid-template-columns: repeat(1, 1fr);
   }
-  .apresentacao-container .sections .content {
+  .sections .content {
     padding: 2rem;
   }
 }/*# sourceMappingURL=apresentacao.css.map */

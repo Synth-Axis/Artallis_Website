@@ -94,4 +94,13 @@ a {
   font-style: normal;
   font-size: 1.5rem;
   color: #198ece;
+}
+
+@media (max-width: 992px) {
+  .comunidade-container {
+    padding: 0 2rem;
+  }
+  .comunidade-container .title-container .pp-title {
+    margin-top: 0;
+  }
 }/*# sourceMappingURL=comunidadecal.css.map */

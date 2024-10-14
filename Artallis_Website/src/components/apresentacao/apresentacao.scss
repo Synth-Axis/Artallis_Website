@@ -7,10 +7,10 @@
 
   .title-container {
     width: 60%;
+    margin-top: 8rem;
     .pp-title {
       @include h1;
       color: $blue;
-      margin-top: 8rem;
     }
     .pp-subtitle {
       @include h3;
@@ -33,9 +33,12 @@
 
 @media (max-width: 992px) {
   .apresentacao-container {
-    .sections {
-      .content {
-        padding: 2rem;
+    .title-container {
+      margin-top: 0;
+      .sections {
+        .content {
+          padding: 2rem;
+        }
       }
     }
   }
@@ -45,12 +48,16 @@
   .apresentacao-container {
     .title-container {
       width: 100%;
-    }
-    .sections {
-      grid-template-columns: repeat(1, 1fr);
-      .content {
-        padding: 2rem;
+      .pp-title {
+        @include h2;
+        color: $blue;
       }
+    }
+  }
+  .sections {
+    grid-template-columns: repeat(1, 1fr);
+    .content {
+      padding: 2rem;
     }
   }
 }

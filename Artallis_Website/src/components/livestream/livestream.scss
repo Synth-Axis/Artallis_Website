@@ -35,6 +35,17 @@
   }
 }
 
+@media (max-width: 992px) {
+  .livestream-container {
+    padding: 0 2rem;
+    .title-container {
+      .pp-title {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
 @media (max-width: 768px) {
   .livestream-container {
     .video-container {

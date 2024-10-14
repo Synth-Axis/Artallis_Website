@@ -133,4 +133,22 @@ a {
 }
 .aprende-container .extra-info div ul .ciclos-estudo::marker {
   color: #bbce00;
+}
+
+@media (max-width: 992px) {
+  .aprende-container {
+    padding: 0 2rem;
+  }
+  .aprende-container .title-container .pp-title {
+    margin-top: 0;
+  }
+}
+@media (max-width: 480px) {
+  .aprende-container .content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=aprende.css.map */

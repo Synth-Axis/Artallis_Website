@@ -80,3 +80,23 @@
     }
   }
 }
+
+@media (max-width: 992px) {
+  .aprende-container {
+    padding: 0 2rem;
+    .title-container {
+      .pp-title {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .aprende-container {
+    .content-container {
+      @include give-flex-column(flex-start, center);
+      flex-direction: column;
+    }
+  }
+}

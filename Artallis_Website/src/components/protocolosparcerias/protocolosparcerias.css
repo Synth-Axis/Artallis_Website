@@ -74,4 +74,13 @@ a {
 }
 .protocoloseparcerias-container .hidden {
   display: none;
+}
+
+@media (max-width: 992px) {
+  .protocoloseparcerias-container {
+    padding: 0 2rem;
+  }
+  .protocoloseparcerias-container .title-container .pp-title {
+    margin-top: 0rem;
+  }
 }/*# sourceMappingURL=protocolosparcerias.css.map */

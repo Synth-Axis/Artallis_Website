@@ -89,9 +89,10 @@ a {
   opacity: 1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .sliderimagens {
     height: 18rem;
+    width: 80%;
   }
   .sliderimagens .image {
     height: 180px;
@@ -110,5 +111,15 @@ a {
   }
   .sliderimagens .slick-dots.custom-dots li.slick-active button:before {
     font-size: 0.75rem;
+  }
+}
+@media (max-width: 480px) {
+  .sliderimagens {
+    height: 18rem;
+    width: 80%;
+  }
+  .sliderimagens .image {
+    height: 160px;
+    width: 100%;
   }
 }/*# sourceMappingURL=imageslider.css.map */

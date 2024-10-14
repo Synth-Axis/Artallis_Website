@@ -58,4 +58,13 @@ a {
 .estruturaorg-container .orgcircle {
   width: 70%;
   transition: transform 0.2s ease-in-out;
+}
+
+@media (max-width: 992px) {
+  .estruturaorg-container {
+    padding: 0 2rem;
+  }
+  .estruturaorg-container .title-container {
+    margin-top: 0rem;
+  }
 }/*# sourceMappingURL=estruturaorg.css.map */

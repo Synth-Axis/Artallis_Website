@@ -42,4 +42,10 @@ a {
 }
 .home-container section {
   width: 100%;
+}
+
+@media (max-width: 992px) {
+  .home-container {
+    padding: 0 2rem;
+  }
 }/*# sourceMappingURL=home.css.map */

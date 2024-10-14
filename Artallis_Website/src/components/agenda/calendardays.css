@@ -44,7 +44,7 @@ a {
   align-items: center;
   justify-content: center;
   width: 100%;
-  gap: 8rem;
+  gap: 4rem;
   margin-bottom: 1rem;
 }
 .calendardays__header h2 {

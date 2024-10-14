@@ -44,6 +44,13 @@
 
 @media (max-width: 992px) {
   .equipacal-container {
+    padding: 0 2rem;
+
+    .title-container {
+      .pp-title {
+        margin-top: 0;
+      }
+    }
     .professores-container {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
