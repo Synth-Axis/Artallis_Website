@@ -5,7 +5,8 @@
   width: 100%;
 
   &__header {
-    @include give-flex-row(center, space-between);
+    @include give-flex-row(center, center);
+    gap: 4rem;
     width: 100%;
     max-width: 600px;
     margin-bottom: 1rem;
@@ -51,7 +52,7 @@
   }
 
   &__day {
-    @include h5;
+    @include h6;
     font-weight: 700;
     background-color: $cyan;
     color: $blue;
@@ -80,6 +81,24 @@
       font-size: 0.75rem;
       font-weight: regular;
       color: $black-primary;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .calendar {
+    &__days {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      width: 100%;
+      max-width: 100%;
+    }
+    &__day {
+      &.empty {
+        background-color: transparent;
+        display: none;
+      }
     }
   }
 }

@@ -57,6 +57,7 @@ const Calendar = () => {
 
   const renderDays = () => {
     const days = [];
+    const weekdays = ["Seg", "Ter", "Qua", "Qui", "Sex", "Sáb", "Dom"];
 
     for (let i = 0; i < firstDayIndex; i++) {
       days.push(<div key={`empty-${i}`} className="calendar__day empty"></div>);
@@ -64,13 +65,13 @@ const Calendar = () => {
 
     for (let i = 1; i <= daysInMonth; i++) {
       const formattedDate = formatDate(i);
-
       const event = events[formattedDate];
+      const weekdayIndex = (firstDayIndex + i - 1) % 7;
 
       days.push(
         <div key={i} className="calendar__day">
+          <span className="calendar__weekday">{weekdays[weekdayIndex]}</span>{" "}
           <span className="calendar__date">{i}</span>
-
           {event && (
             <div className="calendar__event">
               <p>{event.time}</p>
@@ -96,16 +97,6 @@ const Calendar = () => {
         <button className="calendar__nav next" onClick={handleNextMonth}>
           {">"}
         </button>
-      </div>
-
-      <div className="calendar__weekdays">
-        <div>Segunda-feira</div>
-        <div>Terça-feira</div>
-        <div>Quarta-feira</div>
-        <div>Quinta-feira</div>
-        <div>Sexta-feira</div>
-        <div>Sábado</div>
-        <div>Domingo</div>
       </div>
 
       <div className="calendar__days">{renderDays()}</div>
