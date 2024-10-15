@@ -34,18 +34,18 @@
 
   .mobile-nav-wrapper {
     display: none;
-    position: relative;
+
     width: 100%;
 
     .navmenu-mobile {
-      @include give-flex-column(flex-end, center);
+      @include give-flex-row(flex-start, center);
       background-color: $black-primary;
       gap: 2rem;
       opacity: 0.98;
       color: $white;
       padding: 2rem;
       position: absolute;
-      top: 3rem;
+      top: 8rem;
       left: -4rem;
       width: 100%;
       z-index: 9999;
@@ -79,19 +79,23 @@
     .mobile-nav-wrapper {
       @include give-flex-column(flex-end, center);
 
-      &.active {
-        .navmenu-mobile {
-          display: flex;
-        }
+      .mobile-menu-icon {
+        display: block;
+        color: $white;
+      }
+      .black-icon {
+        color: black;
       }
     }
+  }
+}
 
-    .mobile-menu-icon {
-      display: block;
-      color: $white;
-    }
-    .black-icon {
-      color: black;
+@media (max-width: 768px) {
+  .menu-inner-wrapper {
+    .mobile-nav-wrapper {
+      .navmenu-mobile {
+        @include give-flex-column(flex-end, center);
+      }
     }
   }
 }
