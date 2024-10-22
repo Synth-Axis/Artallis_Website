@@ -15,11 +15,11 @@
   .scroll-container {
     position: relative;
     width: 100%;
-    height: 520px;
+    height: 50vh;
     overflow: hidden;
 
     img {
-      width: 55%;
+      width: 100%;
       height: 100%;
       object-fit: cover;
       position: absolute;
@@ -31,7 +31,8 @@
       flex-direction: column;
       gap: 50px;
       white-space: nowrap;
-      @include hero_xl;
+      font-size: 5rem;
+      font-weight: 900;
       color: $blue;
       position: absolute;
       right: 2rem;

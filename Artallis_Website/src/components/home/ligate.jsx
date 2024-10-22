@@ -1,9 +1,8 @@
 import "./ligate.css";
-import Button from "../button";
 
 const Ligate = ({ title, subtitle, imgsrc, imgalt }) => {
   return (
-    <div className="aprendeligate">
+    <div className="main-container aprendeligate">
       <div>
         <h6>{title}</h6>
         <h2>{subtitle}</h2>
@@ -18,7 +17,6 @@ const Ligate = ({ title, subtitle, imgsrc, imgalt }) => {
           <span>Artes Plásticas</span>
         </div>
       </div>
-      <Button type="button" text="Descobre Mais"></Button>
     </div>
   );
 };

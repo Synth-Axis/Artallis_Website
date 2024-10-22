@@ -49,37 +49,43 @@ const apresentacao = [
 const Apresentacao = () => {
   return (
     <>
-      <div className="apresentacao-container">
+      <div class="nav-wrapper">
         <Header color="black"></Header>
-        <div className="title-container">
-          <h1 className="pp-title">APRESENTANDO O CONSERVATÓRIO ARTALLIS:</h1>
-          <h3 className="pp-subtitle">UM REFÚGIO PARA A EXPRESSÃO ARTÍSTICA</h3>
-        </div>
-        <div className="sections">
-          {apresentacao.map((item) => (
-            <Apresentacaocard
-              key={item.id}
-              bg={item.bg}
-              title={item.title}
-              content={item.content}
-              image={item.img}
-            ></Apresentacaocard>
-          ))}
-        </div>
-        <div>
-          <p>
-            Convidamos-vos a fazer parte da família do Conservatório Artallis,
-            onde a arte é celebrada e a criatividade floresce.
-          </p>
-          <p>
-            Juntem-se a nós na nossa jornada para transformar vidas através da
-            expressão artística, cultivando artistas
-          </p>
-          <p>completos e seres humanos virtuosos.</p>
-        </div>
-        <div>
-          <h1>Descubram o vosso potencial artístico.</h1>
-          <h1>Juntem-se ao Conservatório Artallis hoje!</h1>
+      </div>
+      <div class="main-container">
+        <div className="apresentacao-container">
+          <div className="title-container">
+            <h1 className="pp-title">APRESENTANDO O CONSERVATÓRIO ARTALLIS:</h1>
+            <h3 className="pp-subtitle">
+              UM REFÚGIO PARA A EXPRESSÃO ARTÍSTICA
+            </h3>
+          </div>
+          <div className="sections">
+            {apresentacao.map((item) => (
+              <Apresentacaocard
+                key={item.id}
+                bg={item.bg}
+                title={item.title}
+                content={item.content}
+                image={item.img}
+              ></Apresentacaocard>
+            ))}
+          </div>
+          <div>
+            <p>
+              Convidamos-vos a fazer parte da família do Conservatório Artallis,
+              onde a arte é celebrada e a criatividade floresce.
+            </p>
+            <p>
+              Juntem-se a nós na nossa jornada para transformar vidas através da
+              expressão artística, cultivando artistas
+            </p>
+            <p>completos e seres humanos virtuosos.</p>
+          </div>
+          <div>
+            <h1>Descubram o vosso potencial artístico.</h1>
+            <h1>Juntem-se ao Conservatório Artallis hoje!</h1>
+          </div>
         </div>
       </div>
       <Footer></Footer>

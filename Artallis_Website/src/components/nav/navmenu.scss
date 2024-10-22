@@ -5,7 +5,7 @@
     color: $black-primary;
     text-align: left;
     @include give-flex-row(center, center);
-    gap: 1rem;
+    gap: 2rem;
 
     .submenu-wrapper {
       @include give-flex-column(flex-start, center);
@@ -28,6 +28,7 @@
 
       a {
         @include text-nav;
+        font-weight: 600;
       }
     }
   }
@@ -53,7 +54,7 @@
       .submenu-wrapper-mobile {
         @include give-flex-column(flex-end, flex-start);
         position: relative;
-        font-weight: 700;
+        font-weight: 600;
       }
     }
 

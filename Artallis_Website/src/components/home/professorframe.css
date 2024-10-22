@@ -43,7 +43,7 @@ a {
   border-radius: 50%;
   border: 2px solid #bbce00;
   cursor: pointer;
-  width: 150px;
+  width: 15vh;
   -o-object-fit: cover;
      object-fit: cover;
 }

@@ -15,25 +15,31 @@ const Protocolosparcerias = () => {
 
   return (
     <>
-      <div className="protocoloseparcerias-container">
-        <Header color="black"></Header>
-        <div className="title-container">
-          <p className="pp-title">JUNTA-TE</p>
-          <h1 className="pp-subtitle">PROTOCOLOS E PARCERIAS</h1>
+      <Header color="black"></Header>
+      <div class="main-container">
+        <div className="protocoloseparcerias-container">
+          <div className="title-container">
+            <p className="pp-title">JUNTA-TE</p>
+            <h1 className="pp-subtitle">PROTOCOLOS E PARCERIAS</h1>
+          </div>
+          <div className="circles-wrapper">
+            {protocolos.slice(0, visibleCount).map((prot, index) => (
+              <div key={index}>
+                <Agrupamentoescolas
+                  text={prot.text}
+                  size={prot.size}
+                ></Agrupamentoescolas>
+              </div>
+            ))}
+          </div>
+          {visibleCount < protocolos.length && (
+            <Button
+              type="button"
+              text="VER MAIS"
+              onClick={handleToggle}
+            ></Button>
+          )}
         </div>
-        <div className="circles-wrapper">
-          {protocolos.slice(0, visibleCount).map((prot, index) => (
-            <div key={index}>
-              <Agrupamentoescolas
-                text={prot.text}
-                size={prot.size}
-              ></Agrupamentoescolas>
-            </div>
-          ))}
-        </div>
-        {visibleCount < protocolos.length && (
-          <Button type="button" text="VER MAIS" onClick={handleToggle}></Button>
-        )}
       </div>
       <Footer></Footer>
     </>

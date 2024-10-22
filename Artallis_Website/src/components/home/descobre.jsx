@@ -5,7 +5,7 @@ import Button from "../button";
 const Descobre = () => {
   return (
     <div className="descobre">
-      <div className="descobre-container">
+      <div className="descobre-container main-container">
         <div className="descricao">
           <h6>DESCOBRE</h6>
           <h2>Conservatório Artallis</h2>

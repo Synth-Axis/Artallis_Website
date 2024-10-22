@@ -33,10 +33,6 @@ a {
 }
 
 .counter {
-  font-family: "Barlow", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 2.5rem;
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -44,19 +40,41 @@ a {
   justify-content: center;
   width: 100%;
 }
-
-div {
+.counter span {
+  font-size: 4rem;
+}
+.counter div {
   font-family: "Barlow", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 300;
 }
 
-@media (max-width: 768px) {
-  .counter {
-    font-size: 95%;
+@media (max-width: 992px) {
+  .counter span {
+    font-size: 3rem;
   }
   .counter div {
-    font-size: 80%;
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+}
+@media (max-width: 480px) {
+  .counter span {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
+  }
+  .counter div {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+    font-weight: 300;
   }
 }/*# sourceMappingURL=counter.css.map */

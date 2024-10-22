@@ -36,8 +36,8 @@ a {
   display: flex;
   flex-direction: column;
   padding: 0 4rem;
-  height: 600px;
-  background-image: url("../../assets/media/fotos_aleatorias/converted_webp/Foto-9.webp");
+  height: 100vh;
+  background-image: url("../../assets/media/fotos_aleatorias/converted_webp/Foto-9-1.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -49,35 +49,42 @@ a {
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  width: 100%;
   text-align: center;
+  padding: 10rem;
 }
-.hero-banner .hero-center-text p {
+.hero-banner .hero-center-text h1 {
+  font-size: 4rem;
+  line-height: 3.5rem;
+  width: 100%;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.hero-banner .hero-center-text h2 {
+  line-height: 2.5rem;
   font-size: 3rem;
-  margin-top: 3rem;
-  width: 60%;
+  font-weight: 400;
+  width: 100%;
   color: #ffffff;
   text-transform: uppercase;
 }
 
 @media (max-width: 992px) {
-  .hero-banner .hero-center-text p {
-    width: 100%;
+  .hero-banner .hero-center-text {
+    padding: 4rem 0;
+  }
+  .hero-banner .hero-center-text h1 {
     font-family: "Barlow", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 2.5rem;
-    font-weight: 300;
+    line-height: 2.5rem;
   }
-}
-@media (max-width: 768px) {
-  .hero-banner .hero-center-text p {
-    width: 100%;
+  .hero-banner .hero-center-text h2 {
     font-family: "Barlow", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 2rem;
-    font-weight: 300;
+    line-height: 2rem;
   }
 }
 @media (max-width: 480px) {

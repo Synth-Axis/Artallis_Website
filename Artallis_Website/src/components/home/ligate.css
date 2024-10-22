@@ -57,11 +57,11 @@ a {
 .aprendeligate .scroll-container {
   position: relative;
   width: 100%;
-  height: 520px;
+  height: 50vh;
   overflow: hidden;
 }
 .aprendeligate .scroll-container img {
-  width: 55%;
+  width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -74,7 +74,8 @@ a {
   flex-direction: column;
   gap: 50px;
   white-space: nowrap;
-  font-size: 4rem;
+  font-size: 5rem;
+  font-weight: 900;
   color: #198ece;
   position: absolute;
   right: 2rem;

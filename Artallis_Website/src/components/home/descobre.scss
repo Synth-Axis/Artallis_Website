@@ -1,14 +1,15 @@
 @import "../../sass_styles/main";
 
 .descobre {
-  background-image: url("../../assets/media/svg/colorballs.svg");
+  background-image: url("/src/assets/media/svg/colorballs.svg");
   background-origin: border-box;
   background-repeat: no-repeat;
   background-position: 100% 0%;
-  background-size: 33%;
+  background-size: 25%;
+  width: 100%;
 
   .descobre-container {
-    padding: 4rem 4rem 4rem 0rem;
+    padding: 4rem;
     @include give-flex-row(flex-start, center);
     gap: 2rem;
 
@@ -100,6 +101,19 @@
     }
     input {
       align-self: center;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .descobre {
+    .descobre-container {
+      .descricao {
+        .descricao-lista {
+          flex-direction: column;
+          gap: 0;
+        }
+      }
     }
   }
 }

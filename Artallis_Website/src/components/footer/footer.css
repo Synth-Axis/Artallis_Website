@@ -119,7 +119,6 @@ a {
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  width: 100%;
 }
 .footer-container .footer-wrapper .copyrights-wrapper .social-icons img {
   height: 18px;
@@ -164,6 +163,9 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .copyrights-wrapper .social-icons {
+    width: 100%;
   }
   .pallet-icon {
     display: none;

@@ -3,18 +3,17 @@
 .aprende {
   @include give-flex-column(center, center);
   width: 100%;
+  gap: 2rem;
   h6 {
     @include h6;
   }
   h2 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
     @include h2;
   }
 
   img {
     width: 100%;
-    height: 100%;
+    height: 50vh;
     object-fit: cover;
     border-radius: 1rem;
   }

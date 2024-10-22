@@ -5,11 +5,13 @@
   border-radius: 1.25rem;
 
   h2 {
-    @include h2;
+    @include h1;
+    font-weight: 900;
   }
 
   p {
     @include text-primary;
+    font-weight: 400;
     text-align: justify;
   }
   .content {

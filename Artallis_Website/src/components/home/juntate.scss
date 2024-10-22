@@ -3,7 +3,8 @@
 .juntate-container {
   @include give-flex-column(center, center);
   gap: 4rem;
-
+  width: 100%;
+  padding: 0 !important;
   .title-container {
     h6 {
       @include h6;
@@ -15,8 +16,9 @@
     }
   }
   .juntate {
-    @include give-flex-row(center, center);
+    @include give-flex-row(center, space-between);
     gap: 4rem;
+    width: 100%;
   }
 }
 

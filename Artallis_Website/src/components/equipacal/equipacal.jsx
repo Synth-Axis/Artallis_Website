@@ -15,27 +15,33 @@ const Equipacal = () => {
 
   return (
     <>
-      <div className="equipacal-container">
-        <Header color="black"></Header>
-        <div className="title-container">
-          <p className="pp-title">EQUIPA CAL</p>
-          <h1 className="pp-subtitle">CONHEÇA OS NOSSSOS PROFESSORES</h1>
+      <Header color="black"></Header>
+      <div class="main-container">
+        <div className="equipacal-container">
+          <div className="title-container">
+            <p className="pp-title">EQUIPA CAL</p>
+            <h1 className="pp-subtitle">CONHEÇA OS NOSSSOS PROFESSORES</h1>
+          </div>
+          <div className="professores-container">
+            {professores.slice(0, visibleCount).map((prof, index) => (
+              <div key={index}>
+                <Professorframe
+                  framecolor="frame-blue"
+                  photo={prof.foto}
+                  name={prof.name}
+                  position={prof.position}
+                ></Professorframe>
+              </div>
+            ))}
+          </div>
+          {visibleCount < professores.length && (
+            <Button
+              type="button"
+              text="VER MAIS"
+              onClick={handleToggle}
+            ></Button>
+          )}
         </div>
-        <div className="professores-container">
-          {professores.slice(0, visibleCount).map((prof, index) => (
-            <div key={index}>
-              <Professorframe
-                framecolor="frame-blue"
-                photo={prof.foto}
-                name={prof.name}
-                position={prof.position}
-              ></Professorframe>
-            </div>
-          ))}
-        </div>
-        {visibleCount < professores.length && (
-          <Button type="button" text="VER MAIS" onClick={handleToggle}></Button>
-        )}
       </div>
       <Footer></Footer>
     </>

@@ -28,33 +28,35 @@ const Calmais = () => {
 
   return (
     <>
-      <div className="calmais-container">
-        <Header color="black"></Header>
-        <div className="title-container">
-          <p className="pp-title">JUNTA-TE A</p>
-          <h1 className="pp-subtitle">MAIS PROJETOS</h1>
-        </div>
-        {projetos.slice(0, visibleProjects).map((projeto) => (
-          <div
-            className={`projeto-container ${getRandomColorClass()}`}
-            key={projeto.id}
-          >
-            <div className="projecto">
-              <h2>{projeto.nome}</h2>
-              <p>
-                {projeto.descricao.map((sentence, index) => (
-                  <span key={index}>
-                    {sentence}
-                    <br />
-                  </span>
-                ))}
-              </p>
-            </div>
+      <Header color="black"></Header>
+      <div class="main-container">
+        <div className="calmais-container">
+          <div className="title-container">
+            <p className="pp-title">JUNTA-TE A</p>
+            <h1 className="pp-subtitle">MAIS PROJETOS</h1>
           </div>
-        ))}
-        {visibleProjects < projetos.length && (
-          <Button type="button" text="VER MAIS" onClick={handleShowMore} />
-        )}
+          {projetos.slice(0, visibleProjects).map((projeto) => (
+            <div
+              className={`projeto-container ${getRandomColorClass()}`}
+              key={projeto.id}
+            >
+              <div className="projecto">
+                <h2>{projeto.nome}</h2>
+                <p>
+                  {projeto.descricao.map((sentence, index) => (
+                    <span key={index}>
+                      {sentence}
+                      <br />
+                    </span>
+                  ))}
+                </p>
+              </div>
+            </div>
+          ))}
+          {visibleProjects < projetos.length && (
+            <Button type="button" text="VER MAIS" onClick={handleShowMore} />
+          )}
+        </div>
       </div>
       <Footer></Footer>
     </>

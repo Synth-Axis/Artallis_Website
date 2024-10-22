@@ -8,10 +8,8 @@ const Hero = (props) => {
       <Header logocolor={props.logocolor} color="white"></Header>
 
       <div className="hero-center-text">
-        <p>
-          Com o poder da arte criamos felicidade transformamos vidas e mudamos o
-          mundo
-        </p>
+        <h1>Com o poder da arte criamos felicidade</h1>
+        <h2> Transformamos vidas e mudamos o mundo</h2>
         <Button
           class="h3"
           type="button"

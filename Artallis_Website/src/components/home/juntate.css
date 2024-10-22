@@ -38,6 +38,8 @@ a {
   align-items: center;
   justify-content: center;
   gap: 4rem;
+  width: 100%;
+  padding: 0 !important;
 }
 .juntate-container .title-container h6 {
   font-family: "Barlow", sans-serif;
@@ -56,8 +58,9 @@ a {
 .juntate-container .juntate {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 4rem;
+  width: 100%;
 }
 
 @media (max-width: 992px) {

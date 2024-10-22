@@ -36,25 +36,33 @@ a {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 2rem;
+  padding: 4rem 6rem;
   margin-left: -4rem;
+  margin-right: 6rem;
+  border-bottom-right-radius: 250px;
+  border-top-right-radius: 250px;
   width: 100%;
   background: -ms-linear-gradient(0deg, rgb(226, 6, 19) 0%, rgb(215, 102, 162) 100%);
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#E20613', endColorstr='#D766A2' ,GradientType=0)";
   background: linear-gradient(90deg, rgb(226, 6, 19) 0%, rgb(215, 102, 162) 100%);
-  border-top-right-radius: 117px;
-  border-bottom-right-radius: 117px;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#E20613",endColorstr="#D766A2" , GradientType=1);
 }
 
-@media (max-width: 480px) {
+@media (max-width: 992px) {
   .counter-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
     padding: 2rem;
-    margin-left: -4rem;
+    margin-left: 3rem;
     width: 100%;
     row-gap: 2rem;
+  }
+}
+@media (max-width: 480px) {
+  .counter-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-right: 2rem;
   }
 }/*# sourceMappingURL=counterbanner.css.map */

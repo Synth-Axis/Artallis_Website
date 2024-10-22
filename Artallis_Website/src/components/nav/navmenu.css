@@ -38,7 +38,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 .menu-inner-wrapper .navmenu .submenu-wrapper {
   display: flex;
@@ -65,6 +65,7 @@ a {
   font-weight: 600;
   font-style: normal;
   font-size: 0.75rem;
+  font-weight: 600;
 }
 .menu-inner-wrapper .mobile-nav-wrapper {
   display: none;
@@ -92,7 +93,7 @@ a {
   align-items: flex-end;
   justify-content: flex-start;
   position: relative;
-  font-weight: 700;
+  font-weight: 600;
 }
 .menu-inner-wrapper .mobile-nav-wrapper.active .navmenu-mobile {
   display: flex;
