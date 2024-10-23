@@ -1,11 +1,12 @@
 const ChevronRightIcon = ({ color }) => {
   return (
     <svg
-      fill={color} // Apply fill color dynamically
-      stroke={color} // Apply stroke color dynamically
+      fill={color}
+      stroke={color}
+      strokeWidth="2px"
       baseProfile="tiny"
-      height="4rem"
-      width="4rem"
+      height="5rem"
+      width="5rem"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
     >

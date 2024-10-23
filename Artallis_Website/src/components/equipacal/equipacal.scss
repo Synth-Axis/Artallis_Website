@@ -12,6 +12,7 @@
     .pp-title {
       @include text-primary;
       margin-top: 8rem;
+      color: $blue;
     }
     .pp-subtitle {
       @include h1;
@@ -29,6 +30,12 @@
     div {
       display: flex;
       justify-content: center;
+    }
+
+    .equipacal-photo {
+      .professor-photo {
+        width: 20vh;
+      }
     }
 
     // div:nth-child(7n + 5),

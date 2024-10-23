@@ -1,6 +1,6 @@
 @import "../../sass_styles/main";
 
-.juntate-container {
+.juntate1-container {
   @include give-flex-column(center, center);
   gap: 4rem;
   padding: 0 4rem;
@@ -13,12 +13,14 @@
     }
   }
   .content-container {
-    @include give-flex-row(flex-start, center);
+    @include give-flex-row(flex-end, center);
     width: 100%;
+    padding: 2rem;
 
     .content {
       @include give-flex-column(flex-start, center);
       width: 100%;
+      gap: 2rem;
       .content-section {
         @include give-flex-row(center, space-between);
         width: 100%;
@@ -41,12 +43,13 @@
     }
   }
   .extra-info {
-    @include give-flex-column(center, center);
+    @include give-flex-column(center, flex-end);
     gap: 2rem;
     width: 100%;
     p {
       @include text-primary;
       text-align: justify;
+      font-weight: 500;
     }
   }
 }

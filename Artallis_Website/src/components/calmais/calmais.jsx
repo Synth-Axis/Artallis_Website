@@ -28,7 +28,9 @@ const Calmais = () => {
 
   return (
     <>
-      <Header color="black"></Header>
+      <div className="nav-wrapper">
+        <Header color="black"></Header>
+      </div>
       <div class="main-container">
         <div className="calmais-container">
           <div className="title-container">

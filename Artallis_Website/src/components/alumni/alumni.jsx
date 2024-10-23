@@ -37,13 +37,17 @@ const persons = [
 const Alumni = () => {
   return (
     <>
-      <div className="alumni-container">
+      <div className="nav-wrapper">
         <Header color="black"></Header>
-        <div className="title-container">
-          <p className="pp-title">LIGA-TE</p>
-          <h1 className="pp-subtitle">ALUMNI</h1>
+      </div>
+      <div className="main-container">
+        <div className="alumni-container">
+          <div className="title-container">
+            <p className="pp-title">LIGA-TE</p>
+            <h1 className="pp-subtitle">ALUMNI</h1>
+          </div>
+          <Alumnicardcarousel persons={persons}></Alumnicardcarousel>
         </div>
-        <Alumnicardcarousel persons={persons}></Alumnicardcarousel>
       </div>
       <Footer></Footer>
     </>

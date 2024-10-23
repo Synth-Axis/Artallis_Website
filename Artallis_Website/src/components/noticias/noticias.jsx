@@ -89,27 +89,31 @@ const Noticias = () => {
 
   return (
     <>
-      <div className="noticias-container">
+      <div className="nav-wrapper">
         <Header color="black"></Header>
-        <div className="title-container">
-          <p className="pp-title">LIGA-TE</p>
-          <h1 className="pp-subtitle">NOTÍCIAS</h1>
+      </div>
+      <div className="main-container">
+        <div className="noticias-container">
+          <div className="title-container">
+            <p className="pp-title">LIGA-TE</p>
+            <h1 className="pp-subtitle">NOTÍCIAS</h1>
+          </div>
+          <div className="noticias-card-wrapper">
+            {noticias.slice(0, visibleNews).map((noticia, index) => (
+              <div key={index}>
+                <Noticiascard
+                  background={noticia.background}
+                  title={noticia.title}
+                  date={noticia.date}
+                  time={noticia.time}
+                ></Noticiascard>
+              </div>
+            ))}
+          </div>
+          {visibleNews < noticias.length && (
+            <Button type="button" text="VER MAIS" onClick={handleShowMore} />
+          )}
         </div>
-        <div className="noticias-card-wrapper">
-          {noticias.slice(0, visibleNews).map((noticia, index) => (
-            <div key={index}>
-              <Noticiascard
-                background={noticia.background}
-                title={noticia.title}
-                date={noticia.date}
-                time={noticia.time}
-              ></Noticiascard>
-            </div>
-          ))}
-        </div>
-        {visibleNews < noticias.length && (
-          <Button type="button" text="VER MAIS" onClick={handleShowMore} />
-        )}
       </div>
       <Footer></Footer>
     </>

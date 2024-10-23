@@ -7,20 +7,24 @@ import professores from "../professores";
 import { useState } from "react";
 
 const Equipacal = () => {
-  const [visibleCount, setVisibleCount] = useState(8);
+  const [visibleCount, setVisibleCount] = useState(7);
 
   const handleToggle = () => {
-    setVisibleCount((prevCount) => prevCount + 8);
+    setVisibleCount((prevCount) => prevCount + 7);
   };
 
   return (
     <>
-      <Header color="black"></Header>
-      <div class="main-container">
+      <div className="nav-wrapper">
+        <Header color="black"></Header>
+      </div>
+      <div className="main-container">
         <div className="equipacal-container">
           <div className="title-container">
-            <p className="pp-title">EQUIPA CAL</p>
-            <h1 className="pp-subtitle">CONHEÇA OS NOSSSOS PROFESSORES</h1>
+            <p className="pp-title">JUNTA-TE</p>
+            <h1 className="pp-subtitle">
+              Conheça os Nosssos Professores / Voluntários
+            </h1>
           </div>
           <div className="professores-container">
             {professores.slice(0, visibleCount).map((prof, index) => (
@@ -30,6 +34,7 @@ const Equipacal = () => {
                   photo={prof.foto}
                   name={prof.name}
                   position={prof.position}
+                  className="equipacal-photo"
                 ></Professorframe>
               </div>
             ))}

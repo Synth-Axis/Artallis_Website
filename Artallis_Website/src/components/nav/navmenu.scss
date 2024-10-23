@@ -5,7 +5,7 @@
     color: $black-primary;
     text-align: left;
     @include give-flex-row(center, center);
-    gap: 2rem;
+    gap: 1rem;
 
     .submenu-wrapper {
       @include give-flex-column(flex-start, center);

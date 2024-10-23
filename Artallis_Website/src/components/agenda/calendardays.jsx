@@ -75,8 +75,10 @@ const Calendardays = () => {
             {dayEvents.map((event, index) => (
               <div key={`${date}-${index}`} className="event-card">
                 <div className="event-details">
-                  <strong>{event.time}&nbsp;&nbsp;|&nbsp;&nbsp;</strong>
-                  {event.name}
+                  <span className="agenda-time">
+                    {event.time}&nbsp;&nbsp;|&nbsp;&nbsp;
+                  </span>
+                  <span className="agenda-eventname">{event.name}</span>
                 </div>
               </div>
             ))}

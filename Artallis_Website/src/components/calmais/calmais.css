@@ -48,11 +48,9 @@ a {
   gap: 1rem;
 }
 .calmais-container .title-container .pp-subtitle {
-  font-family: "Barlow", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #198ece;
+  font-weight: 800;
 }
 .calmais-container .title-container .pp-title {
   font-family: "Barlow", sans-serif;
@@ -60,6 +58,7 @@ a {
   font-style: normal;
   font-size: 1rem;
   margin-top: 8rem;
+  color: #198ece;
 }
 .calmais-container .projeto-container {
   border-radius: 3rem;

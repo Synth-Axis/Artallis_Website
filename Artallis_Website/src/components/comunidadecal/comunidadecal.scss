@@ -9,8 +9,9 @@
     @include give-flex-column(center, center);
     gap: 1rem;
     .pp-subtitle {
-      @include h1;
+      @include hero;
       color: $blue;
+      font-weight: 800;
     }
     .pp-title {
       @include text-primary;
@@ -21,20 +22,28 @@
   .description-1 {
     @include give-flex-column(center, center);
     gap: 0.25rem;
-    @include h5;
+    @include h2;
     font-weight: 600;
     color: $blue;
+    margin-top: 3rem;
   }
+
+  h3 {
+    @include h3;
+  }
+
   h4:first-of-type {
     @include h4;
+    font-weight: 800;
     color: $blue;
   }
   p {
-    @include text-primary;
+    @include h5;
   }
   h4 {
-    width: 60%;
-    @include h4;
+    width: 70%;
+    @include h3;
+    font-weight: 800;
     color: $blue;
   }
 }

@@ -78,6 +78,9 @@ a {
   right: -40px;
   top: 200px;
 }
+.sliderimagens .slick-dots.custom-dots {
+  height: 2rem;
+}
 .sliderimagens .slick-dots.custom-dots li button:before {
   color: #198ece;
   font-size: 1.25rem;

@@ -48,11 +48,9 @@ a {
   gap: 1rem;
 }
 .comunidade-container .title-container .pp-subtitle {
-  font-family: "Barlow", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #198ece;
+  font-weight: 800;
 }
 .comunidade-container .title-container .pp-title {
   font-family: "Barlow", sans-serif;
@@ -68,31 +66,42 @@ a {
   justify-content: center;
   gap: 0.25rem;
   font-family: "Barlow", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
-  font-size: 1.25rem;
+  font-size: 2rem;
   font-weight: 600;
   color: #198ece;
+  margin-top: 3rem;
+}
+.comunidade-container h3 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.75rem;
+  line-height: 2rem;
 }
 .comunidade-container h4:first-of-type {
   font-family: "Barlow", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 1.5rem;
+  font-weight: 800;
   color: #198ece;
 }
 .comunidade-container p {
   font-family: "Barlow", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
+  font-size: 1.25rem;
 }
 .comunidade-container h4 {
-  width: 60%;
+  width: 70%;
   font-family: "Barlow", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+  line-height: 2rem;
+  font-weight: 800;
   color: #198ece;
 }
 

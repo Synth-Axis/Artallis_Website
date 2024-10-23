@@ -11,7 +11,7 @@
     max-width: 600px;
     margin-bottom: 1rem;
     h2 {
-      @include h1;
+      @include hero;
       font-weight: 900;
       color: $green;
     }
@@ -73,14 +73,15 @@
     font-size: 0.75rem;
     margin-top: 0.5rem;
 
-    p:first-child {
-      font-weight: 600;
-    }
-
-    p {
+    .time {
       font-size: 0.75rem;
-      font-weight: regular;
       color: $black-primary;
+      font-weight: 800;
+    }
+    .event-name {
+      font-size: 0.75rem;
+      color: $black-primary;
+      font-weight: 500;
     }
   }
 }

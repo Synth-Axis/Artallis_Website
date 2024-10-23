@@ -6,13 +6,17 @@ import Calendar from "./calendar";
 const Eventos = () => {
   return (
     <>
-      <div className="eventos-container">
+      <div className="nav-wrapper">
         <Header color="black"></Header>
-        <div className="title-container">
-          <p className="pp-title">LIGA-TE</p>
-          <h1 className="pp-subtitle">EVENTOS</h1>
+      </div>
+      <div className="main-container">
+        <div className="eventos-container">
+          <div className="title-container">
+            <p className="pp-title">LIGA-TE</p>
+            <h1 className="pp-subtitle">EVENTOS</h1>
+          </div>
+          <Calendar></Calendar>
         </div>
-        <Calendar></Calendar>
       </div>
       <Footer></Footer>
     </>

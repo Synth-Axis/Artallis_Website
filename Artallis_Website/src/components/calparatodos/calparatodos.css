@@ -42,8 +42,8 @@ a {
   background-image: url("../src/assets/media/svg/colorballs.svg");
   background-origin: border-box;
   background-repeat: no-repeat;
-  background-position: 90% 30%;
-  background-size: 35%;
+  background-position: 100% 25%;
+  background-size: 25%;
 }
 .calparatodos-container .title-container {
   display: flex;
@@ -109,7 +109,7 @@ a {
 
 @media (max-width: 992px) {
   .calparatodos-container {
-    background-position: 90% 20%;
+    background-position: 100% 10%;
     padding: 0 2rem;
   }
   .calparatodos-container .title-container .pp-title {
@@ -118,8 +118,8 @@ a {
 }
 @media (max-width: 768px) {
   .calparatodos-container {
-    background-position: 90% 25%;
-    background-size: 50%;
+    background-position: 100% 10%;
+    background-size: 30%;
   }
   .calparatodos-container .content-container {
     padding: 0;
@@ -137,7 +137,7 @@ a {
 }
 @media (max-width: 480px) {
   .calparatodos-container {
-    background-position: 90% 20%;
-    background-size: 50%;
+    background-position: 100% 10%;
+    background-size: 35%;
   }
 }/*# sourceMappingURL=calparatodos.css.map */

@@ -74,8 +74,8 @@ const Calendar = () => {
           <span className="calendar__date">{i}</span>
           {event && (
             <div className="calendar__event">
-              <p>{event.time}</p>
-              <p>{event.name}</p>
+              <p className="time">{event.time}</p>
+              <p className="event-name">{event.name}</p>
             </div>
           )}
         </div>

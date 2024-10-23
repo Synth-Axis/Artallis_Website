@@ -9,7 +9,8 @@
     @include give-flex-column(center, center);
     gap: 1rem;
     .pp-subtitle {
-      @include h1;
+      @include hero;
+      font-weight: 800;
       color: $blue;
     }
     .pp-title {

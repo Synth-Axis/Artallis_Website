@@ -9,7 +9,8 @@
     @include give-flex-column(center, center);
     gap: 1rem;
     .pp-subtitle {
-      @include h1;
+      @include hero;
+      font-weight: 800;
       color: $blue;
     }
     .pp-title {
@@ -23,7 +24,7 @@
     width: 100%;
     .livestream {
       width: 100%;
-      height: auto;
+      height: 50vh;
       object-fit: cover;
       border-radius: 1rem;
     }

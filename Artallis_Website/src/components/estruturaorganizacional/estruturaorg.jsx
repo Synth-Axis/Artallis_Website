@@ -21,11 +21,15 @@ const Estruturaorg = () => {
 
   return (
     <>
-      <Header color="black"></Header>
+      <div className="nav-wrapper">
+        <Header color="black"></Header>
+      </div>
       <div class="main-container">
         <div className="estruturaorg-container">
           <div className="title-container">
-            <h1 className="pp-subtitle">ESTRUTURA ORGANIZACIONAL</h1>
+            <h1 className="pp-subtitle">
+              ESTRUTURA <br /> ORGANIZACIONAL
+            </h1>
           </div>
           <img
             className="orgcircle"

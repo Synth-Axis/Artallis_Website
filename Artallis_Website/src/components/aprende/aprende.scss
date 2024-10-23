@@ -9,8 +9,9 @@
     @include give-flex-column(center, center);
     gap: 16px;
     .pp-subtitle {
-      @include h1;
+      @include hero;
       color: $blue;
+      font-weight: 800;
     }
     .pp-title {
       @include text-primary;
@@ -32,8 +33,8 @@
 
         h1 {
           @include hero_xl;
-          font-weight: 300;
-          margin-bottom: 20px;
+          font-weight: 500;
+          margin-bottom: 48px;
           cursor: pointer;
         }
         p {
@@ -42,7 +43,7 @@
         }
         &.selected {
           h1 {
-            color: $green;
+            color: $light-blue;
             font-weight: 700;
           }
           p {

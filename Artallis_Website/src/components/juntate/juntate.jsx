@@ -41,36 +41,41 @@ const Juntate = () => {
 
   return (
     <>
-      <div className="juntate-container">
-        <Header />
-        <div className="title-container">
-          <h5 className="pp-title">JUNTA-TE</h5>
-        </div>
-        <div className="content-container">
-          <div className="content">
-            {sections.map((section) => (
-              <div
-                key={section.id}
-                className={`content-section ${
-                  isActive === section.id ? "selected" : ""
-                }`}
-                onClick={() => handleClickSelection(section.id)}
-              >
-                <ContentSection title={section.title} />
-              </div>
-            ))}
+      {" "}
+      <div className="nav-wrapper">
+        <Header color="black"></Header>
+      </div>
+      <div className="main-container">
+        <div className="juntate1-container">
+          <div className="title-container">
+            <h5 className="pp-title">JUNTA-TE</h5>
           </div>
-
-          {isActive && (
-            <div className="extra-info">
-              {sections[isActive - 1].description.map((e, index) => (
-                <p key={index}>{e}</p>
+          <div className="content-container">
+            <div className="content">
+              {sections.map((section) => (
+                <div
+                  key={section.id}
+                  className={`content-section ${
+                    isActive === section.id ? "selected" : ""
+                  }`}
+                  onClick={() => handleClickSelection(section.id)}
+                >
+                  <ContentSection title={section.title} />
+                </div>
               ))}
-              <Button type="button" text="Quero fazer parte!"></Button>
             </div>
-          )}
+
+            {isActive && (
+              <div className="extra-info">
+                {sections[isActive - 1].description.map((e, index) => (
+                  <p key={index}>{e}</p>
+                ))}
+                <Button type="button" text="Quero fazer parte!"></Button>
+              </div>
+            )}
+          </div>
+          {isActive !== 1 && <ImageSlider />}
         </div>
-        {isActive !== 1 && <ImageSlider />}
       </div>
       <Footer />
     </>

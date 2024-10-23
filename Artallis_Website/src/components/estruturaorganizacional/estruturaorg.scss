@@ -6,13 +6,18 @@
   padding: 0 4rem;
 
   .title-container {
-    @include give-flex-column(center, center);
+    @include give-flex-column(center, flex-start);
     gap: 1rem;
     margin-top: 8rem;
+    width: 100%;
 
     .pp-subtitle {
       @include h1;
-      color: $blue;
+      color: $black-primary;
+      font-weight: 800;
+      margin-bottom: 4rem;
+      width: 100%;
+      text-align: left;
     }
   }
 
@@ -28,6 +33,16 @@
 
     .title-container {
       margin-top: 0rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .estruturaorg-container {
+    .title-container {
+      .pp-subtitle {
+        @include h2;
+      }
     }
   }
 }

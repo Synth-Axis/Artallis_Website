@@ -48,10 +48,7 @@ a {
   margin-bottom: 1rem;
 }
 .calendardays__header h2 {
-  font-family: "Barlow", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 900;
   color: #bbce00;
 }
@@ -113,9 +110,19 @@ a {
   padding: 0.75rem;
   border-radius: 0.5rem;
 }
-.calendardays .event-card .event-details strong {
+.calendardays .event-card .event-details .agenda-time {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
   font-weight: 600;
-  color: #ffffff;
+}
+.calendardays .event-card .event-details .agenda-eventname {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 
 @media (max-width: 768px) {
@@ -123,7 +130,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    padding: 0 4rem;
+    padding: 0 2rem;
   }
   .calendardays .event-card .event-details {
     display: flex;

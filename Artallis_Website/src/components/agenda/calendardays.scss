@@ -10,7 +10,7 @@
     gap: 4rem;
     margin-bottom: 1rem;
     h2 {
-      @include h1;
+      @include hero;
       font-weight: 900;
       color: $green;
     }
@@ -70,9 +70,14 @@
       padding: 0.75rem;
       border-radius: 0.5rem;
 
-      strong {
+      .agenda-time {
+        @include h5;
         font-weight: 600;
-        color: $white;
+      }
+
+      .agenda-eventname {
+        @include h5;
+        font-weight: 300;
       }
     }
   }
@@ -84,7 +89,7 @@
       display: flex;
       flex-direction: column;
       gap: 0.5rem;
-      padding: 0 4rem;
+      padding: 0 2rem;
     }
 
     .event-card {

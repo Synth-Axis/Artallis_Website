@@ -47,6 +47,10 @@
     top: 200px;
   }
 
+  .slick-dots.custom-dots {
+    height: 2rem;
+  }
+
   .slick-dots.custom-dots li button:before {
     color: $blue;
     font-size: 1.25rem;

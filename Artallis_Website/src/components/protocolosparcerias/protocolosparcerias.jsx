@@ -15,7 +15,9 @@ const Protocolosparcerias = () => {
 
   return (
     <>
-      <Header color="black"></Header>
+      <div className="nav-wrapper">
+        <Header color="black"></Header>
+      </div>
       <div class="main-container">
         <div className="protocoloseparcerias-container">
           <div className="title-container">

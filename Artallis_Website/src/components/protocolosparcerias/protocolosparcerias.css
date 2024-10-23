@@ -48,10 +48,8 @@ a {
   gap: 1rem;
 }
 .protocoloseparcerias-container .title-container .pp-subtitle {
-  font-family: "Barlow", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-weight: 800;
   color: #198ece;
 }
 .protocoloseparcerias-container .title-container .pp-title {
@@ -60,6 +58,7 @@ a {
   font-style: normal;
   font-size: 1rem;
   margin-top: 8rem;
+  color: #198ece;
 }
 .protocoloseparcerias-container .circles-wrapper {
   display: flex;

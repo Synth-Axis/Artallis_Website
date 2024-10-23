@@ -41,19 +41,28 @@ a {
   padding: 0 4rem;
 }
 .historia-container .pp-subtitle {
-  font-family: "Barlow", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 1.75rem;
-  line-height: 2rem;
+  font-size: 4rem;
   color: #198ece;
   margin-top: 8rem;
 }
+.historia-container .title-grid {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.historia-container .title-grid h2 {
+  grid-column: 2/3; /* Ensures this is placed in the second cell */
+  padding: 0 1rem;
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: left;
+  padding-bottom: 2rem;
+}
 .historia-container .conteudo-grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-bottom: 4rem;
 }
 .historia-container .conteudo-grid .img-section {
   display: flex;
@@ -66,75 +75,66 @@ a {
 .historia-container .conteudo-grid .img-section .historia-image {
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: center;
-     object-position: center;
+  -o-object-position: top;
+     object-position: top;
   width: 100%;
-  height: 450px;
+  height: 360px;
   border-radius: 8px;
 }
 .historia-container .conteudo-grid .txt-section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 1rem;
   width: 100%;
   color: #1d1d1b;
 }
-.historia-container .conteudo-grid .txt-section .historia-conteudo {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 1rem;
-}
-.historia-container .conteudo-grid .txt-section .historia-conteudo h4 {
-  font-family: "Barlow", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 1.5rem;
-  text-align: left;
-}
-.historia-container .conteudo-grid .txt-section p {
+.historia-container .conteudo-grid p {
   font-family: "Barlow", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
   color: #1d1d1b;
   text-align: left;
+  font-weight: 500;
 }
-.historia-container .conteudo-grid .txt-section p:not(:last-child) {
+.historia-container .conteudo-grid p:not(:last-child) {
   margin-bottom: 0.75rem;
 }
-.historia-container .conteudo-grid .historia-info > div {
+.historia-container .historia-info > div {
   margin-bottom: 2rem;
 }
-.historia-container .conteudo-grid .historia-info > div p {
+.historia-container .historia-info > div p {
   font-family: "Barlow", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
 }
-.historia-container .conteudo-grid .historia-info {
-  width: 100%;
+.historia-container .historia-info {
+  padding: 0px 16rem;
 }
-.historia-container .conteudo-grid .historia-info h4 {
-  color: #198ece;
-  font-family: "Barlow", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 1.75rem;
-  line-height: 2rem;
-}
-.historia-container .conteudo-grid .historia-info h3 {
+.historia-container .historia-info h4 {
   color: #198ece;
   font-family: "Barlow", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 2rem;
 }
+.historia-container .historia-info h3 {
+  color: #198ece;
+  font-size: 3rem;
+}
 
 @media (max-width: 1200px) {
+  .historia-container .title-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .historia-container .title-grid h2 {
+    text-align: center;
+  }
   .historia-container .conteudo-grid {
     display: flex;
     flex-direction: column;
@@ -149,6 +149,9 @@ a {
   .historia-container .conteudo-grid .img-section .historia-image {
     width: 100%;
     height: 450px;
+  }
+  .historia-container .historia-info {
+    padding: 0;
   }
 }
 @media (max-width: 992px) {
@@ -169,11 +172,18 @@ a {
   }
 }
 @media (max-width: 768px) {
+  .historia-container .title-grid {
+    margin-top: 0;
+  }
+  .historia-container .pp-subtitle {
+    font-size: 3rem;
+  }
   .historia-container .conteudo-grid {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 0;
   }
   .historia-container .conteudo-grid .img-section {
     display: flex;
@@ -184,5 +194,13 @@ a {
   .historia-container .conteudo-grid .img-section .historia-image {
     width: 100%;
     height: 300px;
+  }
+}
+@media (max-width: 480px) {
+  .historia-container .pp-subtitle {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
   }
 }/*# sourceMappingURL=historia.css.map */

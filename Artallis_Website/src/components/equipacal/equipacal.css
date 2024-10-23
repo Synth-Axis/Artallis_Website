@@ -53,6 +53,7 @@ a {
   font-style: normal;
   font-size: 1rem;
   margin-top: 8rem;
+  color: #198ece;
 }
 .equipacal-container .title-container .pp-subtitle {
   font-family: "Barlow", sans-serif;
@@ -71,6 +72,9 @@ a {
 .equipacal-container .professores-container div {
   display: flex;
   justify-content: center;
+}
+.equipacal-container .professores-container .equipacal-photo .professor-photo {
+  width: 20vh;
 }
 .equipacal-container .hidden {
   display: none;

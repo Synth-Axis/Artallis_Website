@@ -48,11 +48,9 @@ a {
   gap: 16px;
 }
 .aprende-container .title-container .pp-subtitle {
-  font-family: "Barlow", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: #198ece;
+  font-weight: 800;
 }
 .aprende-container .title-container .pp-title {
   font-family: "Barlow", sans-serif;
@@ -83,8 +81,8 @@ a {
 }
 .aprende-container .content-container .content .content-section h1 {
   font-size: 4rem;
-  font-weight: 300;
-  margin-bottom: 20px;
+  font-weight: 500;
+  margin-bottom: 48px;
   cursor: pointer;
 }
 .aprende-container .content-container .content .content-section p {
@@ -92,7 +90,7 @@ a {
   line-height: 1.8;
 }
 .aprende-container .content-container .content .content-section.selected h1 {
-  color: #bbce00;
+  color: #03abe5;
   font-weight: 700;
 }
 .aprende-container .content-container .content .content-section.selected p {

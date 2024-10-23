@@ -49,10 +49,10 @@ const apresentacao = [
 const Apresentacao = () => {
   return (
     <>
-      <div class="nav-wrapper">
+      <div className="nav-wrapper">
         <Header color="black"></Header>
       </div>
-      <div class="main-container">
+      <div className="main-container">
         <div className="apresentacao-container">
           <div className="title-container">
             <h1 className="pp-title">APRESENTANDO O CONSERVATÓRIO ARTALLIS:</h1>

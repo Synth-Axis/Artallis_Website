@@ -14,7 +14,9 @@
     position: relative;
 
     &__image {
-      width: 100%;
+      @include give-flex-row(center, center);
+      width: 50%;
+
       img {
         border-radius: 50%;
       }
