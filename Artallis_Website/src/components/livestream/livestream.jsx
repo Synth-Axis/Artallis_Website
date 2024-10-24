@@ -2,10 +2,12 @@ import "./livestream.css";
 import Header from "../header/header";
 import Footer from "../footer/footer";
 import image1 from "../../assets/media/fotos_aleatorias/converted_webp/_D4_1403 .webp";
+import BouncingBalls from "../bouncingballs";
 
 const Livestream = () => {
   return (
     <>
+      <BouncingBalls />
       <div className="nav-wrapper">
         <Header color="black"></Header>
       </div>

@@ -3,10 +3,12 @@ import estudantes from "../../assets/media/links/converted_webp/440824938_182887
 import atuacao from "../../assets/media/links/converted_webp/36773157_2122507118029399_2911400739018375168_n.webp";
 import Header from "../header/header";
 import Footer from "../footer/footer";
+import BouncingBalls from "../bouncingballs";
 
 const Historia = () => {
   return (
     <>
+      <BouncingBalls />
       <div className="nav-wrapper">
         <Header color="black"></Header>
       </div>

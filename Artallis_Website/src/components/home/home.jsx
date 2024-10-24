@@ -9,29 +9,32 @@ import Ligate from "./ligate";
 import Juntate from "./juntate";
 import Footer from "../footer/footer";
 import React from "react";
+import BouncingBalls from "../bouncingballs";
 
 const Home = () => {
   return (
     <>
+      <BouncingBalls />
       <Hero logocolor="white"></Hero>
       <div className="home-container">
         <Descobre></Descobre>
-        <Ligate
-          id="ligate"
-          title="APRENDE"
-          subtitle="Aulas mais populares"
-          imgsrc={aprende_img}
-          imgalt="ligate foto"
-        ></Ligate>
-        <Counterbanner></Counterbanner>
-        <Aprende
-          title="LIGA-TE"
-          subtitle="Veja o que nossos alunos podem fazer"
-          imgsrc={ligate_img}
-          imgalt="aprende foto"
-        ></Aprende>
-        <Juntate></Juntate>
       </div>
+      <Ligate
+        id="ligate"
+        title="APRENDE"
+        subtitle="Aulas mais populares"
+        imgsrc={aprende_img}
+        imgalt="ligate foto"
+      ></Ligate>
+      <Counterbanner></Counterbanner>
+      <Aprende
+        title="LIGA-TE"
+        subtitle="Veja o que nossos alunos podem fazer"
+        imgsrc={ligate_img}
+        imgalt="aprende foto"
+      ></Aprende>
+      <Juntate></Juntate>
+
       <Footer></Footer>
     </>
   );

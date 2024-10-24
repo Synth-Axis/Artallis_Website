@@ -3,6 +3,7 @@ import "./estruturaorg.css";
 import image1 from "../../assets/media/links/converted_webp/Organigrama.webp";
 import Header from "../header/header";
 import Footer from "../footer/footer";
+import BouncingBalls from "../bouncingballs";
 
 const Estruturaorg = () => {
   const [rotation, setRotation] = useState(0);
@@ -21,6 +22,7 @@ const Estruturaorg = () => {
 
   return (
     <>
+      <BouncingBalls />
       <div className="nav-wrapper">
         <Header color="black"></Header>
       </div>

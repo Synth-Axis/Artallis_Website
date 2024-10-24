@@ -1,5 +1,27 @@
 @import "../../sass_styles/main";
 
+.container {
+  height: 100vh;
+
+  .ball {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: $yellow;
+    position: absolute;
+    z-index: -1;
+    animation: bounce 5s infinite alternate;
+  }
+
+  @keyframes bounce {
+    from {
+      transform: translateY(100px);
+    }
+    to {
+      transform: translateY(0px);
+    }
+  }
+}
 .apresentacao-container {
   @include give-flex-column(center, center);
   gap: 8rem;

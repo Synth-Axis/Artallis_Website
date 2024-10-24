@@ -2,11 +2,12 @@ import "./calparatodos.css";
 import image1 from "../../assets/media/links/converted_webp/36773157_2122507118029399_2911400739018375168_n.webp";
 import Header from "../header/header";
 import Footer from "../footer/footer";
+import BouncingBalls from "../bouncingballs";
 
 const Calparatodos = () => {
   return (
     <>
-      {" "}
+      <BouncingBalls />
       <div className="nav-wrapper">
         <Header color="black"></Header>
       </div>

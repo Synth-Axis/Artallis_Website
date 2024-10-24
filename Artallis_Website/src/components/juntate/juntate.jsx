@@ -5,6 +5,7 @@ import ContentSection from "../aprende/contentsection";
 import ImageSlider from "../aprende/imageslider";
 import Button from "../button";
 import { useState } from "react";
+import BouncingBalls from "../bouncingballs";
 
 const sections = [
   {
@@ -41,7 +42,7 @@ const Juntate = () => {
 
   return (
     <>
-      {" "}
+      <BouncingBalls />
       <div className="nav-wrapper">
         <Header color="black"></Header>
       </div>

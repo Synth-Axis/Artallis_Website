@@ -5,6 +5,7 @@ import Header from "../header/header";
 import Button from "../button";
 import Footer from "../footer/footer";
 import React, { useState } from "react";
+import BouncingBalls from "../bouncingballs";
 
 const Protocolosparcerias = () => {
   const [visibleCount, setVisibleCount] = useState(7);
@@ -15,10 +16,11 @@ const Protocolosparcerias = () => {
 
   return (
     <>
+      <BouncingBalls />
       <div className="nav-wrapper">
         <Header color="black"></Header>
       </div>
-      <div class="main-container">
+      <div className="main-container">
         <div className="protocoloseparcerias-container">
           <div className="title-container">
             <p className="pp-title">JUNTA-TE</p>

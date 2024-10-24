@@ -5,6 +5,7 @@ import ContentSection from "./contentsection";
 import ImageDisplay from "./imagedisplay";
 import ImageSlider from "./imageslider";
 import { useState } from "react";
+import BouncingBalls from "../bouncingballs";
 
 const sections = [
   {
@@ -81,6 +82,7 @@ const Aprende = () => {
 
   return (
     <>
+      <BouncingBalls />
       <div className="nav-wrapper">
         <Header color="black"></Header>
       </div>

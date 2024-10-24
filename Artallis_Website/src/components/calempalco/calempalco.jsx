@@ -2,6 +2,7 @@ import "./calempalco.css";
 import Header from "../header/header";
 import Footer from "../footer/footer";
 import atuacoes from "./atuacoes";
+import BouncingBalls from "../bouncingballs";
 
 const bgcolors = [
   "yellow",
@@ -19,6 +20,7 @@ const Calempalco = () => {
   };
   return (
     <>
+      <BouncingBalls />
       <div className="nav-wrapper">
         <Header color="black"></Header>
       </div>

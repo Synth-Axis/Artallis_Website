@@ -5,6 +5,7 @@ import Footer from "../footer/footer";
 import Button from "../button";
 import professores from "../professores";
 import { useState } from "react";
+import BouncingBalls from "../bouncingballs";
 
 const Equipacal = () => {
   const [visibleCount, setVisibleCount] = useState(7);
@@ -15,6 +16,7 @@ const Equipacal = () => {
 
   return (
     <>
+      <BouncingBalls />
       <div className="nav-wrapper">
         <Header color="black"></Header>
       </div>

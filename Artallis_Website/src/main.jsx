@@ -2,13 +2,19 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import React from "react";
 
 createRoot(document.getElementById("root")).render(
+  //   <StrictMode>
+  //     <HashRouter basename="/">
+  //       <App />
+  //     </HashRouter>
+  //   </StrictMode>
+  // );
   <StrictMode>
-    <BrowserRouter basename="/">
+    <HashRouter basename="projetos_sg/Artallis">
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </StrictMode>
 );

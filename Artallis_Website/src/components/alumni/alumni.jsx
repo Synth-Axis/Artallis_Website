@@ -6,6 +6,7 @@ import image4 from "../../assets/media/fotos_professores/converted_webp/Catia_Si
 import Header from "../header/header";
 import Footer from "../footer/footer";
 import Alumnicardcarousel from "./alumnicardcarousel";
+import BouncingBalls from "../bouncingballs";
 
 const persons = [
   {
@@ -37,6 +38,7 @@ const persons = [
 const Alumni = () => {
   return (
     <>
+      <BouncingBalls />
       <div className="nav-wrapper">
         <Header color="black"></Header>
       </div>

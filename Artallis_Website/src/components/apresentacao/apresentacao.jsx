@@ -3,6 +3,7 @@ import image from "../../assets/media/links/converted_webp/436418939_18287426791
 import Apresentacaocard from "./apresentacaocard";
 import Header from "../header/header";
 import Footer from "../footer/footer";
+import BouncingBalls from "../bouncingballs";
 
 const apresentacao = [
   {
@@ -49,10 +50,13 @@ const apresentacao = [
 const Apresentacao = () => {
   return (
     <>
+      <BouncingBalls />
       <div className="nav-wrapper">
         <Header color="black"></Header>
       </div>
       <div className="main-container">
+        {/* <div className="container"> */}
+        {/* <div className="ball"></div> */}
         <div className="apresentacao-container">
           <div className="title-container">
             <h1 className="pp-title">APRESENTANDO O CONSERVATÓRIO ARTALLIS:</h1>
@@ -88,6 +92,7 @@ const Apresentacao = () => {
           </div>
         </div>
       </div>
+      {/* </div> */}
       <Footer></Footer>
     </>
   );

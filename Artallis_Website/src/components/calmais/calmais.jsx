@@ -4,6 +4,7 @@ import Header from "../header/header";
 import Footer from "../footer/footer";
 import Button from "../button";
 import { useState } from "react";
+import BouncingBalls from "../bouncingballs";
 
 const bgcolors = [
   "yellow",
@@ -28,6 +29,7 @@ const Calmais = () => {
 
   return (
     <>
+      <BouncingBalls />
       <div className="nav-wrapper">
         <Header color="black"></Header>
       </div>

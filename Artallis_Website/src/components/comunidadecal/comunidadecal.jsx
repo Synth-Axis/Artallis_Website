@@ -2,10 +2,12 @@ import Header from "../header/header";
 import Footer from "../footer/footer";
 import Slidercomunidade from "./slidercomunidade";
 import "./comunidadecal.css";
+import BouncingBalls from "../bouncingballs";
 
 const Comunidadecal = () => {
   return (
     <>
+      <BouncingBalls />
       <div className="nav-wrapper">
         <Header color="black"></Header>
       </div>

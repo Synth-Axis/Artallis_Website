@@ -12,6 +12,7 @@ import Footer from "../footer/footer";
 import Button from "../button";
 import Noticiascard from "./noticiascard";
 import { useState } from "react";
+import BouncingBalls from "../bouncingballs";
 
 const noticias = [
   {
@@ -89,6 +90,7 @@ const Noticias = () => {
 
   return (
     <>
+      <BouncingBalls />
       <div className="nav-wrapper">
         <Header color="black"></Header>
       </div>

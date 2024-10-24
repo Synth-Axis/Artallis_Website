@@ -2,10 +2,12 @@ import "./eventos.css";
 import Header from "../header/header";
 import Footer from "../footer/footer";
 import Calendar from "./calendar";
+import BouncingBalls from "../bouncingballs";
 
 const Eventos = () => {
   return (
     <>
+      <BouncingBalls />
       <div className="nav-wrapper">
         <Header color="black"></Header>
       </div>

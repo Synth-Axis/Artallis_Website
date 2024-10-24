@@ -32,6 +32,27 @@ a {
   cursor: pointer;
 }
 
+.container {
+  height: 100vh;
+}
+.container .ball {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #fccd00;
+  position: absolute;
+  z-index: -1;
+  animation: bounce 5s infinite alternate;
+}
+@keyframes bounce {
+  from {
+    transform: translateY(100px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
 .apresentacao-container {
   display: flex;
   flex-direction: column;
