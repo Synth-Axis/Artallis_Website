@@ -7,9 +7,9 @@ export default defineConfig({
   base: "/",
   // base: "/projetos_sg/Artallis/",
   build: {
-    // target: "esnext",
-    chunkFileNames: "./assets/[name].[hash].js",
-    assetFileNames: "./assets/media/[name].[hash].[ext]",
+    target: "esnext",
+    // chunkFileNames: "./assets/[name].[hash].js",
+    // assetFileNames: "./assets/media/[name].[hash].[ext]",
   },
   //   server: {
   //     mimeTypes: {
