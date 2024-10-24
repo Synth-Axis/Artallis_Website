@@ -26,7 +26,7 @@ const Estruturaorg = () => {
       <div className="nav-wrapper">
         <Header color="black"></Header>
       </div>
-      <div class="main-container">
+      <div className="main-container">
         <div className="estruturaorg-container">
           <div className="title-container">
             <h1 className="pp-subtitle">

@@ -97,4 +97,54 @@ a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.modal-overlay .modal-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #bbce00;
+  padding: 6rem;
+  border-radius: 50%;
+  width: 30%;
+  position: relative;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.modal-overlay .modal-content .close-button {
+  background: none;
+  border: none;
+  font-size: 4rem;
+  cursor: pointer;
+}
+.modal-overlay .modal-content .modal-header h2 {
+  margin: 0;
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+}
+.modal-overlay .modal-content .modal-header h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #555;
+}
+.modal-overlay .modal-content .modal-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
 }/*# sourceMappingURL=equipacal.css.map */

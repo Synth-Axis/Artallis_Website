@@ -73,3 +73,51 @@
     }
   }
 }
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+
+  .modal-content {
+    @include give-flex-column(center, center);
+    gap: 2rem;
+    background-color: $green;
+    padding: 6rem;
+    border-radius: 50%;
+    width: 30%;
+
+    position: relative;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+
+    .close-button {
+      background: none;
+      border: none;
+      @include hero_xl;
+      cursor: pointer;
+    }
+    .modal-header h2 {
+      margin: 0;
+      @include h2;
+    }
+
+    .modal-header h3 {
+      margin: 0;
+      font-size: 18px;
+      color: #555;
+    }
+
+    .modal-body {
+      @include give-flex-row(center, center);
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+}
