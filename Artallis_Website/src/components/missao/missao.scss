@@ -1,0 +1,26 @@
+@import "../../sass_styles/main";
+
+.missao-container {
+  @include give-flex-column(center, center);
+  gap: 4rem;
+  padding: 0 4rem;
+
+  .title-container {
+    @include give-flex-column(center, center);
+    gap: 1rem;
+    .pp-subtitle {
+      @include hero;
+      font-weight: 800;
+      color: $blue;
+    }
+    .pp-title {
+      @include text-primary;
+      margin-top: 8rem;
+    }
+  }
+  .missao-texto {
+    @include h2;
+    color: $blue;
+    font-weight: 500;
+  }
+}

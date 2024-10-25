@@ -3,7 +3,7 @@ import Button from "../button";
 
 const Aprende = ({ title, subtitle, imgsrc, imgalt }) => {
   return (
-    <div className="main-container aprende">
+    <div className="aprende">
       <h6>{title}</h6>
       <h2>{subtitle}</h2>
       <img src={imgsrc} alt={imgalt} />

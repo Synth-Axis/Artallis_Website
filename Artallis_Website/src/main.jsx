@@ -13,8 +13,8 @@ createRoot(document.getElementById("root")).render(
   </StrictMode>
 );
 //   <StrictMode>
-//     <BrowserRouter basename="projetos_sg/Artallis">
+//     <HashRouter basename="projetos_sg/Artallis/">
 //       <App />
-//     </BrowserRouter>
+//     </HashRouter>
 //   </StrictMode>
 // );

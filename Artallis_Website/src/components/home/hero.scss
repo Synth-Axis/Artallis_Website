@@ -20,7 +20,6 @@
   .hero-center-text h1 {
     @include hero_xl;
     line-height: 3.5rem;
-    width: 100%;
     color: $white;
     text-transform: uppercase;
   }
@@ -28,7 +27,6 @@
     line-height: 2.5rem;
     @include hero;
     font-weight: 400;
-    width: 100%;
     color: $white;
     text-transform: uppercase;
   }

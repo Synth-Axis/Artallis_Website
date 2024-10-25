@@ -55,7 +55,6 @@ a {
 .hero-banner .hero-center-text h1 {
   font-size: 4rem;
   line-height: 3.5rem;
-  width: 100%;
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -63,7 +62,6 @@ a {
   line-height: 2.5rem;
   font-size: 3rem;
   font-weight: 400;
-  width: 100%;
   color: #ffffff;
   text-transform: uppercase;
 }

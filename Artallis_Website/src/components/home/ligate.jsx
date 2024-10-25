@@ -2,7 +2,7 @@ import "./ligate.css";
 
 const Ligate = ({ title, subtitle, imgsrc, imgalt }) => {
   return (
-    <div className="main-container aprendeligate">
+    <div className="aprendeligate">
       <div>
         <h6>{title}</h6>
         <h2>{subtitle}</h2>

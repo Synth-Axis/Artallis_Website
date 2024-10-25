@@ -58,9 +58,11 @@
         width: 100%;
       }
       .scrolling-text {
-        @include hero;
-        gap: 6rem;
-        right: 1rem;
+        span {
+          @include h1;
+          gap: 6rem;
+          right: 1rem;
+        }
       }
     }
   }

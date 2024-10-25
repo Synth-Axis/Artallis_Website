@@ -95,8 +95,11 @@ a {
   .aprendeligate .scroll-container img {
     width: 100%;
   }
-  .aprendeligate .scroll-container .scrolling-text {
-    font-size: 3rem;
+  .aprendeligate .scroll-container .scrolling-text span {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5rem;
     gap: 6rem;
     right: 1rem;
   }

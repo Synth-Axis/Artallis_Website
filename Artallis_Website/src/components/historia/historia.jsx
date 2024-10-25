@@ -12,7 +12,7 @@ const Historia = () => {
       <div className="nav-wrapper">
         <Header color="black"></Header>
       </div>
-      <div class="main-container">
+      <div className="main-container">
         <div className="historia-container">
           <h1 className="pp-subtitle">
             DESCOBRINDO A HISTÓRIA DO CONSERVATÓRIO ARTALLIS:
