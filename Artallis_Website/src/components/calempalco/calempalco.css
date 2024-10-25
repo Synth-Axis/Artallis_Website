@@ -61,12 +61,18 @@ a {
   font-size: 1rem;
   margin-top: 8rem;
 }
+.calempalco-container .calempalco-descricao {
+  font-family: "Barlow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+  color: #198ece;
+}
 .calempalco-container .atuacoes-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   width: 100%;
-  padding: 1rem;
   justify-content: center;
 }
 .calempalco-container .atuacoes-container .card-item {
@@ -76,6 +82,7 @@ a {
   text-align: left;
   color: #ffffff;
   width: 100%;
+  height: 610px;
   border-radius: 1rem;
   transition: transform 0.3s ease;
 }
@@ -85,7 +92,7 @@ a {
   align-items: flex-start;
   justify-content: space-between;
   gap: 4rem;
-  padding: 2rem;
+  padding: 6rem 4rem;
   color: #1d1d1b;
 }
 .calempalco-container .atuacoes-container .card-item .inner-card-container h1 {
@@ -93,15 +100,18 @@ a {
   font-weight: 700;
   font-style: normal;
   font-size: 2.5rem;
+  color: #ffffff;
 }
 .calempalco-container .atuacoes-container .card-item .inner-card-container p {
   font-family: "Barlow", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1rem;
+  text-align: justify;
+  font-weight: 500;
 }
 .calempalco-container .atuacoes-container .card-item:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 .calempalco-container .atuacoes-container .card-item.orange {
   background-color: #f2921a;

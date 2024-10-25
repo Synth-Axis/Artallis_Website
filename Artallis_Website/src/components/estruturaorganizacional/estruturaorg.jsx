@@ -22,7 +22,6 @@ const Estruturaorg = () => {
 
   return (
     <>
-      <BouncingBalls />
       <div className="nav-wrapper">
         <Header color="black"></Header>
       </div>
