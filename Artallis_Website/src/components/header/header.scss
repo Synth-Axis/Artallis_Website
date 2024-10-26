@@ -4,6 +4,8 @@
   @include give-flex-row(flex-start, space-between);
   margin-top: 4rem;
   width: 100%;
+  position: relative;
+  z-index: 1000;
 
   .menu-wrapper {
     @include give-flex-row(center, flex-end);

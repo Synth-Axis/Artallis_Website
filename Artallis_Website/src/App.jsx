@@ -24,7 +24,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div>
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="projetos_sg/Artallis/">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/apresentacao" element={<Apresentacao />} />

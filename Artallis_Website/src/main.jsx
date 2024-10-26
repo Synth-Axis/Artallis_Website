@@ -10,3 +10,9 @@ createRoot(document.getElementById("root")).render(
     <App />
   </StrictMode>
 );
+//   <StrictMode>
+//     <HashRouter basename="projetos_sg/Artallis/">
+//       <App />
+//     </HashRouter>
+//   </StrictMode>
+// );
