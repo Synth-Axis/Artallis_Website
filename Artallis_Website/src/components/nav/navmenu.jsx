@@ -2,13 +2,12 @@ import "./navmenu.css";
 import Subdescobre from "./subdescobre";
 import Subvivencia from "./subvivencia";
 import Subligate from "./subligate";
-import { Link, useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useState } from "react";
 
 const NavMenu = ({ color }) => {
   const [menuMobile, setMenuMobile] = useState(false);
-  const location = useLocation();
 
   const toggleMode = () => {
     setMenuMobile(!menuMobile);

@@ -6,6 +6,7 @@
   left: 0;
   width: 100vw;
   height: 100vh;
+  z-index: -1;
   overflow: hidden;
 }
 
@@ -13,7 +14,7 @@
   position: absolute;
   border-radius: 50%;
   animation: bounce 8s infinite alternate;
-  z-index: 2;
+  z-index: 5;
 }
 
 @keyframes bounce {

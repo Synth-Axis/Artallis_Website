@@ -1,5 +1,15 @@
 @import "../../sass_styles/main";
 
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-container {
+  flex: 1;
+}
+
 .alumni-container {
   @include give-flex-column(center, center);
   gap: 4rem;

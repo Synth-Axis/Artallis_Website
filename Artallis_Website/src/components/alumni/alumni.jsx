@@ -38,20 +38,22 @@ const persons = [
 const Alumni = () => {
   return (
     <>
-      <BouncingBalls />
-      <div className="nav-wrapper">
-        <Header color="black"></Header>
-      </div>
-      <div className="main-container">
-        <div className="alumni-container">
-          <div className="title-container">
-            <p className="pp-title">LIGA-TE</p>
-            <h1 className="pp-subtitle">ALUMNI</h1>
-          </div>
-          <Alumnicardcarousel persons={persons}></Alumnicardcarousel>
+      <div className="page-container">
+        <BouncingBalls />
+        <div className="nav-wrapper">
+          <Header color="black"></Header>
         </div>
+        <div className="main-container">
+          <div className="alumni-container">
+            <div className="title-container">
+              <p className="pp-title">LIGA-TE</p>
+              <h1 className="pp-subtitle">ALUMNI</h1>
+            </div>
+            <Alumnicardcarousel persons={persons}></Alumnicardcarousel>
+          </div>
+        </div>
+        <Footer></Footer>
       </div>
-      <Footer></Footer>
     </>
   );
 };
