@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://clientes.space/projetos_sg/Artallis",
+  "homepage": "/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
