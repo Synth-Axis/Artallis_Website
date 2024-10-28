@@ -27,7 +27,8 @@ function App() {
   return (
     <>
       <div className="app-container">
-        <BrowserRouter basename="projetos_sg/Artallis/">
+        {/* <BrowserRouter basename="projetos_sg/Artallis/"> */}
+        <BrowserRouter basename="/">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/apresentacao" element={<Apresentacao />} />
