@@ -20,37 +20,41 @@ import Agenda from "./components/agenda/agenda";
 import Livestream from "./components/livestream/livestream";
 import Alumni from "./components/alumni/alumni";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Header from "./components/header/header";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
-    <div>
-      <BrowserRouter basename="projetos_sg/Artallis/">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/apresentacao" element={<Apresentacao />} />
-          <Route path="/historia" element={<Historia />} />
-          <Route path="/missao" element={<Missao />} />
-          <Route path="/estruturaorg" element={<Estruturaorg />} />
-          <Route path="/equipacal" element={<Equipacal />} />
-          <Route
-            path="/protocolosparcerias"
-            element={<Protocolosparcerias />}
-          />
-          <Route path="/calmais" element={<Calmais />} />
-          <Route path="/aprende" element={<Aprende />} />
-          <Route path="/calempalco" element={<Calempalco />} />
-          <Route path="/comunidadecal" element={<Comunidadecal />} />
-          <Route path="/calparatodos" element={<Calparatodos />} />
-          <Route path="/juntate" element={<Juntate />} />
-          <Route path="/noticias" element={<Noticias />} />
-          <Route path="/eventos" element={<Eventos />} />
-          <Route path="/agenda" element={<Agenda />} />
-          <Route path="/livestream" element={<Livestream />} />
-          <Route path="/alumni" element={<Alumni />} />
-          <Route path="/*" element={<Home />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+    <>
+      <div className="app-container">
+        <BrowserRouter basename="projetos_sg/Artallis/">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/apresentacao" element={<Apresentacao />} />
+            <Route path="/historia" element={<Historia />} />
+            <Route path="/missao" element={<Missao />} />
+            <Route path="/estruturaorg" element={<Estruturaorg />} />
+            <Route path="/equipacal" element={<Equipacal />} />
+            <Route
+              path="/protocolosparcerias"
+              element={<Protocolosparcerias />}
+            />
+            <Route path="/calmais" element={<Calmais />} />
+            <Route path="/aprende" element={<Aprende />} />
+            <Route path="/calempalco" element={<Calempalco />} />
+            <Route path="/comunidadecal" element={<Comunidadecal />} />
+            <Route path="/calparatodos" element={<Calparatodos />} />
+            <Route path="/juntate" element={<Juntate />} />
+            <Route path="/noticias" element={<Noticias />} />
+            <Route path="/eventos" element={<Eventos />} />
+            <Route path="/agenda" element={<Agenda />} />
+            <Route path="/livestream" element={<Livestream />} />
+            <Route path="/alumni" element={<Alumni />} />
+            <Route path="/*" element={<Home />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
+    </>
   );
 }
 
