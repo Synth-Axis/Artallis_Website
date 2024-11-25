@@ -41,7 +41,8 @@
   justify-content: center;
 }
 .equipacal-container .professores-container .equipacal-photo .professor-photo {
-  width: 20vh;
+  width: 15vh;
+  height: 15vh;
 }
 .equipacal-container .hidden {
   display: none;
@@ -58,11 +59,33 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+  .app-container .modal-overlay .modal-content {
+    width: 70%;
+  }
 }
 @media (max-width: 768px) {
   .equipacal-container .professores-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+  .app-container .modal-overlay .modal-content {
+    width: 70%;
+  }
+  .app-container .modal-overlay .modal-content p {
+    font-size: 0.85rem;
+  }
+}
+@media (max-width: 480px) {
+  .equipacal-container .professores-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .app-container .modal-overlay .modal-content {
+    padding: 3rem;
+    width: 70%;
+  }
+  .app-container .modal-overlay .modal-content p {
+    font-size: 0.6rem;
   }
 }
 .modal-overlay {
@@ -86,7 +109,7 @@
   background-color: #bbce00;
   padding: 6rem;
   border-radius: 50%;
-  width: 30%;
+  width: 50%;
   position: relative;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 }

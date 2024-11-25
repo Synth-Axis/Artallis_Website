@@ -40,17 +40,16 @@
 
     .navmenu-mobile {
       @include give-flex-row(flex-start, center);
-      background-color: $black-primary;
+      background-color: #1d1d1b;
       gap: 2rem;
       opacity: 0.98;
-      color: $white;
+      color: #ffffff;
       padding: 2rem;
       position: absolute;
-      top: 8rem;
-      left: -4rem;
+      top: 4rem;
+      left: 0rem;
       width: 100%;
       z-index: 9999;
-      display: none;
       .submenu-wrapper-mobile {
         @include give-flex-column(flex-end, flex-start);
         position: relative;
@@ -79,7 +78,9 @@
 
     .mobile-nav-wrapper {
       @include give-flex-column(flex-end, center);
-
+      .navmenu-mobile {
+        left: -2rem;
+      }
       .mobile-menu-icon {
         display: block;
         color: $white;

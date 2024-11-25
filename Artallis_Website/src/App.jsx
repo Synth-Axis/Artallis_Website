@@ -20,15 +20,13 @@ import Agenda from "./components/agenda/agenda";
 import Livestream from "./components/livestream/livestream";
 import Alumni from "./components/alumni/alumni";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Header from "./components/header/header";
-import Footer from "./components/footer/footer";
 
 function App() {
   return (
     <>
       <div className="app-container">
-        {/* <BrowserRouter basename="projetos_sg/Artallis/"> */}
-        <BrowserRouter basename="/">
+        <BrowserRouter basename="projetos_sg/Artallis/">
+          {/* <BrowserRouter basename="/"> */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/apresentacao" element={<Apresentacao />} />

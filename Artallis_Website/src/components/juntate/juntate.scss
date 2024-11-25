@@ -55,8 +55,9 @@
 }
 
 @media (max-width: 992px) {
-  .juntate-container {
+  .juntate1-container {
     .content-container {
+      flex-direction: column;
       .content {
         .content-section {
           h1 {
@@ -66,11 +67,14 @@
         }
       }
     }
+    .extra-info {
+      margin-top: 4rem;
+    }
   }
 }
 
 @media (max-width: 768px) {
-  .juntate-container {
+  .juntate1-container {
     .content-container {
       @include give-flex-column(flex-start, center);
       .content {

@@ -43,14 +43,14 @@ const ImageSlider = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1,
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 992,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
         },
       },
@@ -62,7 +62,7 @@ const ImageSlider = () => {
       <h4>Galeria</h4>
       <Slider {...settings_slider_imagens}>
         {images.map((image, index) => (
-          <div key={index} className="slide">
+          <div key={index}>
             <img src={image} alt={`Slide ${index + 1}`} className="image" />
           </div>
         ))}

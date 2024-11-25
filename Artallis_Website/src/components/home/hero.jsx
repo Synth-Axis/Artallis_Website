@@ -5,7 +5,7 @@ import Header from "../header/header";
 const Hero = (props) => {
   return (
     <div className="hero-banner">
-      <Header logocolor={props.logocolor} color="white"></Header>
+      <Header logocolor={props.logocolor} color={props.color}></Header>
 
       <div className="hero-center-text">
         <h1>Com o poder da arte criamos felicidade</h1>

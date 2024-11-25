@@ -19,7 +19,6 @@
 .submenu-mobile {
   @include give-flex-column(flex-end, center);
   gap: 0.5rem;
-
   padding-top: 0.25rem;
   li {
     border-bottom: 1px solid $yellow;
@@ -29,4 +28,13 @@
       @include text-nav;
     }
   }
+}
+
+.submenu-toggle {
+  background: none;
+  border: none;
+  color: $yellow; // or your preferred color
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
 }

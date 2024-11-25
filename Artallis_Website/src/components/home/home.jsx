@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <>
       <BouncingBalls />
-      <Hero logocolor="white"></Hero>
+      <Hero logocolor="white" color="white"></Hero>
       <div className="main-container">
         <div className="home-container">
           <Descobre></Descobre>

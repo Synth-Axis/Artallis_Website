@@ -48,11 +48,10 @@
   color: #ffffff;
   padding: 2rem;
   position: absolute;
-  top: 8rem;
-  left: -4rem;
+  top: 4rem;
+  left: 0rem;
   width: 100%;
   z-index: 9999;
-  display: none;
 }
 .menu-inner-wrapper .mobile-nav-wrapper .navmenu-mobile .submenu-wrapper-mobile {
   display: flex;
@@ -82,6 +81,9 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
+  }
+  .menu-inner-wrapper .mobile-nav-wrapper .navmenu-mobile {
+    left: -2rem;
   }
   .menu-inner-wrapper .mobile-nav-wrapper .mobile-menu-icon {
     display: block;

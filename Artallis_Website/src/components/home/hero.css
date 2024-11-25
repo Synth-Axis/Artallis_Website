@@ -4,7 +4,7 @@
   flex-direction: column;
   padding: 0 4rem;
   height: 100vh;
-  background-image: url("../../assets/media/fotos_aleatorias/converted_webp/Foto-9-1.webp");
+  background-image: url("../../assets/media/fotos_aleatorias/converted_webp/Foto-9-1edit.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -34,6 +34,9 @@
 }
 
 @media (max-width: 992px) {
+  .hero-banner {
+    padding: 0 2rem;
+  }
   .hero-banner .hero-center-text {
     padding: 4rem 0;
   }

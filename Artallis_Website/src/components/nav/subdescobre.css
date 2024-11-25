@@ -37,4 +37,13 @@
   font-weight: 600;
   font-style: normal;
   font-size: 0.75rem;
+}
+
+.submenu-toggle {
+  background: none;
+  border: none;
+  color: #fccd00;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem;
 }/*# sourceMappingURL=subdescobre.css.map */

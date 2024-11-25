@@ -8,22 +8,34 @@ import { useState } from "react";
 
 const NavMenu = ({ color }) => {
   const [menuMobile, setMenuMobile] = useState(false);
+  const [openSubmenu, setOpenSubmenu] = useState(null);
 
   const toggleMode = () => {
     setMenuMobile(!menuMobile);
   };
 
-  const isHomePage = location.pathname === "/";
+  const toggleSubmenu = (submenu) => {
+    setOpenSubmenu(openSubmenu === submenu ? null : submenu);
+  };
+
+  const isHomePage = location.pathname === "/projetos_sg/Artallis/";
 
   return (
     <div className="menu-inner-wrapper">
       <ul className="navmenu">
         <li>
           <div className="submenu-wrapper">
-            <a className={`menu${color}`}>Descobre</a>
-            <div className={`submenu menu${color}`}>
-              <Subdescobre></Subdescobre>
-            </div>
+            <a
+              className={`menu${color}`}
+              onClick={() => toggleSubmenu("descobre")}
+            >
+              Descobre
+            </a>
+            {openSubmenu === "descobre" && (
+              <div className={`submenu menu${color}`}>
+                <Subdescobre />
+              </div>
+            )}
           </div>
         </li>
 
@@ -36,10 +48,17 @@ const NavMenu = ({ color }) => {
         </li>
         <li>
           <div className="submenu-wrapper">
-            <a className={`menu${color}`}>Vivencia</a>
-            <div className={`submenu menu${color}`}>
-              <Subvivencia></Subvivencia>
-            </div>
+            <a
+              className={`menu${color}`}
+              onClick={() => toggleSubmenu("vivencia")}
+            >
+              Vivencia
+            </a>
+            {openSubmenu === "vivencia" && (
+              <div className={`submenu menu${color}`}>
+                <Subvivencia />
+              </div>
+            )}
           </div>
         </li>
         <li>
@@ -51,10 +70,17 @@ const NavMenu = ({ color }) => {
         </li>
         <li>
           <div className="submenu-wrapper">
-            <a className={`menu${color}`}>Liga-te</a>
-            <div className={`submenu menu${color}`}>
-              <Subligate></Subligate>
-            </div>
+            <a
+              className={`menu${color}`}
+              onClick={() => toggleSubmenu("ligate")}
+            >
+              Liga-te
+            </a>
+            {openSubmenu === "ligate" && (
+              <div className={`submenu menu${color}`}>
+                <Subligate />
+              </div>
+            )}
           </div>
         </li>
       </ul>
@@ -71,10 +97,17 @@ const NavMenu = ({ color }) => {
           <ul className="navmenu-mobile">
             <li>
               <div className="submenu-wrapper-mobile">
-                <a className={`menu${color}`}>Descobre</a>
-                <div className={`submenu-mobile menu${color}`}>
-                  <Subdescobre mobile={menuMobile}></Subdescobre>
-                </div>
+                <a
+                  className={`menu${color}`}
+                  onClick={() => toggleSubmenu("descobre")}
+                >
+                  Descobre
+                </a>
+                {openSubmenu === "descobre" && (
+                  <div className={`submenu-mobile menu${color}`}>
+                    <Subdescobre mobile={menuMobile} />
+                  </div>
+                )}
               </div>
             </li>
 
@@ -87,10 +120,17 @@ const NavMenu = ({ color }) => {
             </li>
             <li>
               <div className="submenu-wrapper-mobile">
-                <a className={`menu${color}`}>Vivencia</a>
-                <div className={`submenu-mobile menu${color}`}>
-                  <Subvivencia mobile={menuMobile}></Subvivencia>
-                </div>
+                <a
+                  className={`menu${color}`}
+                  onClick={() => toggleSubmenu("vivencia")}
+                >
+                  Vivencia
+                </a>
+                {openSubmenu === "vivencia" && (
+                  <div className={`submenu-mobile menu${color}`}>
+                    <Subvivencia mobile={menuMobile} />
+                  </div>
+                )}
               </div>
             </li>
             <li>
@@ -102,10 +142,17 @@ const NavMenu = ({ color }) => {
             </li>
             <li>
               <div className="submenu-wrapper-mobile">
-                <a className={`menu${color}`}>Liga-te</a>
-                <div className={`submenu-mobile menu${color}`}>
-                  <Subligate mobile={menuMobile}></Subligate>
-                </div>
+                <a
+                  className={`menu${color}`}
+                  onClick={() => toggleSubmenu("ligate")}
+                >
+                  Liga-te
+                </a>
+                {openSubmenu === "ligate" && (
+                  <div className={`submenu-mobile menu${color}`}>
+                    <Subligate mobile={menuMobile} />
+                  </div>
+                )}
               </div>
             </li>
           </ul>

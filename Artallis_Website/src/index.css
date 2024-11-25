@@ -59,4 +59,7 @@ a {
   #root {
     padding: 0;
   }
+  .nav-wrapper {
+    padding: 0 2rem 4rem 2rem;
+  }
 }/*# sourceMappingURL=index.css.map */

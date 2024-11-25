@@ -34,3 +34,21 @@
     font-weight: 500;
   }
 }
+
+@media (max-width: 768px) {
+  .missao-container {
+    .missao-texto {
+      @include h4;
+      font-weight: 500;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .missao-container {
+    .missao-texto {
+      @include text-primary;
+      font-weight: 500;
+    }
+  }
+}
