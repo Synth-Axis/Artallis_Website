@@ -1,0 +1,734 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 657.6 597.49">
+  <defs>
+    <style>
+      .trombone-1 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-1, .trombone-2, .trombone-3, .trombone-4, .trombone-5, .trombone-6, .trombone-7, .trombone-8, .trombone-9, .trombone-10, .trombone-11, .trombone-12, .trombone-13, .trombone-14, .trombone-15, .trombone-16, .trombone-17, .trombone-18, .trombone-19, .trombone-20, .trombone-21, .trombone-22, .trombone-23, .trombone-24, .trombone-25, .trombone-26, .trombone-27, .trombone-28, .trombone-29, .trombone-30, .trombone-31, .trombone-32, .trombone-33, .trombone-34, .trombone-35, .trombone-36 {
+        stroke-width: 0px;
+      }
+
+      .trombone-1, .trombone-3, .trombone-6, .trombone-8, .trombone-10, .trombone-12, .trombone-13, .trombone-16, .trombone-18, .trombone-22, .trombone-24, .trombone-28, .trombone-30, .trombone-31, .trombone-33, .trombone-34 {
+        mix-blend-mode: multiply;
+      }
+
+      .trombone-37 {
+        filter: #f1f1f190;
+      }
+
+      .trombone-2 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-3 {
+        fill:#f1f1f190;
+      }
+
+      .trombone-4 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-38 {
+        filter: none;
+      }
+
+      .trombone-39 {
+        mask: url(#mask-23);
+      }
+
+      .trombone-40 {
+        mask: url(#mask-27);
+      }
+
+      .trombone-41 {
+        mask: url(#mask-10);
+      }
+
+      .trombone-42 {
+        mask: url(#mask-26);
+      }
+
+      .trombone-43 {
+        filter: none;
+      }
+
+      .trombone-44 {
+        filter: none;
+      }
+
+      .trombone-45 {
+        mask: url(#mask-17);
+      }
+
+      .trombone-46 {
+        filter: none;
+      }
+
+      .trombone-5 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-47 {
+        mask: url(#mask-2);
+      }
+
+      .trombone-48 {
+        isolation: isolate;
+      }
+
+      .trombone-49 {
+        filter: none;
+      }
+
+      .trombone-50 {
+        filter: none;
+      }
+
+      .trombone-51 {
+        mask: url(#mask-13);
+      }
+
+      .trombone-6 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-7 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-52 {
+        mask: url(#mask-3);
+      }
+
+      .trombone-8 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-53 {
+        filter: none;
+      }
+
+      .trombone-54 {
+        mask: url(#mask-31);
+      }
+
+      .trombone-55 {
+        filter: none;
+      }
+
+      .trombone-9 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-10 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-56 {
+        mask: url(#mask-30);
+      }
+
+      .trombone-57 {
+        mask: url(#mask-9);
+      }
+
+      .trombone-58 {
+        mask: url(#mask-12);
+      }
+
+      .trombone-59 {
+        mask: url(#mask-5);
+      }
+
+      .trombone-11 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-12 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-13 {
+        fill: #f1f1f190;;
+      }
+
+      .trombone-14 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-60 {
+        filter: #f1f1f190;
+      }
+
+      .trombone-61 {
+        mask: url(#mask-20);
+      }
+
+      .trombone-62 {
+        filter: none;
+      }
+
+      .trombone-15 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-16 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-63 {
+        mask: url(#mask-25);
+      }
+
+      .trombone-64 {
+        mask: url(#mask-8);
+      }
+
+      .trombone-17 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-18 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-65 {
+        mask: url(#mask-4);
+      }
+
+      .trombone-66 {
+        mask: url(#mask-24);
+      }
+
+      .trombone-19 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-20 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-67 {
+        clip-path: url(#clippath);
+      }
+
+      .trombone-68 {
+        mask: url(#mask-19);
+      }
+
+      .trombone-69 {
+        mask: url(#mask-15);
+      }
+
+      .trombone-21 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-22 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-70 {
+        mask: url(#mask-6);
+      }
+
+      .trombone-71 {
+        mix-blend-mode: none;
+      }
+
+      .trombone-23 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-24 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-72 {
+        mask: url(#mask-16);
+      }
+
+      .trombone-25 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-26 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-73 {
+        mask: url(#mask-18);
+      }
+
+      .trombone-74 {
+        filter: none;
+      }
+
+      .trombone-27 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-75 {
+        mask: url(#mask-1);
+      }
+
+      .trombone-76 {
+        mask: url(#mask);
+      }
+
+      .trombone-77 {
+        filter: #f1f1f190;
+      }
+
+      .trombone-28 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-78 {
+        mask: url(#mask-22);
+      }
+
+      .trombone-29 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-79 {
+        mask: url(#mask-29);
+      }
+
+      .trombone-30 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-31 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-80 {
+        mask: url(#mask-7);
+      }
+
+      .trombone-32 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-33 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-81 {
+        mask: url(#mask-14);
+      }
+
+      .trombone-82 {
+        filter: none;
+      }
+
+      .trombone-34 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-35 {
+        fill: #f1f1f190;
+      }
+
+      .trombone-83 {
+        mask: url(#mask-21);
+      }
+
+      .trombone-84 {
+        filter: none;
+      }
+
+      .trombone-85 {
+        mask: url(#mask-11);
+      }
+
+      .trombone-86 {
+        mask: url(#mask-28);
+      }
+
+      .trombone-87 {
+        filter: none;
+      }
+
+      .trombone-36 {
+        fill: #f1f1f190;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="trombone-9" width="657.6" height="597.49" rx="20.47" ry="20.47"/>
+    </clipPath>
+    <filter id="luminosity-noclip" x="200.49" y="135.02" width="194.01" height="292.65" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip-2" x="200.49" y="-9215.93" width="194.01" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-1" x="200.49" y="-9215.93" width="194.01" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="radial-gradient" cx="677.75" cy="-416.13" fx="677.75" fy="-416.13" r="280.03" gradientTransform="translate(207.55 1034.04) rotate(-57.46)" gradientUnits="userSpaceOnUse">
+      <stop offset=".11" stop-color="#fff"/>
+      <stop offset=".34" stop-color="#b1b1b1"/>
+      <stop offset=".57" stop-color="#666"/>
+      <stop offset=".77" stop-color="#2e2e2e"/>
+      <stop offset=".92" stop-color="#0c0c0c"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <mask id="mask" x="200.49" y="135.02" width="194.01" height="292.65" maskUnits="userSpaceOnUse">
+      <g class="trombone-74">
+        <g class="trombone-75">
+          <path class="trombone-6" d="m238.83,135.02s57.28,113.54,7.03,209.56l-45.37,77.74,8.32,5.36s37.58-63.13,58.11-97.57c20.53-34.44,72.47-99.55,127.57-107.23,0,0-66.67-79.42-155.66-87.86Z"/>
+        </g>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient-2" cx="677.75" cy="-416.13" fx="677.75" fy="-416.13" r="280.03" gradientTransform="translate(207.55 1034.04) rotate(-57.46)" gradientUnits="userSpaceOnUse">
+      <stop offset=".11" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+    <filter id="luminosity-noclip-3" x="364.59" y="78.49" width="185.04" height="280.91" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip-4" x="364.59" y="-9215.93" width="185.04" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-3" x="364.59" y="-9215.93" width="185.04" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="radial-gradient-3" cx="684.02" cy="92.51" fx="684.02" fy="92.51" r="151.8" gradientTransform="translate(-86.62 621.73) rotate(-48.85)" xlink:href="#radial-gradient"/>
+    <mask id="mask-2" x="364.59" y="78.49" width="185.04" height="280.91" maskUnits="userSpaceOnUse">
+      <g class="trombone-87">
+        <g class="trombone-52">
+          <path class="trombone-28" d="m376.7,357.05c-2.22,2.53-6.01,3.13-8.93,1.26-3.21-2.06-4.15-6.33-2.08-9.54l171.21-267.09c2.04-3.19,6.33-4.15,9.55-2.09,3.21,2.06,4.15,6.33,2.08,9.54l-171.22,267.1c-.19.29-.4.57-.62.82Z"/>
+        </g>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient-4" cx="684.02" cy="92.51" fx="684.02" fy="92.51" r="151.8" gradientTransform="translate(-86.62 621.73) rotate(-48.85)" xlink:href="#radial-gradient-2"/>
+    <filter id="luminosity-noclip-5" x="291.2" y="389.57" width="62.64" height="81.89" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip-6" x="291.2" y="-9215.93" width="62.64" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-5" x="291.2" y="-9215.93" width="62.64" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="radial-gradient-5" cx="423.3" cy="121.43" fx="423.3" fy="121.43" r="55.82" gradientTransform="translate(-68.04 656.55) rotate(-49.5)" xlink:href="#radial-gradient"/>
+    <mask id="mask-4" x="291.2" y="389.57" width="62.64" height="81.89" maskUnits="userSpaceOnUse">
+      <g class="trombone-46">
+        <g class="trombone-59">
+          <path class="trombone-24" d="m313.18,467.09c-3.95,4.63-10.79,5.79-16.11,2.47-5.86-3.66-7.63-11.36-3.97-17.21l37.66-56.91c3.63-5.81,11.36-7.63,17.21-3.97,5.85,3.65,7.63,11.36,3.97,17.21l-37.65,56.91c-.33.53-.7,1.04-1.1,1.5Z"/>
+        </g>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient-6" cx="423.3" cy="121.43" fx="423.3" fy="121.43" r="55.82" gradientTransform="translate(-68.04 656.55) rotate(-49.5)" xlink:href="#radial-gradient-2"/>
+    <filter id="luminosity-noclip-7" x="373.82" y="437.49" width="58.02" height="78.51" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip-8" x="373.82" y="-9215.93" width="58.02" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-7" x="373.82" y="-9215.93" width="58.02" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="radial-gradient-7" cx="469.68" cy="144.45" fx="469.68" fy="144.45" r="52.92" gradientTransform="translate(-27.79 734.85) rotate(-50.94)" xlink:href="#radial-gradient"/>
+    <mask id="mask-6" x="373.82" y="437.49" width="58.02" height="78.51" maskUnits="userSpaceOnUse">
+      <g class="trombone-43">
+        <g class="trombone-80">
+          <path class="trombone-3" d="m394.85,511.63c-3.64,4.48-10.09,5.74-15.21,2.72-5.64-3.33-7.5-10.59-4.17-16.22l34.33-54.83c3.29-5.59,10.58-7.5,16.21-4.17,5.63,3.33,7.5,10.59,4.17,16.22l-34.33,54.82c-.3.52-.64,1-1.01,1.45Z"/>
+        </g>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient-8" cx="469.68" cy="144.45" fx="469.68" fy="144.45" r="52.92" gradientTransform="translate(-27.79 734.85) rotate(-50.94)" xlink:href="#radial-gradient-2"/>
+    <filter id="luminosity-noclip-9" x="430.43" y="144.94" width="181.12" height="283.38" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip-10" x="430.43" y="-9215.93" width="181.12" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-9" x="430.43" y="-9215.93" width="181.12" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="radial-gradient-9" cx="637.26" cy="127.14" fx="637.26" fy="127.14" r="151.79" gradientTransform="translate(-62.25 667.7) rotate(-49.69)" xlink:href="#radial-gradient"/>
+    <mask id="mask-8" x="430.43" y="144.94" width="181.12" height="283.38" maskUnits="userSpaceOnUse">
+      <g class="trombone-62">
+        <g class="trombone-57">
+          <path class="trombone-22" d="m442.61,425.89c-2.18,2.57-5.96,3.22-8.91,1.39-3.24-2.01-4.24-6.27-2.23-9.52l167.3-269.56c2-3.23,6.27-4.24,9.51-2.23,3.24,2.01,4.24,6.27,2.22,9.51l-167.3,269.56c-.18.3-.39.57-.61.83Z"/>
+        </g>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient-10" cx="637.26" cy="127.14" fx="637.26" fy="127.14" r="151.79" gradientTransform="translate(-62.25 667.7) rotate(-49.69)" xlink:href="#radial-gradient-2"/>
+    <filter id="luminosity-noclip-11" x="553.4" y="53.33" width="80.16" height="84.46" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip-12" x="553.4" y="-9215.93" width="80.16" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-11" x="553.4" y="-9215.93" width="80.16" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="radial-gradient-11" cx="907.15" cy="169.3" fx="907.15" fy="169.3" r="75.29" gradientTransform="translate(-86.62 621.73) rotate(-48.85)" xlink:href="#radial-gradient"/>
+    <mask id="mask-10" x="553.4" y="53.33" width="80.16" height="84.46" maskUnits="userSpaceOnUse">
+      <g class="trombone-37">
+        <g class="trombone-85">
+          <path class="trombone-10" d="m553.4,72.3s27.91-18.81,51.02-2.82c23.12,15.99,24.88,37.16,8.75,68.31,0,0,46.55-48.8-1.03-78.01-32.35-19.86-58.74,12.52-58.74,12.52Z"/>
+        </g>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient-12" cx="907.15" cy="169.3" fx="907.15" fy="169.3" r="75.29" gradientTransform="translate(-86.62 621.73) rotate(-48.85)" xlink:href="#radial-gradient-2"/>
+    <filter id="luminosity-noclip-13" x="90.63" y="424.49" width="119.56" height="191.12" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip-14" x="90.63" y="-9215.93" width="119.56" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-13" x="90.63" y="-9215.93" width="119.56" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="radial-gradient-13" cx="314.7" cy="-90.14" fx="314.7" fy="-90.14" r="105.11" gradientTransform="translate(-1.01 782.18) rotate(-51.93)" xlink:href="#radial-gradient"/>
+    <mask id="mask-12" x="90.63" y="424.49" width="119.56" height="191.12" maskUnits="userSpaceOnUse">
+      <g class="trombone-44">
+        <g class="trombone-51">
+          <path class="trombone-13" d="m101.96,613.18c-1.9,2.43-5.35,3.17-8.12,1.6-3.05-1.72-4.12-5.6-2.38-8.64l106.88-178.44c1.71-3.03,5.6-4.11,8.65-2.38,3.05,1.73,4.12,5.6,2.38,8.65l-106.88,178.44c-.16.28-.33.54-.53.79Z"/>
+        </g>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient-14" cx="314.7" cy="-90.14" fx="314.7" fy="-90.14" r="105.11" gradientTransform="translate(-1.01 782.18) rotate(-51.93)" xlink:href="#radial-gradient-2"/>
+    <filter id="luminosity-noclip-15" x="68.38" y="483.03" width="88.24" height="141.05" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip-16" x="68.38" y="-9215.93" width="88.24" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-15" x="68.38" y="-9215.93" width="88.24" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="radial-gradient-15" cx="261.03" cy="-86.83" fx="261.03" fy="-86.83" r="77.57" gradientTransform="translate(-1.01 782.18) rotate(-51.93)" xlink:href="#radial-gradient"/>
+    <mask id="mask-14" x="68.38" y="483.03" width="88.24" height="141.05" maskUnits="userSpaceOnUse">
+      <g class="trombone-55">
+        <g class="trombone-69">
+          <path class="trombone-34" d="m76.74,622.29c-1.4,1.79-3.95,2.34-5.99,1.18-2.25-1.28-3.04-4.13-1.76-6.39l78.87-131.68c1.27-2.23,4.13-3.04,6.38-1.76,2.25,1.27,3.04,4.13,1.76,6.39l-78.87,131.68c-.11.21-.25.4-.39.58Z"/>
+        </g>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient-16" cx="261.03" cy="-86.83" fx="261.03" fy="-86.83" r="77.57" gradientTransform="translate(-1.01 782.18) rotate(-51.93)" xlink:href="#radial-gradient-2"/>
+    <filter id="luminosity-noclip-17" x="178.17" y="545.32" width="92.31" height="138.52" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip-18" x="178.17" y="-9215.93" width="92.31" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-17" x="178.17" y="-9215.93" width="92.31" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="radial-gradient-17" cx="228.57" cy="109.87" fx="228.57" fy="109.87" r="77.53" gradientTransform="translate(-51.15 688.78) rotate(-50.14)" xlink:href="#radial-gradient"/>
+    <mask id="mask-16" x="178.17" y="545.32" width="92.31" height="138.52" maskUnits="userSpaceOnUse">
+      <g class="trombone-38">
+        <g class="trombone-45">
+          <path class="trombone-18" d="m186.44,682.16c-1.46,1.75-4.02,2.22-6.03.99-2.21-1.34-2.9-4.22-1.56-6.43l82.95-129.16c1.33-2.19,4.23-2.91,6.43-1.56,2.21,1.35,2.91,4.22,1.56,6.43l-82.95,129.16c-.12.2-.26.39-.4.57Z"/>
+        </g>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient-18" cx="228.57" cy="109.87" fx="228.57" fy="109.87" r="77.53" gradientTransform="translate(-51.15 688.78) rotate(-50.14)" xlink:href="#radial-gradient-2"/>
+    <filter id="luminosity-noclip-19" x="162.2" y="487.9" width="125.83" height="187.22" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip-20" x="162.2" y="-9215.93" width="125.83" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-19" x="162.2" y="-9215.93" width="125.83" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="radial-gradient-19" cx="221.63" cy="87.99" fx="221.63" fy="87.99" r="104.02" gradientTransform="translate(-57.85 675.88) rotate(-49.9)" xlink:href="#radial-gradient"/>
+    <mask id="mask-18" x="162.2" y="487.9" width="125.83" height="187.22" maskUnits="userSpaceOnUse">
+      <g class="trombone-82">
+        <g class="trombone-68">
+          <path class="trombone-31" d="m173.39,672.86c-1.99,2.36-5.46,2.98-8.17,1.31-2.98-1.84-3.92-5.74-2.07-8.73l113.14-174.54c1.82-2.97,5.74-3.91,8.73-2.07,2.98,1.83,3.91,5.74,2.08,8.73l-113.14,174.53c-.16.27-.35.53-.55.77Z"/>
+        </g>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient-20" cx="221.63" cy="87.99" fx="221.63" fy="87.99" r="104.02" gradientTransform="translate(-57.85 675.88) rotate(-49.9)" xlink:href="#radial-gradient-2"/>
+    <filter id="luminosity-noclip-21" x="330.46" y="537.72" width="36.38" height="12.98" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip-22" x="330.46" y="-9215.93" width="36.38" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-21" x="330.46" y="-9215.93" width="36.38" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="radial-gradient-21" cx="354.07" cy="264.33" fx="354.07" fy="264.33" r="26.25" gradientTransform="translate(-86.62 621.73) rotate(-48.85)" xlink:href="#radial-gradient"/>
+    <mask id="mask-20" x="330.46" y="537.72" width="36.38" height="12.98" maskUnits="userSpaceOnUse">
+      <g class="trombone-60">
+        <g class="trombone-83">
+          <path class="trombone-8" d="m330.46,550.7s20.06-12.62,36.38-3.28c0,0-21.2-23.87-36.38,3.28Z"/>
+        </g>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient-22" cx="354.07" cy="264.33" fx="354.07" fy="264.33" r="26.25" gradientTransform="translate(-86.62 621.73) rotate(-48.85)" xlink:href="#radial-gradient-2"/>
+    <filter id="luminosity-noclip-23" x="202.89" y="454.3" width="64.18" height="41" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip-24" x="202.89" y="-9215.93" width="64.18" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-23" x="202.89" y="-9215.93" width="64.18" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="radial-gradient-23" cx="4533.32" cy="-1502.21" fx="4533.32" fy="-1502.21" r="40.81" gradientTransform="translate(4741.9 2042.26) rotate(-142.74)" xlink:href="#radial-gradient"/>
+    <mask id="mask-22" x="202.89" y="454.3" width="64.18" height="41" maskUnits="userSpaceOnUse">
+      <g class="trombone-77">
+        <g class="trombone-39">
+          <path class="trombone-30" d="m264.97,485.76c2.06,1.56,2.72,4.45,1.44,6.78-1.41,2.58-4.65,3.52-7.22,2.1l-53.55-30.37c-2.55-1.4-3.51-4.64-2.1-7.22,1.41-2.58,4.64-3.52,7.22-2.1l53.55,30.37c.24.13.46.27.67.43Z"/>
+        </g>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient-24" cx="4533.32" cy="-1502.21" fx="4533.32" fy="-1502.21" r="40.81" gradientTransform="translate(4741.9 2042.26) rotate(-142.74)" xlink:href="#radial-gradient-2"/>
+    <filter id="luminosity-noclip-25" x="314.08" y="463.21" width="58.13" height="39.02" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip-26" x="314.08" y="-9215.93" width="58.13" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-25" x="314.08" y="-9215.93" width="58.13" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="radial-gradient-25" cx="4365.03" cy="-1476.66" fx="4365.03" fy="-1476.66" r="37.48" gradientTransform="translate(4658.09 2089.12) rotate(-141.13)" xlink:href="#radial-gradient"/>
+    <mask id="mask-24" x="314.08" y="463.21" width="58.13" height="39.02" maskUnits="userSpaceOnUse">
+      <g class="trombone-49">
+        <g class="trombone-63">
+          <path class="trombone-12" d="m370.4,493.56c1.85,1.49,2.38,4.15,1.14,6.27-1.37,2.33-4.35,3.11-6.68,1.74l-48.37-29.26c-2.31-1.35-3.11-4.35-1.74-6.68,1.36-2.33,4.36-3.11,6.68-1.74l48.37,29.25c.21.13.41.26.6.42Z"/>
+        </g>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient-26" cx="4365.03" cy="-1476.66" fx="4365.03" fy="-1476.66" r="37.48" gradientTransform="translate(4658.09 2089.12) rotate(-141.13)" xlink:href="#radial-gradient-2"/>
+    <filter id="luminosity-noclip-27" x="349.07" y="406.99" width="58.13" height="39.02" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip-28" x="349.07" y="-9215.93" width="58.13" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-27" x="349.07" y="-9215.93" width="58.13" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="radial-gradient-27" cx="4373.07" cy="-1410.93" fx="4373.07" fy="-1410.93" r="37.48" gradientTransform="translate(4658.09 2089.12) rotate(-141.13)" xlink:href="#radial-gradient"/>
+    <mask id="mask-26" x="349.07" y="406.99" width="58.13" height="39.02" maskUnits="userSpaceOnUse">
+      <g class="trombone-84">
+        <g class="trombone-40">
+          <path class="trombone-16" d="m405.38,437.34c1.85,1.49,2.38,4.15,1.14,6.26-1.36,2.33-4.35,3.11-6.68,1.74l-48.37-29.26c-2.31-1.35-3.11-4.35-1.74-6.68,1.36-2.33,4.35-3.11,6.68-1.74l48.37,29.25c.21.13.42.27.6.42Z"/>
+        </g>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient-28" cx="4373.07" cy="-1410.93" fx="4373.07" fy="-1410.93" r="37.48" gradientTransform="translate(4658.09 2089.12) rotate(-141.13)" xlink:href="#radial-gradient-2"/>
+    <filter id="luminosity-noclip-29" x="160.1" y="523.59" width="64.18" height="41" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip-30" x="160.1" y="-9215.93" width="64.18" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-29" x="160.1" y="-9215.93" width="64.18" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="radial-gradient-29" cx="4525.43" cy="-1583.26" fx="4525.43" fy="-1583.26" r="40.81" gradientTransform="translate(4741.9 2042.26) rotate(-142.74)" xlink:href="#radial-gradient"/>
+    <mask id="mask-28" x="160.1" y="523.59" width="64.18" height="41" maskUnits="userSpaceOnUse">
+      <g class="trombone-53">
+        <g class="trombone-79">
+          <path class="trombone-33" d="m222.18,555.05c2.06,1.56,2.72,4.45,1.43,6.78-1.41,2.58-4.64,3.52-7.22,2.1l-53.55-30.37c-2.55-1.4-3.51-4.64-2.1-7.21,1.41-2.58,4.64-3.52,7.21-2.1l53.55,30.37c.24.13.46.27.67.43Z"/>
+        </g>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient-30" cx="4525.43" cy="-1583.26" fx="4525.43" fy="-1583.26" r="40.81" gradientTransform="translate(4741.9 2042.26) rotate(-142.74)" xlink:href="#radial-gradient-2"/>
+    <filter id="luminosity-noclip-31" x="127.14" y="578.42" width="64.18" height="41" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <filter id="luminosity-noclip-32" x="127.14" y="-9215.93" width="64.18" height="32766" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feFlood flood-color="#fff" result="bg"/>
+      <feBlend in="SourceGraphic" in2="bg"/>
+    </filter>
+    <mask id="mask-31" x="127.14" y="-9215.93" width="64.18" height="32766" maskUnits="userSpaceOnUse"/>
+    <radialGradient id="radial-gradient-31" cx="4518.47" cy="-1646.86" fx="4518.47" fy="-1646.86" r="40.81" gradientTransform="translate(4741.9 2042.26) rotate(-142.74)" xlink:href="#radial-gradient"/>
+    <mask id="mask-30" x="127.14" y="578.42" width="64.18" height="41" maskUnits="userSpaceOnUse">
+      <g class="trombone-50">
+        <g class="trombone-54">
+          <path class="trombone-1" d="m189.22,609.88c2.06,1.57,2.72,4.45,1.44,6.79-1.41,2.58-4.64,3.51-7.22,2.1l-53.55-30.37c-2.56-1.4-3.52-4.64-2.1-7.21,1.41-2.57,4.64-3.52,7.22-2.1l53.55,30.37c.24.13.46.28.67.44Z"/>
+        </g>
+      </g>
+    </mask>
+    <radialGradient id="radial-gradient-32" cx="4518.47" cy="-1646.86" fx="4518.47" fy="-1646.86" r="40.81" gradientTransform="translate(4741.9 2042.26) rotate(-142.74)" xlink:href="#radial-gradient-2"/>
+  </defs>
+  <g class="trombone-48">
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="Camada_1" data-name="Camada 1">
+        <g class="trombone-71">
+          <g class="trombone-67">
+            <g>
+              <g>
+                <g>
+                  <path class="trombone-35" d="m188.72,683.78c-22.79,26.08-63.31,32.16-92.24,13.86-15.1-9.55-26.27-25.61-30.66-44.06-4.56-19.16-1.51-38.49,8.57-54.43l94.08-148.68c2.43-3.84,5.13-7.46,8-10.75,23.84-27.29,58.51-31.67,90.47-11.45,36.05,22.82,44.93,62.4,22.09,98.49l-94.08,148.68c-1.85,2.93-3.94,5.74-6.23,8.34Zm1.63-231.93c-2.26,2.58-4.38,5.43-6.31,8.48l-94.08,148.68c-7.41,11.71-9.62,26.02-6.22,40.31,3.28,13.81,11.52,25.74,22.59,32.75,21.1,13.35,51.83,8.68,68.52-10.41,1.66-1.9,3.18-3.94,4.53-6.07l94.08-148.67c20.89-33.01,5.24-59.39-16.37-73.07-34.72-21.97-58.24-1.72-66.73,8Z"/>
+                  <path class="trombone-35" d="m212.16,632.61c-2.53,2.89-6.84,3.64-10.24,1.58l-93.74-56.74c-3.81-2.3-5.03-7.26-2.72-11.07,2.3-3.82,7.26-5.03,11.07-2.72l93.74,56.74c3.81,2.31,5.03,7.26,2.72,11.07-.25.41-.52.79-.83,1.14Z"/>
+                  <path class="trombone-35" d="m248.3,578.29c-2.52,2.74-6.69,3.45-10.02,1.49l-94.47-55.51c-3.84-2.26-5.12-7.2-2.87-11.03,2.25-3.85,7.19-5.12,11.03-2.87l94.47,55.51c3.84,2.25,5.12,7.2,2.87,11.03-.29.5-.63.96-1.01,1.37Z"/>
+                  <path class="trombone-35" d="m291.96,508.54c-2.5,2.86-6.77,3.63-10.16,1.63l-94.38-55.68c-3.83-2.26-5.11-7.2-2.85-11.04,2.27-3.82,7.21-5.11,11.04-2.85l94.38,55.68c3.83,2.26,5.11,7.2,2.85,11.04-.26.44-.55.84-.88,1.22Z"/>
+                </g>
+                <path class="trombone-27" d="m432.27,242.61l-23.79,36.92s-11.46.87-27.28,2.34c-75.77,7.05-112.24,58.43-133.81,92.74-1.39,2.2-117.34,198.63-138.03,233.83-16.09,27.37-15.22,43.86,3,56.9,9.14,6.55,18.13,9.12,26.7,7.64,10.82-1.87,21.32-10.03,31.25-24.26,7.12-11.03,345.84-535.64,362.17-562.33,20.32-33.17,48.78-43.87,78.12-29.34,13.02,6.45,22.29,17.48,26.09,31.07,4.02,14.34,1.41,29.87-7.36,43.74l-261.12,416.12-15.61-9.79L613.76,122.05c5.96-9.42,7.8-19.69,5.21-28.94-2.38-8.5-8.26-15.43-16.53-19.53-20.62-10.21-38.87-2.66-54.22,22.44-16.54,27.02-348.38,540.97-362.5,562.84-.06.09-.12.18-.18.26-12.87,18.5-27.45,29.28-43.34,32.03-13.61,2.35-27.26-1.29-40.56-10.81-39.34-28.16-15.87-68.09-8.16-81.22,20.7-35.22,137.44-232.67,138.69-234.95,21.36-38.87,57.83-110.77,2.4-227.76-8.24-17.4,111.58,9.03,197.7,106.21Z"/>
+                <path class="trombone-19" d="m418.26,424.96l-6.2,9.92-53.97-33.84,5.7-8.73-23.14-15.12-56.61,86.65,23.14,15.12,4.19-6.42,55.47,34.61-4.42,7.07,23.43,14.66,55.84-89.27-23.43-14.66Zm-41.65,66.58l-55.09-34.54,26.48-40.53,54.28,34.03-25.67,41.04Z"/>
+                <path class="trombone-19" d="m364.82,577.15l-39.08-24.92s12.72-26.38,35.18-12.05c22.45,14.32,3.9,36.98,3.9,36.98Z"/>
+              </g>
+              <g class="trombone-76">
+                <path class="trombone-17" d="m238.83,135.02s57.28,113.54,7.03,209.56l-45.37,77.74,8.32,5.36s37.58-63.13,58.11-97.57c20.53-34.44,72.47-99.55,127.57-107.23,0,0-66.67-79.42-155.66-87.86Z"/>
+              </g>
+              <g class="trombone-47">
+                <path class="trombone-36" d="m376.7,357.05c-2.22,2.53-6.01,3.13-8.93,1.26-3.21-2.06-4.15-6.33-2.08-9.54l171.21-267.09c2.04-3.19,6.33-4.15,9.55-2.09,3.21,2.06,4.15,6.33,2.08,9.54l-171.22,267.1c-.19.29-.4.57-.62.82Z"/>
+              </g>
+              <g class="trombone-65">
+                <path class="trombone-32" d="m313.18,467.09c-3.95,4.63-10.79,5.79-16.11,2.47-5.86-3.66-7.63-11.36-3.97-17.21l37.66-56.91c3.63-5.81,11.36-7.63,17.21-3.97,5.85,3.65,7.63,11.36,3.97,17.21l-37.65,56.91c-.33.53-.7,1.04-1.1,1.5Z"/>
+              </g>
+              <g class="trombone-70">
+                <path class="trombone-5" d="m394.85,511.63c-3.64,4.48-10.09,5.74-15.21,2.72-5.64-3.33-7.5-10.59-4.17-16.22l34.33-54.83c3.29-5.59,10.58-7.5,16.21-4.17,5.63,3.33,7.5,10.59,4.17,16.22l-34.33,54.82c-.3.52-.64,1-1.01,1.45Z"/>
+              </g>
+              <g class="trombone-64">
+                <path class="trombone-26" d="m442.61,425.89c-2.18,2.57-5.96,3.22-8.91,1.39-3.24-2.01-4.24-6.27-2.23-9.52l167.3-269.56c2-3.23,6.27-4.24,9.51-2.23,3.24,2.01,4.24,6.27,2.22,9.51l-167.3,269.56c-.18.3-.39.57-.61.83Z"/>
+              </g>
+              <g class="trombone-41">
+                <path class="trombone-7" d="m553.4,72.3s27.91-18.81,51.02-2.82c23.12,15.99,24.88,37.16,8.75,68.31,0,0,46.55-48.8-1.03-78.01-32.35-19.86-58.74,12.52-58.74,12.52Z"/>
+              </g>
+              <g class="trombone-58">
+                <path class="trombone-23" d="m101.96,613.18c-1.9,2.43-5.35,3.17-8.12,1.6-3.05-1.72-4.12-5.6-2.38-8.64l106.88-178.44c1.71-3.03,5.6-4.11,8.65-2.38,3.05,1.73,4.12,5.6,2.38,8.65l-106.88,178.44c-.16.28-.33.54-.53.79Z"/>
+              </g>
+              <g class="trombone-81">
+                <path class="trombone-4" d="m76.74,622.29c-1.4,1.79-3.95,2.34-5.99,1.18-2.25-1.28-3.04-4.13-1.76-6.39l78.87-131.68c1.27-2.23,4.13-3.04,6.38-1.76,2.25,1.27,3.04,4.13,1.76,6.39l-78.87,131.68c-.11.21-.25.4-.39.58Z"/>
+              </g>
+              <g class="trombone-72">
+                <path class="trombone-25" d="m186.44,682.16c-1.46,1.75-4.02,2.22-6.03.99-2.21-1.34-2.9-4.22-1.56-6.43l82.95-129.16c1.33-2.19,4.23-2.91,6.43-1.56,2.21,1.35,2.91,4.22,1.56,6.43l-82.95,129.16c-.12.2-.26.39-.4.57Z"/>
+              </g>
+              <g class="trombone-73">
+                <path class="trombone-14" d="m173.39,672.86c-1.99,2.36-5.46,2.98-8.17,1.31-2.98-1.84-3.92-5.74-2.07-8.73l113.14-174.54c1.82-2.97,5.74-3.91,8.73-2.07,2.98,1.83,3.91,5.74,2.08,8.73l-113.14,174.53c-.16.27-.35.53-.55.77Z"/>
+              </g>
+              <g class="trombone-61">
+                <path class="trombone-11" d="m330.46,550.7s20.06-12.62,36.38-3.28c0,0-21.2-23.87-36.38,3.28Z"/>
+              </g>
+              <g class="trombone-78">
+                <path class="trombone-21" d="m264.97,485.76c2.06,1.56,2.72,4.45,1.44,6.78-1.41,2.58-4.65,3.52-7.22,2.1l-53.55-30.37c-2.55-1.4-3.51-4.64-2.1-7.22,1.41-2.58,4.64-3.52,7.22-2.1l53.55,30.37c.24.13.46.27.67.43Z"/>
+              </g>
+              <g class="trombone-66">
+                <path class="trombone-20" d="m370.4,493.56c1.85,1.49,2.38,4.15,1.14,6.27-1.37,2.33-4.35,3.11-6.68,1.74l-48.37-29.26c-2.31-1.35-3.11-4.35-1.74-6.68,1.36-2.33,4.36-3.11,6.68-1.74l48.37,29.25c.21.13.41.26.6.42Z"/>
+              </g>
+              <g class="trombone-42">
+                <path class="trombone-29" d="m405.38,437.34c1.85,1.49,2.38,4.15,1.14,6.26-1.36,2.33-4.35,3.11-6.68,1.74l-48.37-29.26c-2.31-1.35-3.11-4.35-1.74-6.68,1.36-2.33,4.35-3.11,6.68-1.74l48.37,29.25c.21.13.42.27.6.42Z"/>
+              </g>
+              <g class="trombone-86">
+                <path class="trombone-2" d="m222.18,555.05c2.06,1.56,2.72,4.45,1.43,6.78-1.41,2.58-4.64,3.52-7.22,2.1l-53.55-30.37c-2.55-1.4-3.51-4.64-2.1-7.21,1.41-2.58,4.64-3.52,7.21-2.1l53.55,30.37c.24.13.46.27.67.43Z"/>
+              </g>
+              <g class="trombone-56">
+                <path class="trombone-15" d="m189.22,609.88c2.06,1.57,2.72,4.45,1.44,6.79-1.41,2.58-4.64,3.51-7.22,2.1l-53.55-30.37c-2.56-1.4-3.52-4.64-2.1-7.21,1.41-2.57,4.64-3.52,7.22-2.1l53.55,30.37c.24.13.46.28.67.44Z"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
